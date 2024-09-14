@@ -40,7 +40,7 @@ jobs:
       - name: Set environment variables
         run: |
           echo "VERCEL_ENV=${{ github.event.inputs.environment }}" >> $GITHUB_ENV
-      
+
       - name: Install Vercel CLI
         run: npm install -g vercel
 
@@ -51,3 +51,11 @@ jobs:
           else 
             vercel --token=${{ secrets.VERCEL_TOKEN }}
           fi
+
+      - name: Discord Webhook Action
+        if: ${{ env.VERCEL_ENV == 'production' }}
+        uses: tsickert/discord-webhook@v5.3.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          content: '상용 배포가 완료되었습니다!'
+          avatar-url: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
