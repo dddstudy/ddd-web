@@ -1,7 +1,16 @@
-name: Deploy to Vercel (preview)
+name: Deploy to Vercel
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        description: '배포 환경을 선택해주세요.'
+        required: true
+        default: 'development'
+        type: choice
+        options:
+          - development
+          - production
 
 permissions:
   id-token: write # This is required for requesting the JWT
@@ -21,14 +30,24 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+
+      - name: Set up node
+        uses: actions/setup-node@v3
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org
 
+      - name: Set environment variables
+        run: |
+          echo "VERCEL_ENV=${{ github.event.inputs.environment }}" >> $GITHUB_ENV
+      
       - name: Install Vercel CLI
         run: npm install -g vercel
 
       - name: Build Project Artifacts
         run: |
-          vercel --token=${{ secrets.VERCEL_TOKEN }}
+          if [[ ${{ env.VERCEL_ENV }} == "production" ]]; then
+            vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
+          else 
+            vercel --token=${{ secrets.VERCEL_TOKEN }}
+          fi
