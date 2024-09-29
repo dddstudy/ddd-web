@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import fontSize from "./src/app/styles/typography";
 
 const config: Config = {
   content: [
@@ -12,6 +13,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize,
     },
   },
   plugins: [],
