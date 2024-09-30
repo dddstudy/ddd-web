@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import fontSize from "./src/app/styles/typography";
+import spacing from "./src/app/styles/spacing";
 
 const config: Config = {
   content: [
@@ -12,6 +14,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize,
+      spacing,
     },
   },
   plugins: [],
