@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import fontSize from "./src/app/styles/typography";
 import spacing from "./src/app/styles/spacing";
+import colors from "./src/app/styles/color";
 
 const config: Config = {
   content: [
@@ -11,6 +12,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        ...colors,
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
