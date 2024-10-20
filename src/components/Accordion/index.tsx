@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import AddIcon from '@/components/svgs/AddIcon'
 import SubtractIcon from '@/components/svgs/SubtractIcon'
 
@@ -41,6 +41,18 @@ const sizeClassNames = {
 
 export default function Accordion({ size, label, title, description }: Props) {
   const [isOpened, setIsOpened] = useState(false)
+  const [maxHeight, setMaxHeight] = useState(0)
+  const contentRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const contentEl = contentRef.current
+    if (isOpened && contentEl) {
+      setMaxHeight(contentEl.scrollHeight)
+    } else {
+      setMaxHeight(0)
+    }
+  }, [isOpened])
+
   function toggleAccordion() {
     setIsOpened(!isOpened)
   }
@@ -54,11 +66,15 @@ export default function Accordion({ size, label, title, description }: Props) {
       <div className={`${sizeClassNames[size].contentArea}`}>
         <p className={`${sizeClassNames[size].label}`}>{label}</p>
         <p className={`${sizeClassNames[size].title}`}>{title}</p>
-        {isOpened && (
+        <div
+          ref={contentRef}
+          style={{ maxHeight: `${maxHeight}px` }}
+          className={`overflow-hidden transition-[max-height] duration-300 ease-in-out`}
+        >
           <p className={`${sizeClassNames[size].description} text-gray-70`}>
             {description}
           </p>
-        )}
+        </div>
       </div>
       <div className={`${sizeClassNames[size].touchArea}`}>
         <button
