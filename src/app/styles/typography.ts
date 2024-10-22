@@ -110,63 +110,63 @@ const typography: CustomThemeConfig['fontSize'] = {
     '18px',
     {
       fontWeight: '400',
-      lineHeight: '27px',
+      lineHeight: '26px',
     },
   ],
   'body-1-medium': [
     '18px',
     {
       fontWeight: '500',
-      lineHeight: '27px',
+      lineHeight: '26px',
     },
   ],
   'body-1-bold': [
     '18px',
     {
       fontWeight: '700',
-      lineHeight: '27px',
+      lineHeight: '26px',
     },
   ],
   'body-2-regular': [
     '16px',
     {
       fontWeight: '400',
-      lineHeight: '23px',
+      lineHeight: '24px',
     },
   ],
   'body-2-medium': [
     '16px',
     {
       fontWeight: '500',
-      lineHeight: '23px',
+      lineHeight: '24px',
     },
   ],
   'body-2-bold': [
     '16px',
     {
       fontWeight: '700',
-      lineHeight: '23px',
+      lineHeight: '24px',
     },
   ],
   'body-3-regular': [
     '14px',
     {
       fontWeight: '400',
-      lineHeight: '19px',
+      lineHeight: '22px',
     },
   ],
   'body-3-medium': [
     '14px',
     {
       fontWeight: '500',
-      lineHeight: '19px',
+      lineHeight: '22px',
     },
   ],
   'body-3-bold': [
     '14px',
     {
       fontWeight: '700',
-      lineHeight: '19px',
+      lineHeight: '22px',
     },
   ],
 
@@ -174,14 +174,14 @@ const typography: CustomThemeConfig['fontSize'] = {
     '12px',
     {
       fontWeight: '400',
-      lineHeight: '16px',
+      lineHeight: '20px',
     },
   ],
   'body-4-medium': [
     '12px',
     {
       fontWeight: '500',
-      lineHeight: '16px',
+      lineHeight: '20px',
     },
   ],
 }
