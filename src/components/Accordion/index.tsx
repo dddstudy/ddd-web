@@ -41,15 +41,15 @@ const sizeClassNames = {
 
 export default function Accordion({ size, label, title, description }: Props) {
   const [isOpened, setIsOpened] = useState(false)
-  const [maxHeight, setMaxHeight] = useState(0)
+  const [contentHeight, setContentHeight] = useState(0)
   const contentRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const contentEl = contentRef.current
     if (isOpened && contentEl) {
-      setMaxHeight(contentEl.scrollHeight)
+      setContentHeight(contentEl.scrollHeight)
     } else {
-      setMaxHeight(0)
+      setContentHeight(0)
     }
   }, [isOpened])
 
@@ -68,8 +68,8 @@ export default function Accordion({ size, label, title, description }: Props) {
         <p className={`${sizeClassNames[size].title}`}>{title}</p>
         <div
           ref={contentRef}
-          style={{ maxHeight: `${maxHeight}px` }}
-          className={`overflow-hidden transition-[max-height] duration-300 ease-in-out`}
+          style={{ height: `${contentHeight}px` }}
+          className={`overflow-hidden transition-[height] duration-300 ease-in-out`}
         >
           <p className={`${sizeClassNames[size].description} text-gray-70`}>
             {description}
