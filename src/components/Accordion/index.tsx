@@ -6,7 +6,7 @@ interface Props {
   size: 'desktop' | 'tablet' | 'mobile'
   label: string
   title: string
-  description: string
+  description: React.ReactNode
 }
 
 const sizeClassNames = {
