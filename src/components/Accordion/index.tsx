@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react'
-import parse from 'html-react-parser'
 import AddIcon from '@/components/svgs/AddIcon'
 import SubtractIcon from '@/components/svgs/SubtractIcon'
 
@@ -7,7 +6,7 @@ interface Props {
   size: 'desktop' | 'tablet' | 'mobile'
   label: string
   title: string
-  description: string
+  description: React.ReactNode
 }
 
 const sizeClassNames = {
@@ -73,7 +72,7 @@ export default function Accordion({ size, label, title, description }: Props) {
           className={`overflow-hidden transition-[height] duration-300 ease-in-out`}
         >
           <p className={`${sizeClassNames[size].description} text-gray-70`}>
-            {parse(description)}
+            {description}
           </p>
         </div>
       </div>
