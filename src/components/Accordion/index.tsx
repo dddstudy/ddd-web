@@ -71,9 +71,9 @@ export default function Accordion({ size, label, title, description }: Props) {
           style={{ height: `${contentHeight}px` }}
           className={`overflow-hidden transition-[height] duration-300 ease-in-out`}
         >
-          <p className={`${sizeClassNames[size].description} text-gray-70`}>
+          <div className={`${sizeClassNames[size].description} text-gray-70`}>
             {description}
-          </p>
+          </div>
         </div>
       </div>
       <div className={`${sizeClassNames[size].touchArea}`}>
