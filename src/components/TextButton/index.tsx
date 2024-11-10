@@ -5,21 +5,9 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const sizeClassName = {
-  s: {
-    text: 'px-16 py-8 text-body-3-medium',
-    outline: 'px-16 py-8 text-body-3-medium',
-    fill: 'px-16 py-8 text-body-3-medium',
-  },
-  m: {
-    text: 'px-24 py-12 text-body-2-medium',
-    outline: 'px-28 py-12 text-body-2-medium',
-    fill: 'px-28 py-12 text-body-2-medium',
-  },
-  l: {
-    text: 'px-32 py-16 text-body-1-medium',
-    outline: 'px-32 py-16 text-body-1-medium',
-    fill: 'px-32 py-16 text-body-1-medium',
-  },
+  s:'px-16 py-8 text-body-3-medium',
+  m:'px-28 py-12 text-body-2-medium',
+  l:'px-32 py-16 text-body-1-medium',
 }
 
 const variantClassName = {
@@ -37,7 +25,7 @@ export default function TextButton({
 }: Props) {
   return (
     <button
-      className={`flex justify-center items-center ${sizeClassName[size][variant]} ${variantClassName[variant]}`}
+      className={`flex justify-center items-center ${sizeClassName[size]} ${variantClassName[variant]}`}
       {...restProps}
     >
       {label}
