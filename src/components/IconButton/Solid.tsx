@@ -13,7 +13,7 @@ const sizeClassName = {
 export default function SolidIconButton({ size, icon, ...restProps }: Props) {
   return (
     <button
-      className={`rounded-[99px] flex justify-center align-middle bg-primary-normal text-white disabled:bg-[rgb(12,14,15)]/[.12] ${sizeClassName[size]}`}
+      className={`rounded-[99px] flex justify-center items-center bg-primary-normal text-white disabled:bg-[rgb(12,14,15)]/[.12] ${sizeClassName[size]}`}
       {...restProps}
     >
       {icon}
