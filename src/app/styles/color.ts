@@ -97,6 +97,7 @@ const colors = {
 
   text: {
     primary: "#202325",
+    inactive: "#C6C6C6",
   },
 
   button: {

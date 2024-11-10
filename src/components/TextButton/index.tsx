@@ -10,7 +10,7 @@ const sizeClassName = {
 }
 
 const variantClassName = {
-  text: 'text-text-primary',
+  text: 'rounded-full text-text-primary disabled:text-text-inactive active:bg-gray-10',
   outline:
     'rounded-full border-[1px] border-solid border-black disabled:border-gray-20 active:bg-button-enabled active:text-white active:border-none',
   fill: 'rounded-full text-white bg-button-enabled disabled:bg-blue-20',
