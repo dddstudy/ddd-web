@@ -14,4 +14,3 @@ const SvgErrorIcon = (props) => (
   </svg>
 );
 export default SvgErrorIcon;
-

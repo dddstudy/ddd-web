@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
@@ -10,5 +10,5 @@ export default function IconButton({ children, ...restProps }: Props) {
     >
       {children}
     </button>
-  )
+  );
 }

@@ -1,30 +1,30 @@
-import ErrorIcon from '@/components/svgs/ErrorIcon'
+import ErrorIcon from "@/components/svgs/ErrorIcon";
 
 interface Props
-  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
-  size?: 's' | 'l'
-  iserror?: boolean
-  errorMessage?: string
+  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, "size"> {
+  size?: "s" | "l";
+  iserror?: boolean;
+  errorMessage?: string;
 }
 
 const sizeClassNames = {
   s: {
-    input: 'px-20 py-14 text-body-3-medium',
-    errorIcon: 'right-20',
+    input: "px-20 py-14 text-body-3-medium",
+    errorIcon: "right-20",
   },
   l: {
-    input: 'px-24 py-16 text-body-1-medium',
-    errorIcon: 'right-24',
+    input: "px-24 py-16 text-body-1-medium",
+    errorIcon: "right-24",
   },
-}
+};
 
 export default function TextInput({
-  size = 's',
+  size = "s",
   iserror,
-  errorMessage = 'alert',
+  errorMessage = "alert",
   ...restProps
 }: Props) {
-  const errorClassName = size === 's' ? 'pr-[44px]' : 'pr-[48px]'
+  const errorClassName = size === "s" ? "pr-[44px]" : "pr-[48px]";
   return (
     <>
       <div className="relative">
@@ -47,5 +47,5 @@ export default function TextInput({
         <p className="mt-4 text-red-40 text-body-3-regular">{errorMessage}</p>
       )}
     </>
-  )
+  );
 }

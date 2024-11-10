@@ -12,4 +12,3 @@ const SvgSubtractIcon = (props) => (
   </svg>
 );
 export default SvgSubtractIcon;
-

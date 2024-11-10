@@ -1,46 +1,46 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from "@storybook/react";
 
-import TextButton from './index'
+import TextButton from "./index";
 
 const meta = {
-  title: 'TextButton',
+  title: "TextButton",
   component: TextButton,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   argTypes: {
     size: {
       control: {
-        type: 'select',
-        options: ['s', 'm', 'l'],
+        type: "select",
+        options: ["s", "m", "l"],
       },
     },
     disabled: {
-      control: 'boolean',
+      control: "boolean",
     },
   },
-} satisfies Meta<typeof TextButton>
+} satisfies Meta<typeof TextButton>;
 
-export default meta
-type Story = StoryObj<typeof meta>
+export default meta;
+type Story = StoryObj<typeof meta>;
 
 export const Text: Story = {
   args: {
-    variant: 'text',
-    children: 'Text',
+    variant: "text",
+    children: "Text",
   },
-}
+};
 
 export const Outline: Story = {
   args: {
-    variant: 'outline',
-    children: 'Text',
+    variant: "outline",
+    children: "Text",
   },
-}
+};
 
 export const Fill: Story = {
   args: {
-    variant: 'fill',
-    children: 'Text',
+    variant: "fill",
+    children: "Text",
   },
-}
+};
