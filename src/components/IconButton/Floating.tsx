@@ -1,11 +1,14 @@
-interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  icon: React.ReactNode
-}
+import React from 'react'
 
-export default function IconButton({ icon, ...restProps }: Props) {
+interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
+
+export default function IconButton({ children, ...restProps }: Props) {
   return (
-    <button className={`rounded-[99px] p-16 min-h-56 min-w-56 bg-primary-normal shadow-strong`} {...restProps}>
-      {icon}
+    <button
+      className={`rounded-[99px] p-16 min-h-56 min-w-56 bg-primary-normal shadow-strong`}
+      {...restProps}
+    >
+      {children}
     </button>
   )
 }

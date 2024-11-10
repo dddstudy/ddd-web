@@ -29,6 +29,6 @@ type Story = StoryObj<typeof meta>
 export const Floating: Story = {
   args: {
     disabled: false,
-    icon: <AddIcon />,
+    children: <AddIcon />,
   },
 }

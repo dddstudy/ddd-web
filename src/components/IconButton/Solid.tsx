@@ -1,6 +1,5 @@
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size: 's' | 'm' | 'l' | 'xl'
-  icon: React.ReactNode
 }
 
 const sizeClassName = {
@@ -10,13 +9,13 @@ const sizeClassName = {
   xl: 'p-16 min-h-64 min-w-64',
 }
 
-export default function SolidIconButton({ size, icon, ...restProps }: Props) {
+export default function SolidIconButton({ size, children, ...restProps }: Props) {
   return (
     <button
       className={`rounded-[99px] flex justify-center items-center bg-primary-normal text-white disabled:bg-[rgb(12,14,15)]/[.12] ${sizeClassName[size]}`}
       {...restProps}
     >
-      {icon}
+      {children}
     </button>
   )
 }

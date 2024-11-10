@@ -1,10 +1,9 @@
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  icon: React.ReactNode
   showBadge?: boolean
 }
 
 export default function NormalIconButton({
-  icon,
+  children,
   showBadge = false,
   ...restProps
 }: Props) {
@@ -15,7 +14,7 @@ export default function NormalIconButton({
         'after:content-[""] after:absolute after:top-8 after:right-8 after:w-4 after:h-4 after:rounded-[99px] after:bg-primary-normal'}`}
       {...restProps}
     >
-      {icon}
+      {children}
     </button>
   )
 }
