@@ -37,7 +37,7 @@ export default function TextButton({
 }: Props) {
   return (
     <button
-      className={`flex justify-center align-middle ${sizeClassName[size][variant]} ${variantClassName[variant]}`}
+      className={`flex justify-center items-center ${sizeClassName[size][variant]} ${variantClassName[variant]}`}
       {...restProps}
     >
       {label}
