@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: PR Open/Reopen Discord Notification 
+      - name: PR Open/Reopen Discord Notification
         if: github.event.action == 'opened' || github.event.action == 'reopened'
         uses: Ilshidur/action-discord@master
         env:
@@ -24,7 +24,7 @@ jobs:
             **Author:** ${{ github.event.pull_request.user.login }}
             **Link:** ${{ github.event.pull_request.html_url }}
 
-      - name: PR Merged Discord Notification 
+      - name: PR Merged Discord Notification
         if: github.event.pull_request.merged == true
         uses: Ilshidur/action-discord@master
         env:

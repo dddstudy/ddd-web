@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: '배포 환경을 선택해주세요.'
+        description: "배포 환경을 선택해주세요."
         required: true
-        default: 'development'
+        default: "development"
         type: choice
         options:
           - development
@@ -57,5 +57,5 @@ jobs:
         uses: tsickert/discord-webhook@v5.3.0
         with:
           webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          content: '상용 배포가 완료되었습니다!'
-          avatar-url: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+          content: "상용 배포가 완료되었습니다!"
+          avatar-url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"

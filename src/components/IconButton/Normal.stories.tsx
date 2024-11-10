@@ -1,37 +1,37 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from "@storybook/react";
 
-import NormalIconButton from './Normal'
-import AddIcon from '@/components/svgs/AddIcon'
+import NormalIconButton from "./Normal";
+import AddIcon from "@/components/svgs/AddIcon";
 
 const meta = {
-  title: 'NormalIconButton',
+  title: "NormalIconButton",
   component: NormalIconButton,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   decorators: [
     (Story) => (
-      <div style={{ padding: '3em', backgroundColor: 'beige', width: '100%' }}>
+      <div style={{ padding: "3em", backgroundColor: "beige", width: "100%" }}>
         <Story />
       </div>
     ),
   ],
   argTypes: {
     disabled: {
-      control: 'boolean',
+      control: "boolean",
     },
     showBadge: {
-      control: 'boolean',
+      control: "boolean",
     },
   },
-} satisfies Meta<typeof NormalIconButton>
+} satisfies Meta<typeof NormalIconButton>;
 
-export default meta
-type Story = StoryObj<typeof meta>
+export default meta;
+type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = {
   args: {
     disabled: false,
     children: <AddIcon />,
   },
-}
+};

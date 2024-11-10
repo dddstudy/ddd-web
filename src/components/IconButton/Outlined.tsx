@@ -1,15 +1,15 @@
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  size: 'normal' | 'small' | 'custom'
+  size: "normal" | "small" | "custom";
 }
 
 const sizeClassNames = {
-  normal: 'p-8 min-h-40 min-w-40',
-  small: 'p-[5px] min-h-32 min-w-32',
-  custom: 'p-4 min-h-28 min-w-28',
-}
+  normal: "p-8 min-h-40 min-w-40",
+  small: "p-[5px] min-h-32 min-w-32",
+  custom: "p-4 min-h-28 min-w-28",
+};
 
 export default function OutlinedIconButton({
-  size = 'custom',
+  size = "custom",
   children,
   ...restProps
 }: Props) {
@@ -20,5 +20,5 @@ export default function OutlinedIconButton({
     >
       {children}
     </button>
-  )
+  );
 }
