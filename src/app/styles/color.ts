@@ -80,6 +80,20 @@ const colors = {
     90: "#03422F",
     100: "#023325",
   },
+
+  label: {
+    normal: "#171719",
+    alternative: "rgba(#37383C, 0.61)",
+    disabled: "rgba(55, 56, 60, 0.16)",
+  },
+
+  primary: {
+    normal: "#0066FF",
+  },
+
+  line: {
+    normal: "rgba(112, 115, 124, 0.22)",
+  }
 };
 
 export default colors;
