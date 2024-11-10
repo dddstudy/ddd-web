@@ -19,8 +19,8 @@ const meta = {
     size: {
       control: {
         type: "select",
-        options: ["desktop", "tablet", "mobile"],
       },
+      options: ["desktop", "tablet", "mobile"],
     },
     label: {
       control: "text",
