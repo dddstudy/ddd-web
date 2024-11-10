@@ -19,13 +19,13 @@ const meta = {
     size: {
       control: {
         type: "select",
-        options: ["s", "l"],
       },
+      options: ["s", "l"],
     },
     disabled: {
       control: "boolean",
     },
-    iserror: {
+    error: {
       control: "boolean",
     },
   },
