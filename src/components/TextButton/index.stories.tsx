@@ -27,20 +27,20 @@ type Story = StoryObj<typeof meta>
 export const Text: Story = {
   args: {
     variant: 'text',
-    label: 'Text',
+    children: 'Text',
   },
 }
 
 export const Outline: Story = {
   args: {
     variant: 'outline',
-    label: 'Text',
+    children: 'Text',
   },
 }
 
 export const Fill: Story = {
   args: {
     variant: 'fill',
-    label: 'Text',
+    children: 'Text',
   },
 }

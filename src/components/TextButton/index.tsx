@@ -1,7 +1,6 @@
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: 's' | 'm' | 'l'
   variant?: 'fill' | 'outline' | 'text'
-  label: React.ReactNode
 }
 
 const sizeClassName = {
@@ -19,8 +18,8 @@ const variantClassName = {
 
 export default function TextButton({
   size = 's',
-  label,
   variant = 'fill',
+  children,
   ...restProps
 }: Props) {
   return (
@@ -28,7 +27,7 @@ export default function TextButton({
       className={`flex justify-center items-center ${sizeClassName[size]} ${variantClassName[variant]}`}
       {...restProps}
     >
-      {label}
+      {children}
     </button>
   )
 }
