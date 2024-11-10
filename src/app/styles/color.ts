@@ -93,7 +93,16 @@ const colors = {
 
   line: {
     normal: "rgba(112, 115, 124, 0.22)",
-  }
+  },
+
+  text: {
+    primary: "#202325",
+    inactive: "#C6C6C6",
+  },
+
+  button: {
+    enabled: "#0D82F9",
+  },
 };
 
 export default colors;
