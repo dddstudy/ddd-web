@@ -1,6 +1,5 @@
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size: 'normal' | 'small' | 'custom'
-  icon: React.ReactNode
 }
 
 const sizeClassNames = {
@@ -11,7 +10,7 @@ const sizeClassNames = {
 
 export default function OutlinedIconButton({
   size = 'custom',
-  icon,
+  children,
   ...restProps
 }: Props) {
   return (
@@ -19,7 +18,7 @@ export default function OutlinedIconButton({
       className={`rounded-[99px] border-[1px] border-solid border-line-normal hover:bg-label-normal hover:bg-opacity-[.0375] focus:bg-label-normal focus:bg-opacity-[.06] active:bg-label-normal active:bg-opacity-[.09] disabled:bg-transparent disabled:text-label-disabled ${sizeClassNames[size]}`}
       {...restProps}
     >
-      {icon}
+      {children}
     </button>
   )
 }

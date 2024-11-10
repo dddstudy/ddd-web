@@ -34,6 +34,6 @@ export const Solid: Story = {
   args: {
     size: 's',
     disabled: false,
-    icon: <AddIcon />,
+    children: <AddIcon />,
   },
 }

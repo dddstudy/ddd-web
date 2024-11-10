@@ -32,6 +32,6 @@ type Story = StoryObj<typeof meta>
 export const Normal: Story = {
   args: {
     disabled: false,
-    icon: <AddIcon />,
+    children: <AddIcon />,
   },
 }

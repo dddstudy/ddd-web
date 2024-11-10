@@ -36,6 +36,6 @@ export const Outlined: Story = {
   args: {
     size: 'normal',
     disabled: false,
-    icon: <AddIcon />,
+    children: <AddIcon />,
   },
 }
