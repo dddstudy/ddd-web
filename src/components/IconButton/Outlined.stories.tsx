@@ -20,8 +20,8 @@ const meta = {
     size: {
       control: {
         type: "select",
-        options: ["normal", "small", "custom"],
       },
+      options: ["normal", "small", "custom"],
     },
     disabled: {
       control: "boolean",

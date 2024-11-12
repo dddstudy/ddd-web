@@ -12,8 +12,8 @@ const meta = {
     size: {
       control: {
         type: "select",
-        options: ["s", "m", "l"],
       },
+      options: ["s", "m", "l"],
     },
     disabled: {
       control: "boolean",
