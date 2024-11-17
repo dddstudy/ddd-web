@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <header className="fixed top-32 left-[50%] translate-x-[-50%]">
+        <header className="fixed w-full">
           <Navigation />
         </header>
         <main>{children}</main>
