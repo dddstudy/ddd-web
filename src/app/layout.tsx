@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>
+      <body className="bg-yellow-10">
         <header className="fixed w-full">
           <Navigation />
         </header>
