@@ -4,7 +4,7 @@ import { cn } from "@/utils/cn";
 import AddIcon from "@/components/svgs/AddIcon";
 import SubtractIcon from "@/components/svgs/SubtractIcon";
 
-const accordionVariants = cva("w-full flex justify-between rounded-[20px]", {
+const accordionVariants = cva("w-full rounded-[20px]", {
   variants: {
     size: {
       desktop: "px-64 py-40",
@@ -101,25 +101,27 @@ export default function Accordion({
 
   return (
     <div className={cn(accordionVariants({ size, isOpened }), className)}>
-      <div>
-        <p className={cn(labelVariants({ size }))}>{label}</p>
-        <p className={cn(titleVariants({ size }))}>{title}</p>
-        <div
-          ref={contentRef}
-          style={{ height: `${contentHeight}px` }}
-          className="overflow-hidden transition-[height] duration-300 ease-in-out"
-        >
-          <div className={cn(descriptionVariants({ size }))}>{description}</div>
+      <div className="flex justify-between">
+        <div className="flex flex-col">
+          <p className={cn(labelVariants({ size }))}>{label}</p>
+          <p className={cn(titleVariants({ size }))}>{title}</p>
+        </div>
+        <div className={cn(touchAreaVariants({ size }))}>
+          <button
+            className={cn(iconButtonVariants({ size }))}
+            type="button"
+            onClick={toggleAccordion}
+          >
+            {isOpened ? <SubtractIcon /> : <AddIcon />}
+          </button>
         </div>
       </div>
-      <div className={cn(touchAreaVariants({ size }))}>
-        <button
-          className={cn(iconButtonVariants({ size }))}
-          type="button"
-          onClick={toggleAccordion}
-        >
-          {isOpened ? <SubtractIcon /> : <AddIcon />}
-        </button>
+      <div
+        ref={contentRef}
+        style={{ height: `${contentHeight}px` }}
+        className="overflow-hidden transition-[height] duration-300 ease-in-out"
+      >
+        <div className={cn(descriptionVariants({ size }))}>{description}</div>
       </div>
     </div>
   );
