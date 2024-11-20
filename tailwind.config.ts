@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 import fontSize from "./src/app/styles/typography";
 import spacing from "./src/app/styles/spacing";
 import colors from "./src/app/styles/color";
+import { screens } from "./src/app/styles/screens";
 
 const config: Config = {
   content: [
@@ -22,11 +23,7 @@ const config: Config = {
         strong:
           "0px 6px 12px 0px rgba(0, 0, 0, 0.12), 0px 4px 8px 0px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.08)",
       },
-      screens: {
-        tablet: "375px", // min-width
-        netbook: "768px",
-        desktop: "1024px",
-      },
+      screens,
     },
   },
   plugins: [],
