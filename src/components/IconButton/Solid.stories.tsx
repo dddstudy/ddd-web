@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import SolidIconButton from "./Solid";
-import AddIcon from "@/components/svgs/AddIcon";
+import { AddIcon } from "@/components/svgs";
 
 const meta = {
   title: "SolidIconButton",

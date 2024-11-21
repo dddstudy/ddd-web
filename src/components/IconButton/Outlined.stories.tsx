@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import OutlinedIconButton from "./Outlined";
-import AddIcon from "@/components/svgs/AddIcon";
+import { AddIcon } from "@/components/svgs";
 
 const meta = {
   title: "OutlinedIconButton",

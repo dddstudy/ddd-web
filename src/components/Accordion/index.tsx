@@ -1,8 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/utils/cn";
-import AddIcon from "@/components/svgs/AddIcon";
-import SubtractIcon from "@/components/svgs/SubtractIcon";
+import { AddIcon, SubtractIcon } from "@/components/svgs";
 
 const accordionVariants = cva("w-full rounded-[20px]", {
   variants: {
