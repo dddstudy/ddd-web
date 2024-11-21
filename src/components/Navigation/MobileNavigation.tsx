@@ -6,6 +6,14 @@ import SvgCloseIcon from "@/components/svgs/CloseIcon";
 import SvgInstagramIcon from "@/components/svgs/InstagramIcon";
 import SvgLinkedInIcon from "@/components/svgs/LinkedInIcon";
 import SvgGithubIcon from "@/components/svgs/GithubIcon";
+import {
+  DddIcon,
+  MenuIcon,
+  CloseIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  GithubIcon,
+} from "@/components/svgs";
 import navigationList from "@/fixtures/navigationList.json";
 
 const snsList = [
