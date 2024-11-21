@@ -97,6 +97,7 @@ const colors = {
 
   text: {
     primary: "#202325",
+    secondary: "#525252",
     inactive: "#C6C6C6",
   },
 
