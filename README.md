@@ -23,5 +23,5 @@ SVG 파일을 관리 및 사용의 용이성을 위해 `@svgr/cli`를 사용하�
 - `src/components/svgs` 디렉토리 하위에 추가되도록 합니다.
 
 ```bash
-npx @svgr/cli -- ./src/assets/icons/{inputFileName}.svg > ./src/components/svgs/{outputFileName}.tsx
+npm run svgr
 ```
