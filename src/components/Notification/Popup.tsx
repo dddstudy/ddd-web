@@ -3,22 +3,16 @@
 import { useEffect, useCallback } from "react";
 
 import { Portal } from "@/components/Portal";
+import CloseIcon from "@/components/svgs/CloseIcon";
+import SolidIconButton from "@/components/IconButton/Solid";
 
 interface PopupProps {
   isOpen: boolean;
   onClose: () => void;
-  title?: string;
   children: React.ReactNode;
-  showCloseButton?: boolean;
 }
 
-export const Popup = ({
-  isOpen,
-  onClose,
-  title,
-  children,
-  showCloseButton = true,
-}: PopupProps) => {
+export const Popup = ({ isOpen, onClose, children }: PopupProps) => {
   const handleEscape = useCallback(
     (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -45,37 +39,41 @@ export const Popup = ({
     <Portal>
       <div className="fixed inset-0 z-50 flex items-center justify-center">
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50" onClick={onClose} />
+        <div
+          className="absolute inset-0 bg-black opacity-[0.8]"
+          onClick={onClose}
+        />
 
         {/* Popup Content */}
-        <div className="relative z-10 w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
-          {/* Header */}
-          <div className="mb-4 flex items-center justify-between">
-            {title && <h2 className="text-xl font-semibold">{title}</h2>}
-            {showCloseButton && (
-              <button
-                onClick={onClose}
-                className="ml-auto rounded-full p-1 hover:bg-gray-100"
-              >
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+        <div className="flex justify-end relative z-10 w-full h-full pt-32 pr-32 pb-32 pl-0">
+          <div className="w-full max-w-[848px] rounded-[28px] bg-white shadow-xl">
+            {/* Close Button */}
+            <div className="flex justify-end p-12">
+              <div className="p-20">
+                <SolidIconButton
+                  onClick={onClose}
+                  size="l"
+                  className="bg-gray-20"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </button>
-            )}
+                  <CloseIcon />
+                </SolidIconButton>
+              </div>
+            </div>
+            <div className="w-full h-full px-64 pb-52">
+              {/* Header */}
+              <div className="flex flex-col gap-12">
+                <h2 className="text-[48px] text-[#1E1E1E] font-[700] line-height-[60px]">
+                  12기 모집 알림 신청
+                </h2>
+                <h3 className="text-title-2-medium text-text-secondary">
+                  DDD 12기 크루 모집이 시작되면, 가장 먼저 이메일로
+                  안내드릴게요!
+                </h3>
+              </div>
+              {/* Content */}
+              <div className="pt-52 flex flex-col gap-[44px]">{children}</div>
+            </div>
           </div>
-
-          {/* Content */}
-          <div>{children}</div>
         </div>
       </div>
     </Portal>
@@ -87,7 +85,7 @@ export default function NotificationRegisterPopup({
   onClose,
 }: PopupProps) {
   return (
-    <Popup isOpen={isOpen} onClose={onClose} title="알림 등록">
+    <Popup isOpen={isOpen} onClose={onClose}>
       <div>알림 등록</div>
     </Popup>
   );
