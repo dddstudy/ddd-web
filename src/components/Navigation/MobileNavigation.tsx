@@ -1,27 +1,29 @@
 import Link from "next/link";
 import { useState } from "react";
-import SvgDddIcon from "@/components/svgs/DddIcon";
-import SvgMenuIcon from "@/components/svgs/MenuIcon";
-import SvgCloseIcon from "@/components/svgs/CloseIcon";
-import SvgInstagramIcon from "@/components/svgs/InstagramIcon";
-import SvgLinkedInIcon from "@/components/svgs/LinkedInIcon";
-import SvgGithubIcon from "@/components/svgs/GithubIcon";
+import {
+  DddIcon,
+  MenuIcon,
+  CloseIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  GithubIcon,
+} from "@/components/svgs";
 import navigationList from "@/fixtures/navigationList.json";
 
 const snsList = [
   {
     name: "Instagram",
-    icon: <SvgInstagramIcon />,
+    icon: <InstagramIcon />,
     link: "https://www.instagram.com/dynamic_ddd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     name: "LinkedIn",
-    icon: <SvgLinkedInIcon />,
+    icon: <LinkedInIcon />,
     link: "https://www.linkedin.com/company/dddcommunity",
   },
   {
     name: "Github",
-    icon: <SvgGithubIcon />,
+    icon: <GithubIcon />,
     link: "https://github.com/DDD-Community",
   },
 ];
@@ -43,13 +45,13 @@ export default function MobileNavigation() {
   return (
     <div className="flex justify-between px-24 pt-24 w-full">
       <div className="bg-black w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0">
-        <SvgDddIcon />
+        <DddIcon />
       </div>
       <button
         className="bg-white w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0"
         onClick={openMenu}
       >
-        <SvgMenuIcon />
+        <MenuIcon />
       </button>
       {isMenuOpened && (
         <div className="px-24 fixed top-0 left-0 w-full h-[100vh] bg-blue-40 text-white flex flex-col">
@@ -58,7 +60,7 @@ export default function MobileNavigation() {
               className="bg-white w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0"
               onClick={closeMenu}
             >
-              <SvgCloseIcon />
+              <CloseIcon />
             </button>
           </header>
           <main className="flex flex-col justify-center flex-1">

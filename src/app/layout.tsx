@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: "DDD Website",
@@ -12,10 +13,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
-      <body>
-        {children}
+    <html lang="ko">
+      <body className="bg-yellow-10">
         <div id="portal-root" />
+        <header className="fixed w-full">
+          <Navigation />
+        </header>
+        <main>{children}</main>
       </body>
     </html>
   );

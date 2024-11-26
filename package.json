@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "svgr": "npx @svgr/cli --typescript --ignore-existing --out-dir ./src/components/svgs ./src/assets/icons"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
