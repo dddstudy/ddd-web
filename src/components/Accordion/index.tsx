@@ -3,16 +3,12 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/utils/cn";
 import { AddIcon, SubtractIcon } from "@/components/svgs";
 
-const accordionVariants = cva("w-full rounded-[20px]", {
+const accordionVariants = cva("w-full rounded-[20px] bg-white", {
   variants: {
     size: {
       desktop: "px-64 py-40",
       tablet: "px-40 py-32",
       mobile: "p-24",
-    },
-    isOpened: {
-      true: "bg-blue-10",
-      false: "bg-white",
     },
   },
 });
@@ -99,7 +95,7 @@ export default function Accordion({
   }
 
   return (
-    <div className={cn(accordionVariants({ size, isOpened }), className)}>
+    <div className={cn(accordionVariants({ size }), className)}>
       <div className="flex justify-between">
         <div className="flex flex-col">
           <p className={cn(labelVariants({ size }))}>{label}</p>
