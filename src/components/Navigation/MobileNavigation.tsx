@@ -43,7 +43,7 @@ export default function MobileNavigation() {
   }
 
   return (
-    <div className="flex justify-between px-24 pt-24 w-full">
+    <div className="flex justify-between px-20 pt-20 w-full">
       <div className="bg-black w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0">
         <DddIcon />
       </div>
