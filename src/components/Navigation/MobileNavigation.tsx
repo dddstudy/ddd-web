@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   DddIcon,
   MenuIcon,
@@ -42,6 +42,14 @@ export default function MobileNavigation() {
     setMenuOpened(false);
   }
 
+  useEffect(() => {
+    if (isMenuOpened) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [isMenuOpened]);
+
   return (
     <div className="flex justify-between px-20 pt-20 w-full">
       <div className="bg-black w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0">
@@ -54,7 +62,7 @@ export default function MobileNavigation() {
         <MenuIcon />
       </button>
       {isMenuOpened && (
-        <div className="px-24 fixed top-0 left-0 w-full h-[100vh] bg-blue-40 text-white flex flex-col">
+        <div className="px-24 fixed top-0 left-0 w-full h-[100dvh] bg-blue-40 text-white flex flex-col">
           <header className="pt-24 flex justify-end">
             <button
               className="bg-white w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0"
