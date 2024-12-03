@@ -9,12 +9,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="ko">
       <body className="bg-yellow-10">
+        <div id="portal-root" />
         <header className="fixed w-full">
           <Navigation />
         </header>
