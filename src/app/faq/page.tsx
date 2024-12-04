@@ -42,7 +42,7 @@ export default function FAQ() {
 
   useEffect(() => {
     setAccordionSize(getDeviceType());
-  }, [isDesktop, isTablet, getDeviceType]);
+  }, [isMobile, isDesktop, isTablet, getDeviceType]);
 
   if (isMobile === null || isTablet === null || isDesktop === null) return null;
 
