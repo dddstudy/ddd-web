@@ -35,7 +35,7 @@ export default function FAQ() {
     if (isTablet) return "tablet";
     return "desktop";
   }, [isMobile, isTablet]);
-  
+
   const [accordionSize, setAccordionSize] = useState<AccordionSize>(
     getDeviceType()
   );
@@ -43,6 +43,8 @@ export default function FAQ() {
   useEffect(() => {
     setAccordionSize(getDeviceType());
   }, [isDesktop, isTablet, getDeviceType]);
+
+  if (isMobile === null || isTablet === null || isDesktop === null) return null;
 
   return (
     <div className="flex flex-col items-center netbook:px-0">
