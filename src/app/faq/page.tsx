@@ -46,7 +46,7 @@ export default function FAQ() {
 
   return (
     <div className="flex flex-col items-center netbook:px-0">
-      <h1 className="pt-[136px] px-20 mb-20 text-headline-4-semibold max-w-[800px] netbook:pt-[248px] netbook:mb-24 netbook:text-headline-1-semibold text-center">
+      <h1 className="pt-[132px] px-20 mb-20 text-headline-4-semibold max-w-[800px] netbook:pt-[248px] netbook:mb-24 netbook:text-headline-1-semibold text-center">
         Frequently Asked Questions
       </h1>
       <h2 className="mb-64 px-20 text-title-2-medium text-text-secondary text-center">

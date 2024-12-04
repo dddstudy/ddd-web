@@ -1,6 +1,6 @@
 import { CustomThemeConfig } from "tailwindcss/types/config";
 
-const TABLET = 375;
+const TABLET = 440;
 const NETBOOK = 768;
 const DESKTOP = 1024;
 
