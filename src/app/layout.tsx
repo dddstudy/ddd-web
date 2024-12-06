@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
+import { Provider } from "jotai";
 
 export const metadata: Metadata = {
   title: "DDD Website",
@@ -15,11 +16,13 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="bg-yellow-10">
-        <div id="portal-root" />
-        <header className="fixed w-full">
-          <Navigation />
-        </header>
-        <main>{children}</main>
+        <Provider>
+          <div id="portal-root" />
+          <header className="fixed w-full">
+            <Navigation />
+          </header>
+          <main>{children}</main>
+        </Provider>
       </body>
     </html>
   );
