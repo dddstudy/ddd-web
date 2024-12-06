@@ -7,6 +7,10 @@ import { screenMediaQuery } from "@/app/styles/screens";
 export default function Navigation() {
   const isDesktop = useMediaQuery(screenMediaQuery.desktop);
 
+  if (isDesktop === null) {
+    return null;
+  }
+
   if (isDesktop) {
     return <DesktopNavigation />;
   }
