@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect, PropsWithChildren } from "react";
+import { useState, useRef, useEffect } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/utils/cn";
 import { AddIcon, SubtractIcon } from "@/components/svgs";
