@@ -1,4 +1,6 @@
-import { useState, useRef, useEffect } from "react";
+"use client";
+
+import { useState, useRef, useEffect, PropsWithChildren } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/utils/cn";
 import { AddIcon, SubtractIcon } from "@/components/svgs";
@@ -63,36 +65,35 @@ const iconButtonVariants = cva("", {
   },
 });
 
-interface Props extends VariantProps<typeof accordionVariants> {
+interface AccordionProps extends VariantProps<typeof accordionVariants> {
   label: string;
   title: string;
   description: React.ReactNode;
   className?: string;
+  isActive: boolean;
+  onClick: () => void;
 }
 
-export default function Accordion({
+export function Accordion({
   size = "desktop",
   label,
   title,
   description,
   className,
-}: Props) {
-  const [isOpened, setIsOpened] = useState(false);
+  isActive,
+  onClick,
+}: AccordionProps) {
   const [contentHeight, setContentHeight] = useState(0);
   const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const contentEl = contentRef.current;
-    if (isOpened && contentEl) {
+    if (isActive && contentEl) {
       setContentHeight(contentEl.scrollHeight);
     } else {
       setContentHeight(0);
     }
-  }, [isOpened]);
-
-  function toggleAccordion() {
-    setIsOpened(!isOpened);
-  }
+  }, [isActive]);
 
   return (
     <div className={cn(accordionVariants({ size }), className)}>
@@ -105,9 +106,9 @@ export default function Accordion({
           <button
             className={cn(iconButtonVariants({ size }))}
             type="button"
-            onClick={toggleAccordion}
+            onClick={onClick}
           >
-            {isOpened ? <SubtractIcon /> : <AddIcon />}
+            {isActive ? <SubtractIcon /> : <AddIcon />}
           </button>
         </div>
       </div>
@@ -118,6 +119,35 @@ export default function Accordion({
       >
         <div className={cn(descriptionVariants({ size }))}>{description}</div>
       </div>
+    </div>
+  );
+}
+
+interface AccordionGroupProps {
+  list: Array<{ label: string; title: string; description: React.ReactNode }>;
+  size: AccordionProps["size"];
+}
+
+export function AccordionGroup({ list, size = "tablet" }: AccordionGroupProps) {
+  const [activeItemIndex, setActiveItemIndex] = useState<number | null>(null);
+
+  const handleItemClick = (key: number) => {
+    setActiveItemIndex((prev) => (prev === key ? null : key));
+  };
+
+  return (
+    <div className="flex flex-col gap-16">
+      {list.map((item, index) => (
+        <Accordion
+          key={item.title}
+          label={item.label}
+          title={item.title}
+          description={item.description}
+          size={size}
+          isActive={activeItemIndex === index}
+          onClick={() => handleItemClick(index)}
+        />
+      ))}
     </div>
   );
 }

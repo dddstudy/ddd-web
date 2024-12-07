@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import TextButton from "@/components/TextButton";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import faqList from "@/app/faq/faqList";
-import Accordion from "@/components/Accordion";
+import { Accordion, AccordionGroup } from "@/components/Accordion";
 import { screenMediaQuery } from "@/app/styles/screens";
 
 type QuestionType = "recruitment" | "operation" | "activities";
@@ -67,16 +67,8 @@ export default function FAQ() {
             </TextButton>
           ))}
         </div>
-        <div className="pt-48 pb-[200px] flex flex-col gap-16">
-          {faqList[questionType].map((item) => (
-            <Accordion
-              key={item.title}
-              label={item.label}
-              title={item.title}
-              description={item.description}
-              size={accordionSize}
-            />
-          ))}
+        <div className="pt-48 pb-[200px]">
+          <AccordionGroup list={faqList[questionType]} size={accordionSize} />
         </div>
       </main>
     </div>
