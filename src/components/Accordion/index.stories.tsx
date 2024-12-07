@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { useArgs } from "@storybook/preview-api";
 
-import Accordion from "./index";
+import { Accordion } from "./index";
 
 const meta = {
   title: "Accordion",
@@ -31,6 +32,7 @@ const meta = {
     description: {
       control: "text",
     },
+    onClick: () => {},
   },
 } satisfies Meta<typeof Accordion>;
 
@@ -56,6 +58,16 @@ export const Desktop: Story = {
         진행할 분들에게 따로 연락을 드려요.
       </p>
     ),
+    isActive: false,
+    onClick: () => {},
+  },
+  render: function Render(args) {
+    const [{ isActive }, updateArgs] = useArgs();
+    function onClick() {
+      updateArgs({ isActive: !isActive });
+    }
+
+    return <Accordion {...args} onClick={onClick} />;
   },
 };
 
@@ -78,6 +90,16 @@ export const Tablet: Story = {
         진행할 분들에게 따로 연락을 드려요.
       </p>
     ),
+    isActive: false,
+    onClick: () => {},
+  },
+  render: function Render(args) {
+    const [{ isActive }, updateArgs] = useArgs();
+    function onClick() {
+      updateArgs({ isActive: !isActive });
+    }
+
+    return <Accordion {...args} onClick={onClick} />;
   },
 };
 
@@ -100,5 +122,15 @@ export const Mobile: Story = {
         진행할 분들에게 따로 연락을 드려요.
       </p>
     ),
+    isActive: false,
+    onClick: () => {},
+  },
+  render: function Render(args) {
+    const [{ isActive }, updateArgs] = useArgs();
+    function onClick() {
+      updateArgs({ isActive: !isActive });
+    }
+
+    return <Accordion {...args} onClick={onClick} />;
   },
 };
