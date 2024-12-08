@@ -7,6 +7,7 @@ import CloseIcon from "@/components/svgs/CloseIcon";
 import SolidIconButton from "@/components/IconButton/Solid";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { screenMediaQuery } from "@/app/styles/screens";
+import NotificationForm from "@/components/Notification/Form";
 
 interface PopupProps {
   isOpen: boolean;
@@ -50,7 +51,7 @@ export const Popup = ({ isOpen, onClose, children }: PopupProps) => {
 
         {/* Popup Content */}
         <div className="flex justify-center desktop:justify-end relative z-10 w-full h-full p-24 tablet:p-32">
-          <div className="w-full max-w-[848px] rounded-[28px] bg-white shadow-xl">
+          <div className="w-full max-w-[848px] rounded-[28px] bg-white shadow-xl grid grid-rows-[1fr auto]">
             {/* Close Button */}
             <div className="flex justify-end p-12">
               <div className="p-20">
@@ -92,7 +93,7 @@ export default function NotificationRegisterPopup({
 }: PopupProps) {
   return (
     <Popup isOpen={isOpen} onClose={onClose}>
-      <div>알림 등록</div>
+      <NotificationForm />
     </Popup>
   );
 }
