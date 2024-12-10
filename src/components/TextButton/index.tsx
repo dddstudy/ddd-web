@@ -1,7 +1,7 @@
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/utils/cn";
 
-const variants = cva("rounded-full flex justify-center items-center", {
+const variants = cva("rounded-full flex justify-center items-center w-fit", {
   variants: {
     size: {
       s: "px-16 py-8 text-body-3-medium",

@@ -3,7 +3,7 @@ import { cn } from "@/utils/cn";
 import { ErrorIcon } from "@/components/svgs";
 
 const inputVariants = cva(
-  "relative rounded-[99px] border-[1.5px] border-solid border-gray-30 focus:border-blue-40 disabled:border-gray-20 disabled:bg-gray-10 disabled:text-gray-30",
+  "relative rounded-[99px] border-[1.5px] border-solid border-gray-30 focus:border-blue-40 disabled:border-gray-20 disabled:bg-gray-10 disabled:text-gray-30 w-full",
   {
     variants: {
       size: {
