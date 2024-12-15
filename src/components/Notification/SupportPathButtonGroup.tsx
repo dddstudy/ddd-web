@@ -2,6 +2,7 @@ import { useAtom } from "jotai";
 
 import { supportPathAtom } from "@/store/notification/atom";
 import TextButton from "@/components/TextButton";
+import RequiredInputLabel from "@/components/Notification/RequiredInputLabel";
 
 const SUPPORT_PATH_LIST = [
   "인스타그램",
@@ -16,16 +17,20 @@ export default function SupportPathButtonGroup() {
 
   return (
     <div className="flex flex-wrap gap-16">
-      {SUPPORT_PATH_LIST.map((supportPath) => (
-        <TextButton
-          key={supportPath}
-          onClick={() => setEnteredSupportPath(supportPath)}
-          variant={supportPath === enteredSupportPath ? "fill" : "outline"}
-          size="l"
-        >
-          {supportPath}
-        </TextButton>
-      ))}
+      <RequiredInputLabel>관심 있는 포지션을 선택해 주세요.</RequiredInputLabel>
+      <div className="flex flex-wrap gap-16">
+        {SUPPORT_PATH_LIST.map((supportPath) => (
+          <TextButton
+            key={supportPath}
+            onClick={() => setEnteredSupportPath(supportPath)}
+            variant={supportPath === enteredSupportPath ? "fill" : "outline"}
+            size="l"
+            type="button"
+          >
+            {supportPath}
+          </TextButton>
+        ))}
+      </div>
     </div>
   );
 }
