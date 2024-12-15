@@ -50,6 +50,13 @@ const typography: CustomThemeConfig["fontSize"] = {
       lineHeight: "50px",
     },
   ],
+  "headline-6-bold": [
+    "38px",
+    {
+      fontWeight: "700",
+      lineHeight: "50px",
+    },
+  ],
   "headline-7-medium": [
     "32px",
     {

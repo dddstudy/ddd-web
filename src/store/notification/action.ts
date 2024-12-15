@@ -5,6 +5,7 @@ import {
   enteredNameAtom,
   enteredPositionAtom,
   supportPathAtom,
+  registerStepAtom,
 } from "@/store/notification/atom";
 
 /**
@@ -14,28 +15,26 @@ import {
  */
 const isKoreanChar = (char: string): boolean => {
   const code = char.charCodeAt(0);
-  return code >= 0xAC00 && code <= 0xD7A3;
+  return code >= 0xac00 && code <= 0xd7a3;
 };
 
 export const setEmailAtom = atom<null, [string], void>(
   null,
   (_, set, value) => {
-    const emailRegex = /^[a-zA-Z0-9_+&*-]+(?:\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,7}$/;
+    const emailRegex =
+      /^[a-zA-Z0-9_+&*-]+(?:\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,7}$/;
     const isValid = emailRegex.test(value);
     set(enteredEmailAtom, { value, isValid, isChanged: true });
   }
 );
 
-export const setNameAtom = atom<null, [string], void>(
-  null,
-  (_, set, value) => {
-    const isKoreanOnly = value.split('').every(isKoreanChar);
-    const isValidLength = value.length <= 6;
-    const isValid = isKoreanOnly && isValidLength;
-    
-    set(enteredNameAtom, { value, isValid, isChanged: true });
-  }
-);
+export const setNameAtom = atom<null, [string], void>(null, (_, set, value) => {
+  const isKoreanOnly = value.split("").every(isKoreanChar);
+  const isValidLength = value.length <= 6;
+  const isValid = isKoreanOnly && isValidLength;
+
+  set(enteredNameAtom, { value, isValid, isChanged: true });
+});
 
 export const resetNotificationAtom = atom<null, [], void>(null, (_, set) => {
   set(enteredEmailAtom, { value: "", isValid: false, isChanged: false });
@@ -43,3 +42,15 @@ export const resetNotificationAtom = atom<null, [], void>(null, (_, set) => {
   set(enteredPositionAtom, null);
   set(supportPathAtom, null);
 });
+
+export const setRegisterSuccessAndAutoResetAtom = atom<null, [], void>(
+  null,
+  (_, set) => {
+    set(registerStepAtom, "submitSuccess");
+    set(resetNotificationAtom)
+
+    setTimeout(() => {
+      set(registerStepAtom, "beforeStart");
+    }, 3000);
+  }
+);

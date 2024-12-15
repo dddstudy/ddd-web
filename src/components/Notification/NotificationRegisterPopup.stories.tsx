@@ -1,23 +1,23 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { useState } from "react";
+import { useSetAtom } from "jotai";
 
 import NotificationRegisterPopupComponent from "@/components/Notification/Popup";
 import TextButton from "@/components/TextButton";
+import { registerStepAtom } from "@/store/notification/atom";
 
 const meta = {
   title: "NotificationRegisterPopup",
   component: () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const setRegisterStep = useSetAtom(registerStepAtom);
+
+    const handleClickOpen = () => {
+      setRegisterStep("form");
+    };
 
     return (
       <>
-        <TextButton onClick={() => setIsOpen(true)}>열기</TextButton>
-        <NotificationRegisterPopupComponent
-          isOpen={isOpen}
-          onClose={() => setIsOpen(false)}
-        >
-          <TextButton onClick={() => setIsOpen(false)}>닫기</TextButton>
-        </NotificationRegisterPopupComponent>
+        <TextButton onClick={handleClickOpen}>열기</TextButton>
+        <NotificationRegisterPopupComponent />
       </>
     );
   },

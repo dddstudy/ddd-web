@@ -31,3 +31,7 @@ export const isNotificationFormValidAtom = atom<boolean>(
     get(enteredPositionAtom) !== null &&
     get(supportPathAtom) !== null
 );
+
+export const registerStepAtom = atom<
+  "beforeStart" | "form" | "submitSuccess" | "closeConfirm"
+>("beforeStart");
