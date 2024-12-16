@@ -36,21 +36,40 @@ export const setNameAtom = atom<null, [string], void>(null, (_, set, value) => {
   set(enteredNameAtom, { value, isValid, isChanged: true });
 });
 
-export const resetNotificationAtom = atom<null, [], void>(null, (_, set) => {
-  set(enteredEmailAtom, { value: "", isValid: false, isChanged: false });
-  set(enteredNameAtom, { value: "", isValid: false, isChanged: false });
-  set(enteredPositionAtom, null);
-  set(supportPathAtom, null);
-});
+export const resetNotificationFormAtom = atom<null, [], void>(
+  null,
+  (_, set) => {
+    set(enteredEmailAtom, { value: "", isValid: false, isChanged: false });
+    set(enteredNameAtom, { value: "", isValid: false, isChanged: false });
+    set(enteredPositionAtom, null);
+    set(supportPathAtom, null);
+  }
+);
 
 export const setRegisterSuccessAndAutoResetAtom = atom<null, [], void>(
   null,
   (_, set) => {
     set(registerStepAtom, "submitSuccess");
-    set(resetNotificationAtom)
+    set(resetNotificationFormAtom);
 
     setTimeout(() => {
       set(registerStepAtom, "beforeStart");
     }, 3000);
+  }
+);
+
+export const setRegisterConfirmCancelIfChangedAtom = atom<null, [], void>(
+  null,
+  (get, set) => {
+    const isEmailChanged = get(enteredEmailAtom).isChanged;
+    const isNameChanged = get(enteredNameAtom).isChanged;
+    const isPathChanged = get(enteredPositionAtom) !== null;
+    const isPositionChanged = get(enteredPositionAtom) !== null;
+
+    if (isEmailChanged || isNameChanged || isPathChanged || isPositionChanged) {
+      set(registerStepAtom, "closeConfirm");
+    } else {
+      set(registerStepAtom, "beforeStart");
+    }
   }
 );
