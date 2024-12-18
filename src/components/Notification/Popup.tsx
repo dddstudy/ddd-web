@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useCallback } from "react";
-import { useAtom } from "jotai";
+import { useAtom, useSetAtom } from "jotai";
 
 import { Portal } from "@/components/Portal";
 import CloseIcon from "@/components/svgs/CloseIcon";
@@ -11,6 +11,11 @@ import { screenMediaQuery } from "@/app/styles/screens";
 import NotificationForm from "@/components/Notification/Form";
 import SubmitFinish from "@/components/Notification/SubmitFinish";
 import { registerStepAtom } from "@/store/notification/atom";
+import ConfirmCancelPopup from "@/components/Notification/ConfirmCancelPopup";
+import {
+  resetNotificationFormAtom,
+  setRegisterConfirmCancelIfChangedAtom,
+} from "@/store/notification/action";
 
 interface PopupProps {
   isOpen: boolean;
@@ -78,14 +83,38 @@ export const Popup = ({ isOpen, onClose, children }: PopupProps) => {
 export default function NotificationRegisterPopup() {
   const [registerStep, setRegisterStep] = useAtom(registerStepAtom);
 
+  const resetForm = useSetAtom(resetNotificationFormAtom);
+
+  const setRegisterConfirmCancelIfChanged = useSetAtom(
+    setRegisterConfirmCancelIfChangedAtom
+  );
+
   const handleClose = () => {
-    setRegisterStep("closeConfirm");
+    setRegisterConfirmCancelIfChanged();
+  };
+
+  const handleConfirmCancel = () => {
+    setRegisterStep("beforeStart");
+    resetForm();
+  };
+
+  const handleGoBackToForm = () => {
+    setRegisterStep("form");
   };
 
   return (
-    <Popup isOpen={registerStep !== "beforeStart"} onClose={handleClose}>
-      {registerStep === "form" ? <NotificationForm /> : null}
-      {registerStep === "submitSuccess" ? <SubmitFinish /> : null}
-    </Popup>
+    <>
+      <Popup isOpen={registerStep !== "beforeStart"} onClose={handleClose}>
+        {registerStep === "form" || registerStep === "closeConfirm" ? (
+          <NotificationForm />
+        ) : null}
+        {registerStep === "submitSuccess" ? <SubmitFinish /> : null}
+      </Popup>
+      <ConfirmCancelPopup
+        isOpen={registerStep === "closeConfirm"}
+        onConfirmClose={handleConfirmCancel}
+        onGoBackToForm={handleGoBackToForm}
+      />
+    </>
   );
 }
