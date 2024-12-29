@@ -1,11 +1,20 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useSetAtom } from "jotai";
+
 import TextButton from "@/components/TextButton";
 import { DddIcon } from "@/components/svgs";
 import navigationList from "@/fixtures/navigationList.json";
+import { registerStepAtom } from "@/store/notification/atom";
 
 export default function DesktopNavigation() {
   const pathname = usePathname();
+
+  const setRegisterStep = useSetAtom(registerStepAtom);
+
+  const handleClickOpen = () => {
+    setRegisterStep("form");
+  };
 
   return (
     <div className="flex w-full justify-center pt-32">
@@ -23,6 +32,14 @@ export default function DesktopNavigation() {
             </TextButton>
           </Link>
         ))}
+        <TextButton
+          size="m"
+          variant="fill"
+          type="button"
+          onClick={handleClickOpen}
+        >
+          모집 알림 신청
+        </TextButton>
       </nav>
     </div>
   );

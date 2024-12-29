@@ -6,18 +6,34 @@ import SupportPathButtonGroup from "@/components/Notification/SupportPathButtonG
 import EmailInput from "@/components/Notification/EmailInput";
 import TextButton from "@/components/TextButton";
 import { isNotificationFormValidAtom } from "@/store/notification/atom";
-import { setRegisterSuccessAndAutoResetAtom } from "@/store/notification/action";
+import {
+  setRegisterSuccessAndAutoResetAtom,
+  getRegisterFormVariablesAtom,
+} from "@/store/notification/action";
+import usePostNotification from "@/hooks/usePostNotification";
 
 export default function NotificationForm() {
   const isNotificationFormValid = useAtomValue(isNotificationFormValidAtom);
 
-  const setRegisterStep = useSetAtom(setRegisterSuccessAndAutoResetAtom);
+  const setRegisterSuccessAndResetForm = useSetAtom(
+    setRegisterSuccessAndAutoResetAtom
+  );
+
+  const notificationFormVariables = useAtomValue(getRegisterFormVariablesAtom);
+
+  const { post, isPending } = usePostNotification();
 
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
     event.preventDefault();
 
-    // TODO: API 연결
-    setRegisterStep();
+    post(notificationFormVariables, {
+      onSuccess: () => {
+        setRegisterSuccessAndResetForm();
+      },
+      onError: () => {
+        alert("신청에 실패했습니다. 관리자에게 문의해주세요.");
+      },
+    });
   };
 
   return (
@@ -37,7 +53,7 @@ export default function NotificationForm() {
           <SupportPathButtonGroup />
           <EmailInput />
           <TextButton
-            disabled={!isNotificationFormValid}
+            disabled={!isNotificationFormValid || isPending}
             size="l"
             className="self-end"
           >

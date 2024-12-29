@@ -3,6 +3,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Provider } from "jotai";
+import NotificationRegisterPopup from "@/components/Notification/Popup";
 
 export const metadata: Metadata = {
   title: "DDD Website",
@@ -24,6 +25,7 @@ export default function RootLayout({
           </header>
           <main>{children}</main>
           <Footer />
+          <NotificationRegisterPopup />
         </Provider>
       </body>
     </html>

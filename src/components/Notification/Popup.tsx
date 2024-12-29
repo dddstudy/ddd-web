@@ -46,6 +46,8 @@ export const Popup = ({ isOpen, onClose, children }: PopupProps) => {
     };
   }, [isOpen, handleEscape]);
 
+  console.log(isOpen);
+
   if (!isOpen) return null;
 
   return (
