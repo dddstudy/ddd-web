@@ -88,6 +88,10 @@ export default function usePostNotification() {
 
         setError(error);
         onError?.(error, variables);
+      } finally {
+        setIsPending(false);
+        setError(null);
+        setIsError(false);
       }
     })();
   };
