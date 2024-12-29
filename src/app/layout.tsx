@@ -4,6 +4,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Provider } from "jotai";
 import NotificationRegisterPopup from "@/components/Notification/Popup";
+import MockProviders from "@/mocks/provider";
 
 export const metadata: Metadata = {
   title: "DDD Website",
@@ -18,15 +19,17 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="bg-yellow-10">
-        <Provider>
-          <div id="portal-root" />
-          <header className="fixed w-full">
-            <Navigation />
-          </header>
-          <main>{children}</main>
-          <Footer />
-          <NotificationRegisterPopup />
-        </Provider>
+        <MockProviders>
+          <Provider>
+            <div id="portal-root" />
+            <header className="fixed w-full">
+              <Navigation />
+            </header>
+            <main>{children}</main>
+            <Footer />
+            <NotificationRegisterPopup />
+          </Provider>
+        </MockProviders>
       </body>
     </html>
   );

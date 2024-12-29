@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { http, HttpResponse } from "msw";
+
 import { dddAPI } from "@/utils/http";
 import { APIResponse } from "@/types/response";
 
@@ -14,6 +16,39 @@ export interface Notification extends NotificationVariables {
   create_time: string;
   email_sent: number;
 }
+
+export const postNotificationHandler = http.post<object, NotificationVariables>(
+  /v1\/notification/,
+  async ({ request }) => {
+    const requestBody = await request.json();
+
+    const { position, support_path, name, email } = requestBody;
+
+    if (!position || !support_path || !name || !email) {
+      return HttpResponse.json(
+        {
+          code: 400,
+          message: "Bad Request",
+        },
+        { status: 400 }
+      );
+    }
+
+    return HttpResponse.json<APIResponse<Notification>>({
+      code: 200,
+      message: "Success",
+      data: {
+        id: 1,
+        create_time: new Date().toISOString(),
+        email_sent: 0,
+        position,
+        support_path,
+        name,
+        email,
+      },
+    });
+  }
+);
 
 export default function usePostNotification() {
   const [isPending, setIsPending] = useState(false);

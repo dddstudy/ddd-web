@@ -4,6 +4,7 @@ import { useSetAtom } from "jotai";
 import NotificationRegisterPopupComponent from "@/components/Notification/Popup";
 import TextButton from "@/components/TextButton";
 import { registerStepAtom } from "@/store/notification/atom";
+import { postNotificationHandler } from "@/hooks/usePostNotification";
 
 const meta = {
   title: "NotificationRegisterPopup",
@@ -20,6 +21,11 @@ const meta = {
         <NotificationRegisterPopupComponent />
       </>
     );
+  },
+  parameters: {
+    msw: {
+      handlers: [postNotificationHandler],
+    },
   },
 } satisfies Meta<typeof NotificationRegisterPopupComponent>;
 
