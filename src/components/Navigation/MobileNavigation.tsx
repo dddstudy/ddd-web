@@ -30,9 +30,6 @@ const snsList = [
 
 export default function MobileNavigation() {
   const [isMenuOpened, setMenuOpened] = useState(false);
-  const mobileNavigationList = navigationList.filter(
-    (item) => item.href !== "/recruit-notification"
-  );
 
   function openMenu() {
     setMenuOpened(true);
@@ -73,7 +70,7 @@ export default function MobileNavigation() {
           </header>
           <main className="flex flex-col justify-center flex-1">
             <div className="flex flex-col gap-6 tablet:gap-20">
-              {mobileNavigationList.map((item) => (
+              {navigationList.map((item) => (
                 <Link
                   href={item.href}
                   key={item.name}

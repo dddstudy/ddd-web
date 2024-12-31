@@ -25,3 +25,18 @@ SVG 파일을 관리 및 사용의 용이성을 위해 `@svgr/cli`를 사용하�
 ```bash
 npm run svgr
 ```
+
+### MSW
+
+API Mocking을 위해 msw를 사용합니다
+
+#### 사용 방법
+
+1. api 사용 위치에서 handler를 생성
+2. src/mocks/handlers 에 handler 추가
+3. storybook에서는 story 파일 내부의 파라미터로 핸들러 추가
+
+### 환경 변수
+
+1. NEXT_PUBLIC_DDD_API_URL : DDD 서버 api url
+2. NEXT_PUBLIC_API_MOCKING : msw 사용여부로 값이 `enabled` 이면 msw 활성화

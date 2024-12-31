@@ -7,6 +7,7 @@ import {
   supportPathAtom,
   registerStepAtom,
 } from "@/store/notification/atom";
+import { NotificationVariables } from "@/hooks/usePostNotification";
 
 /**
  * '가'(0xAC00) ~ '힣'(0xD7A3) 사이에 있는 문자인지 체크
@@ -71,5 +72,21 @@ export const setRegisterConfirmCancelIfChangedAtom = atom<null, [], void>(
     } else {
       set(registerStepAtom, "beforeStart");
     }
+  }
+);
+
+export const getRegisterFormVariablesAtom = atom<NotificationVariables>(
+  (get) => {
+    const email = get(enteredEmailAtom).value;
+    const name = get(enteredNameAtom).value;
+    const position = get(enteredPositionAtom);
+    const supportPath = get(supportPathAtom);
+
+    return {
+      email,
+      name,
+      position: position || "",
+      support_path: supportPath || "",
+    };
   }
 );
