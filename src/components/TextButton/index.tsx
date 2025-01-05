@@ -15,6 +15,23 @@ const variants = cva("rounded-full flex justify-center items-center w-fit", {
       fill: "text-white bg-button-enabled disabled:bg-blue-20",
     },
   },
+  compoundVariants: [
+    {
+      size: "s",
+      variant: "outline",
+      className: "px-[15px] py-[7px]",
+    },
+    {
+      size: "m",
+      variant: "outline",
+      className: "px-[27px] py-[11px]",
+    },
+    {
+      size: "l",
+      variant: "outline",
+      className: "px-[31px] py-[15px]",
+    },
+  ],
 });
 
 interface Props
