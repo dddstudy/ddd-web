@@ -25,7 +25,7 @@ export default function RootLayout({
             <header className="fixed z-[1] w-full">
               <Navigation />
             </header>
-            <div className="w-screen h-screen perspective-[1px] transform-style-[preserve-3d] overflow-x-hidden overflow-y-auto">
+            <div className="w-screen h-screen perspective-[1px] perspective-origin-[bottom] transform-style-[preserve-3d] overflow-x-hidden overflow-y-auto">
               <main>{children}</main>
               <Footer />
             </div>

@@ -44,6 +44,11 @@ const config: Config = {
         }),
       });
       matchUtilities({
+        "perspective-origin": (value) => ({
+          "perspective-origin": value,
+        }),
+      });
+      matchUtilities({
         "transform-style": (value) => ({
           "transform-style": value,
         }),
