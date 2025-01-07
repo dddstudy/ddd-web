@@ -44,7 +44,7 @@ export default function Footer() {
   ];
 
   return (
-    <div className="w-full min-h-screen relative -translate-z-px scale-[2.1] origin-[0 0] webkit-sticky top-0">
+    <div className="w-full min-h-screen relative -translate-z-px scale-[2.1] origin-[0 0] webkit-sticky top-0 netbook:mt-[600px] mt-[300px]">
       <footer className="w-full absolute left-0 bottom-0 bg-blue-50 text-white py-80 tablet:py-64 mobile:py-52 flex flex-col justify-between items-center overflow-hidden">
         <section className="desktop:mb-[289px] netbook:mb-[200px] tablet:mb-[120px] mb-[88px]">
           <ul className="flex gap-80 tablet:flex-col tablet:items-center mobile:flex-col mobile:items-center mobile:gap-40">
