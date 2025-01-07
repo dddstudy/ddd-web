@@ -25,8 +25,8 @@ export default function RootLayout({
             <header className="fixed z-[1] w-full">
               <Navigation />
             </header>
-            <div className="w-screen h-screen perspective-[1px] perspective-origin-[bottom] transform-style-[preserve-3d] overflow-x-hidden overflow-y-auto">
-              <main>{children}</main>
+            <div className="w-screen h-screen perspective-[1px] perspective-origin-[0 0] transform-style-[preserve-3d] overflow-x-hidden overflow-y-auto scrolling-touch">
+              <main className="transform-style-[preserve-3d] perspective-[1px]">{children}</main>
               <Footer />
             </div>
             <NotificationRegisterPopup />
