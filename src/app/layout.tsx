@@ -22,11 +22,13 @@ export default function RootLayout({
         <MockProviders>
           <Provider>
             <div id="portal-root" />
-            <header className="fixed w-full">
+            <header className="fixed z-[1] w-full">
               <Navigation />
             </header>
-            <main>{children}</main>
-            <Footer />
+            <div className="w-screen h-screen perspective-[1px] perspective-origin-[0 0] transform-style-[preserve-3d] overflow-x-hidden overflow-y-auto scrolling-touch">
+              <main className="transform-style-[preserve-3d] perspective-[1px]">{children}</main>
+              <Footer />
+            </div>
             <NotificationRegisterPopup />
           </Provider>
         </MockProviders>
