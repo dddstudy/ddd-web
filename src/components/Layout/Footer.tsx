@@ -58,11 +58,10 @@ export default function Footer() {
           <LinkList label="Follow Us">
             <ul className="flex flex-wrap items-center mobile:flex-col mobile:gap-16">
               {snsList.map((item, index) => (
-                <>
+                <div className="flex items-center" key={item.name}>
                   <Link
                     className="flex items-center gap-4 text-title-1-bold mobile:text-title-2-bold"
                     href={item.link}
-                    key={item.name}
                     target="_blank"
                   >
                     {item.icon}
@@ -71,7 +70,7 @@ export default function Footer() {
                   {index < snsList.length - 1 && (
                     <span className="mx-16 w-[1px] h-[14px] bg-blue-20 mobile:hidden" />
                   )}
-                </>
+                </div>
               ))}
             </ul>
           </LinkList>
