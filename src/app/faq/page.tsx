@@ -1,5 +1,5 @@
 "use client";
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import TextButton from "@/components/TextButton";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import faqList from "@/app/faq/faqList";
@@ -30,21 +30,19 @@ export default function FAQ() {
   const isTablet = useMediaQuery(screenMediaQuery.netbook);
   const isDesktop = useMediaQuery(screenMediaQuery.desktop);
 
-  const getDeviceType = useCallback(() => {
+  const deviceType = useMemo(() => {
     if (isMobile) return "mobile";
     if (isTablet) return "tablet";
     return "desktop";
-  }, [isMobile, isTablet]);
+  }, [isMobile, isTablet, isDesktop]);
 
-  const [accordionSize, setAccordionSize] = useState<AccordionSize>(
-    getDeviceType()
-  );
+  const [accordionSize, setAccordionSize] = useState<AccordionSize>(deviceType);
 
   useEffect(() => {
-    setAccordionSize(getDeviceType());
-  }, [isMobile, isDesktop, isTablet, getDeviceType]);
+    setAccordionSize(deviceType);
+  }, [deviceType]);
 
-  if (isMobile === null || isTablet === null || isDesktop === null) return null;
+  if ([isMobile, isTablet, isDesktop].some((val) => val == null)) return null;
 
   return (
     <div className="flex flex-col items-center netbook:px-0">
