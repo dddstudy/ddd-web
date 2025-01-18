@@ -11,27 +11,10 @@ const variants = cva("rounded-full flex justify-center items-center w-fit", {
     variant: {
       text: "text-text-primary disabled:text-text-inactive active:bg-gray-10",
       outline:
-        "border-[1px] border-solid border-black disabled:border-gray-20 active:bg-button-enabled active:text-white active:border-none",
-      fill: "text-white bg-button-enabled disabled:bg-blue-20",
+        "border-[1px] border-solid border-black disabled:border-gray-20 active:bg-button-enabled active:text-white active:border-button-enabled",
+      fill: "text-white border-[1px] border-solid border-button-enabled bg-button-enabled disabled:bg-blue-20 disabled:border-blue-20",
     },
   },
-  compoundVariants: [
-    {
-      size: "s",
-      variant: "outline",
-      className: "px-[15px] py-[7px]",
-    },
-    {
-      size: "m",
-      variant: "outline",
-      className: "px-[27px] py-[11px]",
-    },
-    {
-      size: "l",
-      variant: "outline",
-      className: "px-[31px] py-[15px]",
-    },
-  ],
 });
 
 interface Props
