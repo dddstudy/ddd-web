@@ -27,6 +27,7 @@ export default function SideMenu({ onClose }: Props) {
                 href={item.href}
                 key={item.name}
                 className="text-headline-5-bold font-medium tablet:text-headline-4-semibold tablet:font-medium"
+                onClick={onClose}
               >
                 {item.name}
               </Link>
