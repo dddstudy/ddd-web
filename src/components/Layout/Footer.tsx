@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { InstagramIcon, LinkedInIcon, GithubIcon } from "@/components/svgs";
+import snsList from "@/components/common/snsList";
 
 function LinkList({
   label,
@@ -25,24 +25,6 @@ function HeaderTitle({ title }: { title: string }) {
 }
 
 export default function Footer() {
-  const snsList = [
-    {
-      name: "Instagram",
-      icon: <InstagramIcon />,
-      link: "https://www.instagram.com/dynamic_ddd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    },
-    {
-      name: "LinkedIn",
-      icon: <LinkedInIcon />,
-      link: "https://www.linkedin.com/company/dddcommunity",
-    },
-    {
-      name: "Github",
-      icon: <GithubIcon />,
-      link: "https://github.com/DDD-Community",
-    },
-  ];
-
   return (
     <footer className="bg-blue-50 text-white py-80 tablet:py-64 mobile:py-52 flex flex-col justify-between items-center overflow-hidden">
       <section className="desktop:mb-[289px] netbook:mb-[200px] tablet:mb-[120px] mb-[88px]">
