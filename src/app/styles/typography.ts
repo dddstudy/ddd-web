@@ -191,6 +191,56 @@ const typography: CustomThemeConfig["fontSize"] = {
       lineHeight: "20px",
     },
   ],
+  /** s, m, l, xl */
+  "headline-4xl": [
+    "74px",
+    {
+      fontWeight: "700",
+      lineHeight: "84px",
+    },
+  ],
+  "headline-2xl": [
+    "56px",
+    {
+      fontWeight: "700",
+      lineHeight: "64px",
+    },
+  ],
+  "headline-l": [
+    "44px",
+    {
+      fontWeight: "700",
+      lineHeight: "56px",
+    },
+  ],
+  "headline-m": [
+    "38px",
+    {
+      fontWeight: "700",
+      lineHeight: "50px",
+    },
+  ],
+  "headline-s": [
+    "32px",
+    {
+      fontWeight: "700",
+      lineHeight: "44px",
+    },
+  ],
+  "title-m": [
+    "24px",
+    {
+      fontWeight: "400",
+      lineHeight: "32px",
+    },
+  ],
+  "title-s": [
+    "20px",
+    {
+      fontWeight: "400",
+      lineHeight: "20px",
+    },
+  ],
 };
 
 export default typography;
