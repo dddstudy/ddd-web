@@ -7,3 +7,4 @@ export { default as InstagramIcon } from "./InstagramIcon";
 export { default as LinkedInIcon } from "./LinkedInIcon";
 export { default as MenuIcon } from "./MenuIcon";
 export { default as SubtractIcon } from "./SubtractIcon";
+export { default as RightIcon } from "./RightIcon";
