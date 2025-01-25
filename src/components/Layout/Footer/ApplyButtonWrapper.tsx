@@ -1,5 +1,7 @@
 "use client";
 
+import { useSetAtom } from "jotai";
+import { registerStepAtom } from "@/store/notification/atom";
 import HoverSwitch from "@/components/HoverSwitch";
 
 interface Props {
@@ -7,8 +9,10 @@ interface Props {
 }
 
 export default function ApplyButtonWrapper({ className }: Props) {
+  const setRegisterStep = useSetAtom(registerStepAtom);
+
   const handleClick = () => {
-    console.log("신청");
+    setRegisterStep("form");
   };
 
   return (
