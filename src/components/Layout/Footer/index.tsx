@@ -1,5 +1,7 @@
 import Link from "next/link";
 import snsList from "@/components/common/snsList";
+import HoverSwitch from "@/components/HoverSwitch";
+import ApplyButtonWrapper from "./ApplyButtonWrapper";
 
 function LinkList({
   label,
@@ -26,9 +28,9 @@ function HeaderTitle({ title }: { title: string }) {
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-50 text-white py-80 tablet:py-64 mobile:py-52 flex flex-col justify-between items-center overflow-hidden">
+    <footer className="relative bg-blue-50 text-white py-80 tablet:py-64 mobile:py-52 flex flex-col justify-between items-center overflow-hidden">
       <section className="desktop:mb-[289px] netbook:mb-[200px] tablet:mb-[120px] mb-[88px]">
-        <ul className="flex gap-80 tablet:flex-col tablet:items-center mobile:flex-col mobile:items-center mobile:gap-40">
+        <ul className="flex gap-80 netbook:flex-row tablet:flex-col tablet:items-center mobile:flex-col mobile:items-center mobile:gap-40">
           <LinkList label="Email">
             <Link
               className="text-title-1-bold mobile:text-title-2-bold"
@@ -69,6 +71,7 @@ export default function Footer() {
           <br className="hidden mobile:block" /> All Rights Reserved.
         </p>
       </section>
+      <ApplyButtonWrapper className="absolute desktop:top-[430px] netbook:top-[340px] tablet:top-[390px] mobile:top-[385px]" />
     </footer>
   );
 }
