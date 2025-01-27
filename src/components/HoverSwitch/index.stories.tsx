@@ -1,6 +1,4 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { useArgs } from "@storybook/preview-api";
-
 import HoverSwitch from "./index";
 
 const meta = {

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import snsList from "@/components/common/snsList";
-import HoverSwitch from "@/components/HoverSwitch";
 import ApplyButtonWrapper from "./ApplyButtonWrapper";
 
 function LinkList({
