@@ -19,6 +19,7 @@ const spacing: CustomThemeConfig["spacing"] = {
   "52": "52px",
   "56": "56px",
   "64": "64px",
+  "72": "72px",
   "80": "80px",
   "100": "100px",
 };
