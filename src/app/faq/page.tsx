@@ -30,20 +30,6 @@ export default function FAQ() {
   const isTablet = useMediaQuery(screenMediaQuery.netbook);
   const isDesktop = useMediaQuery(screenMediaQuery.desktop);
 
-  const deviceType = useMemo(() => {
-    if (isMobile) return "mobile";
-    if (isTablet) return "tablet";
-    return "desktop";
-  }, [isMobile, isTablet, isDesktop]);
-
-  const [accordionSize, setAccordionSize] = useState<AccordionSize>(deviceType);
-
-  useEffect(() => {
-    setAccordionSize(deviceType);
-  }, [deviceType]);
-
-  if ([isMobile, isTablet, isDesktop].some((val) => val == null)) return null;
-
   return (
     <div className="flex flex-col items-center netbook:px-0">
       <h1 className="pt-[132px] px-20 mb-20 text-headline-4-semibold max-w-[800px] netbook:pt-[248px] netbook:mb-24 netbook:text-headline-1-semibold text-center">
@@ -66,7 +52,7 @@ export default function FAQ() {
           ))}
         </div>
         <div className="pt-48 pb-[200px]">
-          <AccordionGroup list={faqList[questionType]} size={accordionSize} />
+          <AccordionGroup list={faqList[questionType]} />
         </div>
       </main>
     </div>
