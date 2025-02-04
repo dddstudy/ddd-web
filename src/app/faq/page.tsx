@@ -1,5 +1,5 @@
 "use client";
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import TextButton from "@/components/TextButton";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import faqList from "@/app/faq/faqList";
