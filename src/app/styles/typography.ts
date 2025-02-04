@@ -71,6 +71,13 @@ const typography: CustomThemeConfig["fontSize"] = {
       lineHeight: "44px",
     },
   ],
+  "headline-7-bold": [
+    "32px",
+    {
+      fontWeight: "700",
+      lineHeight: "44px",
+    },
+  ],
   "title-1-medium": [
     "28px",
     {
@@ -104,6 +111,13 @@ const typography: CustomThemeConfig["fontSize"] = {
     {
       fontWeight: "400",
       lineHeight: "27px",
+    },
+  ],
+  "title-3-medium": [
+    "20px",
+    {
+      fontWeight: "500",
+      lineHeight: "28px",
     },
   ],
   "title-3-bold": [
