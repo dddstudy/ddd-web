@@ -1,71 +1,10 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/utils/cn";
 import { AddIcon, SubtractIcon } from "@/components/svgs";
 
-const accordionVariants = cva("w-full rounded-[20px] bg-white", {
-  variants: {
-    size: {
-      desktop: "px-64 py-40",
-      tablet: "px-40 py-32",
-      mobile: "p-24",
-    },
-  },
-});
-
-const labelVariants = cva("", {
-  variants: {
-    size: {
-      desktop: "text-body-3-medium mb-8",
-      tablet: "text-body-3-medium mb-8",
-      mobile: "text-body-4-medium mb-4",
-    },
-  },
-});
-
-const titleVariants = cva("", {
-  variants: {
-    size: {
-      desktop: "text-title-2-bold",
-      tablet: "text-title-3-bold",
-      mobile: "text-body-3-bold",
-    },
-  },
-});
-
-const descriptionVariants = cva("text-gray-70", {
-  variants: {
-    size: {
-      desktop: "mt-24 text-body-1-regular",
-      tablet: "mt-20 text-body-2-regular",
-      mobile: "mt-16 text-body-3-regular",
-    },
-  },
-});
-
-const touchAreaVariants = cva("", {
-  variants: {
-    size: {
-      desktop: "pt-14 pl-20",
-      tablet: "pt-14 pl-20",
-      mobile: "pt-12 pl-20",
-    },
-  },
-});
-
-const iconButtonVariants = cva("", {
-  variants: {
-    size: {
-      desktop: "h-40 w-40",
-      tablet: "h-40 w-40",
-      mobile: "h-24 w-24",
-    },
-  },
-});
-
-interface AccordionProps extends VariantProps<typeof accordionVariants> {
+interface AccordionProps {
   label: string;
   title: string;
   description: React.ReactNode;
@@ -75,7 +14,6 @@ interface AccordionProps extends VariantProps<typeof accordionVariants> {
 }
 
 export function Accordion({
-  size = "desktop",
   label,
   title,
   description,
@@ -96,15 +34,25 @@ export function Accordion({
   }, [isActive]);
 
   return (
-    <div className={cn(accordionVariants({ size }), className)}>
+    <div
+      className={cn(
+        "w-full rounded-[20px] bg-white",
+        "p-24 desktop:px-64 desktop:py-40 tablet:px-40 tablet:py-32",
+        className
+      )}
+    >
       <div className="flex justify-between">
         <div className="flex flex-col">
-          <p className={cn(labelVariants({ size }))}>{label}</p>
-          <p className={cn(titleVariants({ size }))}>{title}</p>
+          <p className="text-body-4-medium mb-4 tablet:text-body-3-medium tablet:mb-8">
+            {label}
+          </p>
+          <p className="text-body-3-bold tablet:text-title-3-bold desktop:text-title-2-bold">
+            {title}
+          </p>
         </div>
-        <div className={cn(touchAreaVariants({ size }))}>
+        <div className="pt-12 pl-20 tablet:pt-14">
           <button
-            className={cn(iconButtonVariants({ size }))}
+            className="h-24 w-24 tablet:h-40 tablet:w-40"
             type="button"
             onClick={onClick}
           >
@@ -117,7 +65,9 @@ export function Accordion({
         style={{ height: `${contentHeight}px` }}
         className="overflow-hidden transition-[height] duration-300 ease-in-out"
       >
-        <div className={cn(descriptionVariants({ size }))}>{description}</div>
+        <div className="text-gray-70 mt-16 text-body-3-regular tablet:mt-20 tablet:text-body-2-regular desktop:mt-24 desktop:text-body-1-regular">
+          {description}
+        </div>
       </div>
     </div>
   );
@@ -125,10 +75,9 @@ export function Accordion({
 
 interface AccordionGroupProps {
   list: Array<{ label: string; title: string; description: React.ReactNode }>;
-  size: AccordionProps["size"];
 }
 
-export function AccordionGroup({ list, size = "tablet" }: AccordionGroupProps) {
+export function AccordionGroup({ list }: AccordionGroupProps) {
   const [activeItemIndex, setActiveItemIndex] = useState<number | null>(null);
 
   const handleItemClick = (key: number) => {
@@ -143,7 +92,6 @@ export function AccordionGroup({ list, size = "tablet" }: AccordionGroupProps) {
           label={item.label}
           title={item.title}
           description={item.description}
-          size={size}
           isActive={activeItemIndex === index}
           onClick={() => handleItemClick(index)}
         />
