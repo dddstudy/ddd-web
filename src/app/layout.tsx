@@ -22,7 +22,7 @@ export default function RootLayout({
         <MockProviders>
           <Provider>
             <div id="portal-root" />
-            <header className="fixed w-full desktop:z-10">
+            <header className="fixed w-full z-10">
               <Navigation />
             </header>
             <main>{children}</main>

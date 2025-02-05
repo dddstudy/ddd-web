@@ -11,7 +11,7 @@ interface Props {
 export default function SideMenu({ onClose }: Props) {
   return (
     <Portal>
-      <div className="px-24 fixed top-0 left-0 w-full h-[100dvh] bg-blue-40 text-white flex flex-col z-10">
+      <div className="px-24 fixed top-0 left-0 w-full h-[100dvh] bg-blue-40 text-white flex flex-col z-20">
         <header className="pt-24 flex justify-end">
           <button
             className="bg-white w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0"

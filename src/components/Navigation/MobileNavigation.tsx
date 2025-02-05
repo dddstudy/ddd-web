@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { DddIcon, MenuIcon } from "@/components/svgs";
 import SideMenu from "./SideMenu";
+import Link from "next/link";
 
 export default function MobileNavigation() {
   const [isMenuOpened, setMenuOpened] = useState(false);
@@ -26,9 +27,12 @@ export default function MobileNavigation() {
   return (
     <div className="desktop:hidden block">
       <div className="flex justify-between px-20 pt-20 w-full">
-        <div className="bg-black w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0">
+        <Link
+          href="/"
+          className="bg-black w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0"
+        >
           <DddIcon />
-        </div>
+        </Link>
         <button
           className="bg-white w-48 h-48 rounded-full flex justify-center items-center flex-shrink-0"
           onClick={openMenu}
