@@ -1,13 +1,12 @@
 "use client";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useState } from "react";
 import TextButton from "@/components/TextButton";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import faqList from "@/app/faq/faqList";
-import { Accordion, AccordionGroup } from "@/components/Accordion";
+import { AccordionGroup } from "@/components/Accordion";
 import { screenMediaQuery } from "@/app/styles/screens";
 
 type QuestionType = "recruitment" | "operation" | "activities";
-type AccordionSize = React.ComponentProps<typeof Accordion>["size"];
 
 const questionTypeList: { type: QuestionType; name: string }[] = [
   {
@@ -26,8 +25,6 @@ const questionTypeList: { type: QuestionType; name: string }[] = [
 
 export default function FAQ() {
   const [questionType, setQuestionType] = useState<QuestionType>("recruitment");
-  const isMobile = useMediaQuery(screenMediaQuery.tablet);
-  const isTablet = useMediaQuery(screenMediaQuery.netbook);
   const isDesktop = useMediaQuery(screenMediaQuery.desktop);
 
   return (
