@@ -213,6 +213,13 @@ const typography: CustomThemeConfig["fontSize"] = {
       lineHeight: "84px",
     },
   ],
+  "headline-3xl": [
+    "64px",
+    {
+      fontWeight: "700",
+      lineHeight: "80px",
+    },
+  ],
   "headline-2xl": [
     "56px",
     {
