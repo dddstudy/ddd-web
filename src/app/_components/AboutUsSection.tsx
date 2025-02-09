@@ -62,7 +62,7 @@ function AboutUsDescription() {
   );
 }
 
-export default function AboutUs() {
+export default function AboutUsSection() {
   return (
     <SectionContainer className="w-full text-center py-[240px] bg-white bg-[url('/imgs/about-us.webp')] bg-no-repeat bg-[length:330px_415px] bg-[center_455px] mobile:bg-[length:245px_310px] mobile:bg-[center_315px]">
       <h2 className="text-text-primary text-title-s">About Us</h2>
