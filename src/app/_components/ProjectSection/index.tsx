@@ -1,3 +1,5 @@
+import CrewComments from "@/app/_components/ProjectSection/CrewComments";
+
 export default function ProjectSection() {
   return (
     <section className="w-full bg-white">
@@ -25,6 +27,7 @@ export default function ProjectSection() {
             </p>
           </div>
         </div>
+        <CrewComments />
       </div>
     </section>
   );
