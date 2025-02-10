@@ -1,6 +1,7 @@
-import AboutUsSection from "@/app/_components/AboutUsSection";
 import CurrentlySection from "@/app/_components/CurrentlySection";
+import AboutUsSection from "@/app/_components/AboutUsSection";
 import WhatWeDoSection from "@/app/_components/WhatWeDoSection";
+import ProjectSection from "@/app/_components/ProjectSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <CurrentlySection />
       <AboutUsSection />
       <WhatWeDoSection />
+      <ProjectSection />
     </main>
   );
 }
