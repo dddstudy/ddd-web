@@ -1,8 +1,10 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+
 export interface Project {
   id: number;
   title: string;
   description: string;
-  thumbnail: string;
+  thumbnail: string | StaticImport;
   typeofApp: "web" | "Android" | "iOS";
   // 기수
   semester: number;
