@@ -1,35 +1,89 @@
+"use client";
+
+import { useState, useRef } from "react";
 import Image, { StaticImageData } from "next/image";
 import Project1 from "@/assets/imgs/project1.png";
 
 interface ProjectItemProps {
   src: StaticImageData;
   alt: string;
+  leftComment: string;
+  rightComment: string;
 }
 
-function ProjectItem({ src, alt }: ProjectItemProps) {
+interface ProjectData {
+  image: StaticImageData;
+  alt: string;
+  leftComment: string;
+  rightComment: string;
+}
+
+// 각 프로젝트별 데이터 설정
+const projectsData: ProjectData[] = [
+  {
+    image: Project1,
+    alt: "project1",
+    leftComment: "11th Project",
+    rightComment: "Mozip App",
+  },
+  {
+    image: Project1,
+    alt: "project2",
+    leftComment: "11th Project",
+    rightComment: "Mozip App",
+  },
+  {
+    image: Project1,
+    alt: "project3",
+    leftComment: "11th Project",
+    rightComment: "Mozip App",
+  },
+  {
+    image: Project1,
+    alt: "project4",
+    leftComment: "11th Project",
+    rightComment: "Mozip App",
+  },
+];
+
+function ProjectItem({
+  src,
+  alt,
+  leftComment,
+  rightComment,
+}: ProjectItemProps) {
   return (
-    <Image
-      src={src}
-      alt={alt}
-      className="desktop:w-[591px] desktop:h-[886px] netbook:w-[573px] netbook:[h-858px] tablet:w-[460px] tablet:h-[690px] mobile:w-[257px] mobile:h-[384px]"
-    />
+    <div className="relative">
+      <div className="flex justify-center">
+        <Image
+          src={src}
+          alt={alt}
+          className="desktop:w-[591px] desktop:h-[886px] netbook:w-[573px] netbook:h-[858px] tablet:w-[460px] tablet:h-[690px] mobile:w-[257px] mobile:h-[384px]"
+        />
+      </div>
+      <div className="absolute top-0 left-0 w-full h-full">
+        <div className="sticky flex mt-[30%] mb-[30%] top-[50%] bottom-[50%] justify-between desktop:text-headline-m netbook:text-headline-s tablet:text-title-1-bold mobile:text-body-1-bold">
+          <p className="absolute -left-[10vw]">{leftComment}</p>
+          <p className="absolute -right-[10vw]">{rightComment}</p>
+        </div>
+      </div>
+    </div>
   );
 }
 
 export default function ProjectScroll() {
   return (
     <section className="relative h-full w-full">
-      <div className="h-[300dvh] flex flex-col justify-start items-center">
-        <ProjectItem src={Project1} alt="project1" />
-        <ProjectItem src={Project1} alt="project1" />
-        <ProjectItem src={Project1} alt="project1" />
-        <ProjectItem src={Project1} alt="project1" />
-      </div>
-      <div className="absolute top-0 left-0 w-full h-[300dvh] pointer-events-none flex justify-center">
-        <div className="sticky desktop:mt-[443px] desktop:top-[443px] netbook:mt-[429px] netbook:top-[429px] tablet:mt-[230px] tablet:top-[230px] mobile:mt-[128px] mobile:top-[128px] z-10 flex justify-between w-full desktop:w-[591px] netbook:w-[573px] tablet:w-[460px] mobile:w-[257px]">
-          <p>leftComment</p>
-          <p>rightComment</p>
-        </div>
+      <div className="flex flex-col justify-start items-center">
+        {projectsData.map((project, index) => (
+          <ProjectItem
+            key={index}
+            src={project.image}
+            alt={project.alt}
+            leftComment={project.leftComment}
+            rightComment={project.rightComment}
+          />
+        ))}
       </div>
     </section>
   );
