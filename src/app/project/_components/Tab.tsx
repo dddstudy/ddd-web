@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef } from "react";
 import { cn } from "@/utils/cn";
 
-interface TabProps extends ComponentPropsWithoutRef<"button"> {
+export interface TabProps extends ComponentPropsWithoutRef<"button"> {
   tab: {
     label: string;
     value: number;
