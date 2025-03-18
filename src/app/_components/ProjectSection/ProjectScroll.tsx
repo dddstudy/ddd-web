@@ -89,9 +89,9 @@ export default function ProjectScroll() {
   return (
     <section className="relative h-full w-full">
       <div className="flex flex-col justify-start items-center">
-        {projectsData.map((project, index) => (
+        {projectsData.map((project) => (
           <ProjectItem
-            key={index}
+            key={project.alt}
             src={project.image}
             alt={project.alt}
             leftComment={project.leftComment}
