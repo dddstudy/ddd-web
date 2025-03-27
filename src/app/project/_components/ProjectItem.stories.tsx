@@ -3,7 +3,7 @@ import { faker } from "@faker-js/faker";
 import ProjectItemComponent from "@/app/project/_components/ProjectItem";
 
 const meta = {
-  title: "ProjectItem",
+  title: "Project/ProjectItem",
   component: ProjectItemComponent,
   parameters: {
     layout: "centered",
