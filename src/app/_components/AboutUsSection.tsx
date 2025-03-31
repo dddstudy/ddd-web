@@ -1,4 +1,4 @@
-import SectionContainer from "./SectionContainer";
+import SectionContainer from "@/app/_components/SectionContainer";
 import { ArrayElement } from "@/utils/types";
 
 const jobList = [
@@ -49,7 +49,7 @@ const descriptionList = [
 
 function AboutUsDescription() {
   return (
-    <ul className="mt-64 mb-[320px] mobile:mb-[240px]">
+    <ul className="relative z-[1] mt-64 mb-[320px] mobile:mb-[240px]">
       {descriptionList.map((item) => (
         <li
           key={item}
@@ -64,7 +64,7 @@ function AboutUsDescription() {
 
 export default function AboutUsSection() {
   return (
-    <SectionContainer className="w-full text-center py-[240px] bg-white bg-[url('/imgs/about-us.webp')] bg-no-repeat bg-[length:330px_415px] bg-[center_455px] mobile:bg-[length:245px_310px] mobile:bg-[center_315px]">
+    <SectionContainer className="w-full text-center py-[240px] bg-white bg-[url('/imgs/image_about-us.webp')] bg-no-repeat bg-[length:460px] bg-[center_455px] tablet:bg-[length:400px] tablet:bg-[center_315px] mobile:bg-[length:300px] mobile:bg-[center_315px]">
       <h2 className="text-text-primary text-title-s">About Us</h2>
       <AboutUsDescription />
       <JobList />
