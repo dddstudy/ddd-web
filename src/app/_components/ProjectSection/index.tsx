@@ -1,4 +1,5 @@
 import CrewComments from "@/app/_components/ProjectSection/CrewComments";
+import ProjectScroll from "./ProjectScroll";
 
 export default function ProjectSection() {
   return (
@@ -12,6 +13,7 @@ export default function ProjectSection() {
             DDD 크루들의 서비스를 살펴보세요! 4개월 간의 활동을 통해 소중한
             결과물을 얻으실 수 있어요.
           </p>
+          <ProjectScroll />
         </div>
       </div>
       <div className="flex flex-col items-center gap-80 mobile:gap-64 desktop:pt-[120px] desktop:pb-[220px] tablet:pt-[120px] tablet:pb-[200px] mobile:pt-[120px] mobile:pb-[200px]">
@@ -20,11 +22,6 @@ export default function ProjectSection() {
             <h2 className="desktop:text-headline-3xl tablet:text-headline-2xl mobile:text-headline-s">
               크루원들이 말하는 DDD는
             </h2>
-            <p className="text-text-secondary text-title-m mobile:text-title-s whitespace-pre mobile:whitespace-normal">
-              {
-                "DDD 크루들의 서비스를 살펴보세요!\n4개월 간의 활동을 통해 소중한 결과물을 얻으실 수 있어요."
-              }
-            </p>
           </div>
         </div>
         <CrewComments />
