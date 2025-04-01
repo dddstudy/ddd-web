@@ -11,7 +11,8 @@ export interface Project {
   id: number;
   title: string;
   subTitle: string;
-  thumbnail: string | StaticImport;
+  listThumbnail: string | StaticImport;
+  popupThumbnail: string | StaticImport;
   typeofApp: AppType;
   // 기수
   semester: number;

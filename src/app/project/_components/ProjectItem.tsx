@@ -14,14 +14,14 @@ const TYPE_OF_APP_MAP: Record<AppType, string> = {
 } as const;
 
 export default function ProjectItem({ project, ...props }: ProjectItemProps) {
-  const { typeofApp, index, isNew, semester, title, subTitle, thumbnail } =
+  const { typeofApp, index, isNew, semester, title, subTitle, listThumbnail } =
     project;
 
   return (
     <button {...props} className="flex flex-col gap-8 w-full">
       <div className="relative w-[100%] aspect-square">
         <Image
-          src={thumbnail}
+          src={listThumbnail}
           alt={title}
           layout="fill"
           objectFit="cover"

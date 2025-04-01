@@ -25,7 +25,8 @@ export const Default: Story = {
     project: {
       title: faker.lorem.sentence(),
       subTitle: faker.lorem.sentence(),
-      thumbnail: faker.image.url(),
+      listThumbnail: faker.image.url(),
+      popupThumbnail: faker.image.url(),
       typeofApp: "web",
       semester: 11,
       isNew: true,
