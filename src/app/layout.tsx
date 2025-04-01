@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Metrics from "@/app/metrics";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Provider } from "jotai";
@@ -30,6 +31,7 @@ export default function RootLayout({
             <NotificationRegisterPopup />
           </Provider>
         </MockProviders>
+        <Metrics />
       </body>
     </html>
   );
