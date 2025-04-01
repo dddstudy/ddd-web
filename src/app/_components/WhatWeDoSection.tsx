@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhatWeDoSection() {
   return (
-    <section className="flex w-full desktop:pl-[472px] netbook:pl-[80px] tablet:pl-[64px] mobile:pl-[24px] desktop:pr-[360px] netbook:pr-[86px] tablet:pr-[64px] mobile:pr-[24px] desktop:pt-[320px] netbook:pt-[240px] tablet:pt-[240px] mobile:pt-[160px] desktop:pb-[304px] netbook:pb-[240px] tablet:pb-[240px] mobile:pb-[160px] bg-[#0C0E0F] bg-[url('/imgs/idea.webp')] bg-no-repeat desktop:bg-[length:884px_910px] desktop:bg-[center_483px] netbook:bg-[length:752px_775px] netbook:bg-[112px_404px] tablet:bg-[length:706px_727px] tablet:bg-[center_404px] mobile:bg-none">
+    <section className="flex w-full desktop:pl-[472px] netbook:pl-[80px] tablet:pl-[64px] mobile:pl-[24px] desktop:pr-[360px] netbook:pr-[86px] tablet:pr-[64px] mobile:pr-[24px] desktop:pt-[320px] netbook:pt-[240px] tablet:pt-[240px] mobile:pt-[160px] desktop:pb-[304px] netbook:pb-[240px] tablet:pb-[240px] mobile:pb-[160px] bg-[#0C0E0F] bg-[url('/imgs/image_idation.webp')] bg-no-repeat desktop:bg-[length:570px] desktop:bg-[center_483px] netbook:bg-[length:570px] netbook:bg-[112px_404px] tablet:bg-[length:570px] tablet:bg-[center_404px] mobile:bg-[length:296px] mobile:bg-[center_365px]">
       <div className="flex flex-col desktop:gap-[320px] netbook:gap-[81px] tablet:gap-[217px] mobile:gap-[188px]">
         <div className="flex flex-col gap-32">
           <div className="text-text-inverse desktop:text-headline-7-medium netbook:text-headline-7-medium tablet:text-title-2-medium mobile:text-title-3-medium">
