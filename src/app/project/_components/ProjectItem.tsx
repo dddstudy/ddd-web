@@ -1,4 +1,4 @@
-import { Project } from "@/app/project/_types/project";
+import { Project, AppType } from "@/app/project/_types/project";
 import Image from "next/image";
 import { ComponentPropsWithoutRef } from "react";
 import { cn } from "@/utils/cn";
@@ -7,21 +7,21 @@ interface ProjectItemProps extends ComponentPropsWithoutRef<"button"> {
   project: Project;
 }
 
-const TYPE_OF_APP_MAP: Record<Project["typeofApp"], string> = {
+const TYPE_OF_APP_MAP: Record<AppType, string> = {
   iOS: "iOS APP",
   Android: "ANDROID APP",
   web: "WEB",
 } as const;
 
 export default function ProjectItem({ project, ...props }: ProjectItemProps) {
-  const { typeofApp, index, isNew, semester, title, description, thumbnail } =
+  const { typeofApp, index, isNew, semester, title, subTitle, listThumbnail } =
     project;
 
   return (
     <button {...props} className="flex flex-col gap-8 w-full">
       <div className="relative w-[100%] aspect-square">
         <Image
-          src={thumbnail}
+          src={listThumbnail}
           alt={title}
           layout="fill"
           objectFit="cover"
@@ -50,7 +50,7 @@ export default function ProjectItem({ project, ...props }: ProjectItemProps) {
             {title}
           </div>
           <div className="text-text-secondary desktop:text-body-2-regular netbook:text-body-3-regular tablet:text-body-2-regular mobile:text-body-3-regular text-left line-clamp-2 whitespace-pre-line overflow-hidden">
-            {description}
+            {subTitle}
           </div>
         </div>
         <div className="flex gap-4">

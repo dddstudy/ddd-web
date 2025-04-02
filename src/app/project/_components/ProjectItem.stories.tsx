@@ -3,7 +3,7 @@ import { faker } from "@faker-js/faker";
 import ProjectItemComponent from "@/app/project/_components/ProjectItem";
 
 const meta = {
-  title: "ProjectItem",
+  title: "Project/ProjectItem",
   component: ProjectItemComponent,
   parameters: {
     layout: "centered",
@@ -24,13 +24,22 @@ export const Default: Story = {
   args: {
     project: {
       title: faker.lorem.sentence(),
-      description: faker.lorem.sentence(),
-      thumbnail: faker.image.url(),
+      subTitle: faker.lorem.sentence(),
+      listThumbnail: faker.image.url(),
+      popupThumbnail: faker.image.url(),
       typeofApp: "web",
       semester: 11,
       isNew: true,
       index: 1,
       id: 1,
+      description: faker.lorem.sentence(),
+      keyFeatures: [faker.lorem.sentence(), faker.lorem.sentence()],
+      team: [
+        {
+          position: faker.lorem.word(),
+          memberNames: [faker.person.fullName()],
+        },
+      ],
     },
   },
   render: function Render(args) {
