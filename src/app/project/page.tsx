@@ -10,7 +10,7 @@ export default function Project() {
   >("all");
 
   return (
-    <div className="desktop:px-[24px] netbook:px-[24px] tablet:px-[24px] mobile:px-[24px] pb-[48px] bg-[#EAEAEA]">
+    <div className="desktop:px-[24px] netbook:px-[24px] tablet:px-[24px] mobile:px-[24px] desktop:pb-[240px] netbook:pb-[240px] tablet:pb-[200px] mobile:pb-[180px] bg-[#EAEAEA]">
       <TabList
         all={{
           tab: {
