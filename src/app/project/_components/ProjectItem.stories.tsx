@@ -30,7 +30,6 @@ export const Default: Story = {
       typeofApp: "web",
       semester: 11,
       isNew: true,
-      index: 1,
       id: 1,
       description: faker.lorem.sentence(),
       keyFeatures: [faker.lorem.sentence(), faker.lorem.sentence()],
@@ -41,6 +40,7 @@ export const Default: Story = {
         },
       ],
     },
+    index: faker.number.int({ min: 1, max: 10 }),
   },
   render: function Render(args) {
     return (

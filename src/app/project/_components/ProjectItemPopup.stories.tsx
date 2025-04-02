@@ -25,7 +25,6 @@ const mockProject: Project = {
   typeofApp: "web",
   semester: faker.number.int({ min: 1, max: 10 }),
   isNew: faker.datatype.boolean(),
-  index: faker.number.int({ min: 1, max: 10 }),
   description: faker.lorem.paragraphs(3),
   keyFeatures: Array.from(
     { length: faker.number.int({ min: 3, max: 6 }) },
