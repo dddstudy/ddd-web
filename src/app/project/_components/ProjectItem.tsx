@@ -5,6 +5,7 @@ import { cn } from "@/utils/cn";
 
 interface ProjectItemProps extends ComponentPropsWithoutRef<"button"> {
   project: Project;
+  index: number;
 }
 
 const TYPE_OF_APP_MAP: Record<AppType, string> = {
@@ -13,8 +14,12 @@ const TYPE_OF_APP_MAP: Record<AppType, string> = {
   web: "WEB",
 } as const;
 
-export default function ProjectItem({ project, ...props }: ProjectItemProps) {
-  const { typeofApp, index, isNew, semester, title, subTitle, listThumbnail } =
+export default function ProjectItem({
+  project,
+  index,
+  ...props
+}: ProjectItemProps) {
+  const { typeofApp, isNew, semester, title, subTitle, listThumbnail } =
     project;
 
   return (

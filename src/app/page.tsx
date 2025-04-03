@@ -6,12 +6,12 @@ import CrewMembersSection from "@/app/_components/CrewMembersSection";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <CurrentlySection />
       <AboutUsSection />
       <WhatWeDoSection />
       <ProjectSection />
       <CrewMembersSection />
-    </main>
+    </>
   );
 }
