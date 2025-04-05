@@ -28,8 +28,8 @@ export default function ProjectItem({
         <Image
           src={listThumbnail}
           alt={title}
-          layout="fill"
-          objectFit="cover"
+          width={2048}
+          height={2048}
           className={cn({
             [`rounded-tl-[20px] rounded-tr-[60px] rounded-bl-[20px] rounded-br-[60px] 
               tablet:rounded-tl-[20px] tablet:rounded-tr-[60px] tablet:rounded-bl-[20px] tablet:rounded-br-[60px]

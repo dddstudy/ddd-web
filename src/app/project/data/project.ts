@@ -6,8 +6,8 @@ const projects: Project[] = [
     title: "엠쿵 (MBTI 커뮤니티)",
     subTitle:
       "“MBTI 유형별로 나와 타인의 생각과 행동을 공유하며 소통하는 커뮤니티 플랫폼",
-    listThumbnail: "/imgs/project/11_엠쿵MBTI커뮤니티_listThumbnail.png",
-    popupThumbnail: "/imgs/project/11_엠쿵MBTI커뮤니티_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/11_엠쿵 (MBTI 커뮤니티).webp",
+    popupThumbnail: "/imgs/project/popup/11_엠쿵 (MBTI 커뮤니티).webp",
     typeofApp: "Android",
     semester: 11,
     isNew: true,
@@ -30,8 +30,8 @@ const projects: Project[] = [
     title: "포이즌 (Poison)",
     subTitle:
       "카페인 과다 섭취를 방지하기 위한 개인 맞춤형 카페인 관리 앱 서비스",
-    listThumbnail: "/imgs/project/11_포이즌Poison_listThumbnail.png",
-    popupThumbnail: "/imgs/project/11_포이즌Poison_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/11_포이즌 (Poison).webp",
+    popupThumbnail: "/imgs/project/popup/11_포이즌 (Poison).webp",
     typeofApp: "Android",
     semester: 11,
     isNew: true,
@@ -56,8 +56,8 @@ const projects: Project[] = [
     title: "신입키트 (S-Class)",
     subTitle:
       "사회초년생이 업무 환경에 빠르게 적응할 수 있도록 AI 기반의 맞춤형 체크리스트와 업무 지식을 제공하는 모바일 서비스",
-    listThumbnail: "/imgs/project/11_신입키트SClass_listThumbnail.png",
-    popupThumbnail: "/imgs/project/11_신입키트SClass_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/11_신입키트 (S-Class).webp",
+    popupThumbnail: "/imgs/project/popup/11_신입키트 (S-Class).webp",
     typeofApp: "iOS",
     semester: 11,
     isNew: true,
@@ -82,8 +82,8 @@ const projects: Project[] = [
     title: "Mozip (모집)",
     subTitle:
       "공모전, 해커톤, IT 동아리 등 IT 직군을 위한 모든 대외활동 정보를 한눈에 확인하고 지원할 수 있는 플랫폼",
-    listThumbnail: "/imgs/project/11_Mozip모집_listThumbnail.png",
-    popupThumbnail: "/imgs/project/11_Mozip모집_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/11_Mozip (모집).webp",
+    popupThumbnail: "/imgs/project/popup/11_Mozip (모집).webp",
     typeofApp: "iOS",
     semester: 11,
     isNew: true,
@@ -111,8 +111,8 @@ const projects: Project[] = [
     title: "폴라보 (polabo)",
     subTitle:
       "소중한 추억을 폴라로이드 사진으로 함께 꾸미고 공유할 수 있는 온라인 보드 서비스",
-    listThumbnail: "/imgs/project/11_폴라보polabo_listThumbnail.png",
-    popupThumbnail: "/imgs/project/11_폴라보polabo_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/11_폴라보 (polabo).webp",
+    popupThumbnail: "/imgs/project/popup/11_폴라보 (polabo).webp",
     typeofApp: "web",
     semester: 11,
     isNew: true,
@@ -138,8 +138,8 @@ const projects: Project[] = [
     title: "자세공작소",
     subTitle:
       "AI 기반 실시간 자세 모니터링을 통해 바른 자세를 유지하고 습관을 형성하는 웹 서비스",
-    listThumbnail: "/imgs/project/11_자세공작소_listThumbnail.png",
-    popupThumbnail: "/imgs/project/11_자세공작소_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/11_자세공작소.webp",
+    popupThumbnail: "/imgs/project/popup/11_자세공작소.webp",
     typeofApp: "web",
     semester: 11,
     isNew: true,
@@ -166,11 +166,11 @@ const projects: Project[] = [
     title: "Pregen",
     subTitle:
       "AI와 함께하는 발표 연습 서비스입니다. 발표 연습 과정에서 피드백 부재 문제를 해결하고, 사용자가 효과적으로 발표를 준비할 수 있도록 AI 피드백을 제공합니다.",
-    listThumbnail: "/imgs/project/10_Pregen_listThumbnail.png",
-    popupThumbnail: "/imgs/project/10_Pregen_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/10_Pregen.webp",
+    popupThumbnail: "/imgs/project/popup/10_Pregen.webp",
     typeofApp: "Android",
     semester: 10,
-    isNew: true,
+    isNew: false,
     description: `Pregen은 발표 준비 시 사용자가 겪는 어려움, 특히 피드백 부족으로 인해 발생하는 불편함을 해결하고자 합니다. 단순히 발표 내용을 암기하는 것을 넘어, 실제 발표 상황과 유사한 환경에서 연습하고 AI로부터 맞춤형 피드백을 받아 실질적인 발표 능력 향상을 돕습니다. 사용자들은 Pregen을 통해 더욱 자신감 있고 효과적인 발표를 할 수 있습니다.`,
     keyFeatures: [
       "사용자가 직접 큐레이션 가능한 장소 공유",
@@ -196,11 +196,11 @@ const projects: Project[] = [
     title: "Waggle",
     subTitle:
       "Waggle은 새로운 사람을 만나 자기소개를 하는 데 어려움을 느끼거나, 그룹 활동 후 주고받았던 소중한 메시지들이 사라지는 것을 아쉬워하는 사용자를 위한 서비스입니다. 사용자는 Waggle을 통해 자신을 소개하는 카드를 만들고 그룹 구성원들과 공유하여 새로운 그룹에서의 순조로운 시작을 도울 수 있습니다. 또한, 그룹 구성원끼리 카드를 주고받고, 그룹을 떠나더라도 받았던 메시지 카드를 아카이브하여 보관할 수 있습니다.",
-    listThumbnail: "/imgs/project/10_Waggle_listThumbnail.png",
-    popupThumbnail: "/imgs/project/10_Waggle_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/10_Waggle.webp",
+    popupThumbnail: "/imgs/project/popup/10_Waggle.webp",
     typeofApp: "web",
     semester: 10,
-    isNew: true,
+    isNew: false,
     description: `Waggle은 새로운 그룹에 합류했을 때 자기소개에 대한 부담을 덜어주고, 팀원들의 정보를 효과적으로 기억할 수 있도록 돕는 서비스입니다. 미리 준비된 프로필 카드를 활용하여 간편하게 자신을 소개하고, 팀원 목록에서 언제든 다른 팀원의 프로필 카드를 확인하여 정보를 쉽게 기억할 수 있습니다. 또한, 그룹 활동이 종료된 후에도 받았던 카드를 아카이브하여 소중한 추억을 언제든 꺼내볼 수 있도록 지원합니다. Waggle을 통해 새로운 시작을 더욱 즐겁고 의미있게 만들어보세요.`,
     keyFeatures: [
       "직관적인 사용자 인터페이스",
@@ -221,11 +221,11 @@ const projects: Project[] = [
     title: "OPEACE",
     subTitle:
       "OPEACE는 직장에서 생기는 사소하고 가벼운 고민들을 쉽고 재미있게 나눌 수 있는 직장인 커뮤니티 서비스입니다",
-    listThumbnail: "/imgs/project/10_OPEACE_listThumbnail.png",
-    popupThumbnail: "/imgs/project/10_OPEACE_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/10_OPEACE.webp",
+    popupThumbnail: "/imgs/project/popup/10_OPEACE.webp",
     typeofApp: "web",
     semester: 10,
-    isNew: true,
+    isNew: false,
     description: `OPEACE는 직장 내 사소한 고민을 쉽고 재미있게 나누는 익명 커뮤니티입니다. 기존 커뮤니티의 번거로운 가입 절차, 자극적인 콘텐츠, 소극적인 참여 문제를 해결하고자, 간편 가입, A/B 질문 포맷, 평화로운 분위기를 제공합니다.`,
     keyFeatures: [
       "간편한 테이스팅 노트 기록 기능",
@@ -247,11 +247,11 @@ const projects: Project[] = [
     title: "Fridge Link (프리지 링크)",
     subTitle:
       "냉장고 속 식자재를 쉽게 관리하고 지인과 나눔하는 냉장고 관리 서비스”",
-    listThumbnail: "/imgs/project/10_FridgeLink프리지링크_listThumbnail.png",
-    popupThumbnail: "/imgs/project/10_FridgeLink프리지링크_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/10_Fridge Link (프리지 링크).webp",
+    popupThumbnail: "/imgs/project/popup/10_Fridge Link (프리지 링크).webp",
     typeofApp: "web",
     semester: 10,
-    isNew: true,
+    isNew: false,
     description: `Fridge Link는 냉장고 속 식자재를 효과적으로 관리할 수 있게 도와주는 서비스입니다. 식자재의 소비기한을 간편히 관리하고, 알림을 통해 버려지는 식자재를 최소화할 수 있도록 합니다. 또한, 친구들과 냉장고를 공유하고 식자재를 나눔하여, 일상 속 식자재 소비의 효율성을 높입니다.`,
     keyFeatures: [
       "실시간 재정 관리 및 시각화",
@@ -276,11 +276,11 @@ const projects: Project[] = [
     title: "MANNA",
     subTitle:
       "MANNA는 음식점에서 함께 식사할 사람을 찾고 모임을 만들어주는 매칭 서비스입니다.",
-    listThumbnail: "/imgs/project/10_MANNA_listThumbnail.png",
-    popupThumbnail: "/imgs/project/10_MANNA_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/10_MANNA.webp",
+    popupThumbnail: "/imgs/project/popup/10_MANNA.webp",
     typeofApp: "web",
     semester: 10,
-    isNew: true,
+    isNew: false,
     description: `MANNA는 혼밥을 피하고 싶은 사용자들을 위해 비슷한 취향을 가진 사람들과 식사할 수 있도록 도와줍니다. 사용자는 원하는 음식점과 시간을 선택하여 모임을 개설하거나, 기존 모임에 참여할 수 있습니다.`,
     keyFeatures: [
       "티켓 인식 및 자동 기록 기능",
@@ -305,11 +305,11 @@ const projects: Project[] = [
     title: "CheVit (채빗)",
     subTitle:
       "해외여행 준비물을 쉽고 빠르게 관리할 수 있는 맞춤형 체크리스트 서비스",
-    listThumbnail: "/imgs/project/9_CheVit채빗_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_CheVit채빗_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_CheVit (채빗).webp",
+    popupThumbnail: "/imgs/project/popup/9_CheVit (채빗).webp",
     typeofApp: "web",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `채빗은 복잡한 해외여행 준비를 간편하게 도와주는 서비스입니다. 개인의 여행 유형에 따라 맞춤형 체크리스트를 제공하며, 나만의 템플릿 관리와 신뢰할 수 있는 최신 여행 정보를 한눈에 확인할 수 있습니다.`,
     keyFeatures: [
       "실시간 소통 및 피드백 기능",
@@ -332,11 +332,11 @@ const projects: Project[] = [
     title: "필모 (Filmo)",
     subTitle:
       "본 영화의 인상 깊은 장면과 감상을 기록해 나만의 영화 필름을 만드는 앱 서비스",
-    listThumbnail: "/imgs/project/9_필모Filmo_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_필모Filmo_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_필모 (Filmo).webp",
+    popupThumbnail: "/imgs/project/popup/9_필모 (Filmo).webp",
     typeofApp: "Android",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `필모는 사용자가 시청한 영화의 기억에 남는 장면과 개인적 감상을 쉽고 감성적으로 기록하여, 자신만의 특별한 영화 필름을 만들어 추억할 수 있도록 돕는 모바일 서비스입니다.`,
     keyFeatures: [
       "개인화된 앱 추천 시스템",
@@ -360,11 +360,11 @@ const projects: Project[] = [
     title: "바이올낫 (Buy or Not)",
     subTitle:
       "쇼핑 중 고민되는 상품을 쉽고 빠르게 투표하고 결정할 수 있도록 도와주는 서비스",
-    listThumbnail: "/imgs/project/9_바이올낫BuyorNot_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_바이올낫BuyorNot_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_바이올낫 (Buy or Not).webp",
+    popupThumbnail: "/imgs/project/popup/9_바이올낫 (Buy or Not).webp",
     typeofApp: "Android",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `바이올낫은 쇼핑 중 어떤 상품을 살지 고민할 때, 간편히 투표를 만들고 공유하여 사용자들의 의견을 빠르게 얻을 수 있는 앱 서비스입니다. 상품을 비교하며 투표 결과를 확인하고, 마음에 드는 상품은 아카이브에 저장하여 효율적인 쇼핑을 돕습니다.`,
     keyFeatures: [
       "다양한 콘텐츠 통합 작성 기능",
@@ -390,11 +390,11 @@ const projects: Project[] = [
     title: "로또폴리오 (Lottofolio)",
     subTitle:
       "로또 번호를 쉽게 관리하고 분석하여 당첨 확률을 높이는 로또 번호 관리 앱 서비스",
-    listThumbnail: "/imgs/project/9_로또폴리오Lottofolio_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_로또폴리오Lottofolio_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_로또폴리오 (Lottofolio).webp",
+    popupThumbnail: "/imgs/project/popup/9_로또폴리오 (Lottofolio).webp",
     typeofApp: "web",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `로또폴리오는 사용자가 구매한 로또 번호를 간편하게 기록하고 효율적으로 관리할 수 있는 앱입니다. 다양한 번호 통계와 분석 정보를 통해 로또 번호 선택에 도움을 주고, 개인 맞춤형 번호 추천을 제공하여 당첨 가능성을 높일 수 있도록 지원합니다.`,
     keyFeatures: [
       "간편한 프로필 및 MBTI 설정",
@@ -420,11 +420,11 @@ const projects: Project[] = [
     title: "바이바이 (buybye)",
     subTitle:
       "비슷한 연봉의 친구들과 지출 내역을 공유하며 합리적인 소비 습관을 키우는 지출 관리 서비스",
-    listThumbnail: "/imgs/project/9_바이바이buybye_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_바이바이buybye_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_바이바이 (buybye).webp",
+    popupThumbnail: "/imgs/project/popup/9_바이바이 (buybye).webp",
     typeofApp: "web",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `바이바이는 연봉과 나이를 입력하여 비슷한 소득의 친구들과 지출 정보를 공유하고, 서로의 소비 패턴에 대한 피드백을 주고받으며 합리적인 소비 습관을 형성하도록 돕는 웹 기반 서비스입니다`,
     keyFeatures: [
       "개인 맞춤형 카페인 섭취 목표 추천",
@@ -450,11 +450,11 @@ const projects: Project[] = [
     title: "깨코 (Kkaeko)",
     subTitle:
       "하루를 계획적으로 시작하고 실천하도록 돕는 소셜 알람 및 루틴 관리 앱”",
-    listThumbnail: "/imgs/project/9_깨코Kkaeko_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_깨코Kkaeko_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_깨코 (Kkaeko).webp",
+    popupThumbnail: "/imgs/project/popup/9_깨코 (Kkaeko).webp",
     typeofApp: "Android",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `깨코는 매일 아침 알람을 통해 하루를 시작하며, 계획한 루틴을 친구들과 함께 실천하고 공유하여 건강한 생활 습관을 형성하도록 돕는 서비스입니다`,
     keyFeatures: [
       "AI 기반 업무 체크리스트 생성",
@@ -479,11 +479,11 @@ const projects: Project[] = [
     id: 32,
     title: "파티클 (Partikle)",
     subTitle: "소소한 일상의 행복을 기록하고 나누는 감성 기록 커뮤니티 앱",
-    listThumbnail: "/imgs/project/9_파티클Partikle_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_파티클Partikle_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_파티클 (Partikle).webp",
+    popupThumbnail: "/imgs/project/popup/9_파티클 (Partikle).webp",
     typeofApp: "iOS",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `파티클은 일상 속 작은 행복을 순간순간 기록하여 나만의 특별한 기억을 만들고, 친구들과 공유하며 소통할 수 있는 서비스입니다.`,
     keyFeatures: [
       "한눈에 보는 공고 탐색 기능",
@@ -509,11 +509,11 @@ const projects: Project[] = [
     title: "식도록",
     subTitle:
       "외식 경험을 손쉽게 기록하고 관리할 수 있는 나만의 맛집 기록 서비스",
-    listThumbnail: "/imgs/project/9_식도록_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_식도록_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_식도록.webp",
+    popupThumbnail: "/imgs/project/popup/9_식도록.webp",
     typeofApp: "Android",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `식도록은 방문했던 맛집의 메뉴와 경험을 간편히 기록하고, 나만의 맛집 리스트를 만들어 효율적으로 관리할 수 있도록 돕는 서비스입니다.`,
     keyFeatures: [
       "맞춤형 온라인 폴라로이드 보드 생성",
@@ -529,7 +529,11 @@ const projects: Project[] = [
       "효율적인 보드 관리",
       "보드 소유자는 원하지 않는 폴라로이드 사진을 손쉽게 삭제할 수 있고, 사진이 많아도 빠르게 넘겨보며 보드를 효율적으로 관리할 수 있습니다.",
     ],
-    team: [],
+    team: [
+      { position: "Product Designer", memberNames: ["김수진", "조인경"] },
+      { position: "Web Frontend", memberNames: ["구영회", "윤태성"] },
+      { position: "Server", memberNames: ["오태현"] },
+    ],
   },
 
   {
@@ -537,11 +541,11 @@ const projects: Project[] = [
     title: "u_r (유알)",
     subTitle:
       "개인의 감정을 기록하고 공유하며 서로 위로와 공감을 주고받는 감정 다이어리 앱",
-    listThumbnail: "/imgs/project/9_ur유알_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_ur유알_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_u_r (유알).webp",
+    popupThumbnail: "/imgs/project/popup/9_u_r (유알).webp",
     typeofApp: "web",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `u_r(유알)은 하루의 감정과 생각을 간단히 기록하고 익명으로 공유하여 다른 사용자들과 공감하고 소통할 수 있도록 돕는 감성 기록 커뮤니티 서비스입니다.`,
     keyFeatures: [
       "AI 기반 실시간 자세 모니터링 및 분석",
@@ -567,11 +571,11 @@ const projects: Project[] = [
     title: "명언제과점",
     subTitle:
       "매일 새로운 명언과 함께 하루를 의미있게 시작하고 기록하는 감성 명언 다이어리 서비스",
-    listThumbnail: "/imgs/project/9_명언제과점_listThumbnail.png",
-    popupThumbnail: "/imgs/project/9_명언제과점_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/9_명언제과점.webp",
+    popupThumbnail: "/imgs/project/popup/9_명언제과점.webp",
     typeofApp: "iOS",
     semester: 9,
-    isNew: true,
+    isNew: false,
     description: `명언제과점은 매일 사용자에게 새로운 명언을 제공하며, 이를 통해 하루의 영감을 얻고 간단한 기록과 함께 소소한 일상을 의미있게 만들어 주는 서비스입니다.`,
     keyFeatures: [
       "개인 맞춤형 AI 피드백: 발표 내용, 속도, 발음 등을 AI가 분석하여 사용자에게 정확하고 실질적인 피드백을 제공합니다.",
@@ -597,11 +601,11 @@ const projects: Project[] = [
     title: "핏노트 (Fitnote)",
     subTitle:
       "트레이너가 쉽고 효율적으로 회원과의 수업을 계획, 진행, 기록할 수 있도록 돕는 트레이너 전용 운동 관리 앱",
-    listThumbnail: "/imgs/project/8_핏노트Fitnote_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_핏노트Fitnote_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_핏노트 (Fitnote).webp",
+    popupThumbnail: "/imgs/project/popup/8_핏노트 (Fitnote).webp",
     typeofApp: "Android",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `핏노트는 헬스 트레이너가 회원 정보를 쉽게 등록하고, 맞춤형 수업을 계획하고 진행한 후 결과를 기록 및 공유할 수 있도록 도와주는 앱 서비스입니다.`,
     keyFeatures: [
       "프로필 제작 템플릿 제공",
@@ -627,11 +631,11 @@ const projects: Project[] = [
     title: "모너 (Morner)",
     subTitle:
       "미라클 모닝을 쉽게 인증하고 기록하며 함께 소통하는 미라클모닝 인증 커뮤니티 앱”",
-    listThumbnail: "/imgs/project/8_모너Morner_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_모너Morner_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_모너 (Morner).webp",
+    popupThumbnail: "/imgs/project/popup/8_모너 (Morner).webp",
     typeofApp: "iOS",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `모너는 미라클 모닝을 실천하는 사람들을 위한 커뮤니티 앱으로, 사용자가 손쉽게 인증하고 기록하며, 서로의 인증을 공유하고 응원하며 지속적인 동기부여를 얻도록 지원하는 서비스입니다.`,
     keyFeatures: [
       "간편 가입 및 익명 활동",
@@ -653,11 +657,11 @@ const projects: Project[] = [
     title: "오모지 (Omoji)",
     subTitle:
       "오늘 뭐 입지? 일상 속 패션 고민을 손쉽게 공유하고 피드백 받는 패션 소셜 앱",
-    listThumbnail: "/imgs/project/8_오모지Omoji_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_오모지Omoji_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_오모지 (Omoji).webp",
+    popupThumbnail: "/imgs/project/popup/8_오모지 (Omoji).webp",
     typeofApp: "web",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `오모지는 사용자가 일상에서 옷차림(OOTD)에 대한 고민을 쉽고 빠르게 공유하고, 다른 사람들로부터 직관적인 피드백을 받아 스타일 결정을 도와주는 소셜 패션 플랫폼입니다.`,
     keyFeatures: [
       "간편한 식자재 추가 기능",
@@ -679,11 +683,11 @@ const projects: Project[] = [
     title: "투개더 (Together)",
     subTitle:
       "반려동물을 자랑하고 공유하며 반려견 정보 교류와 소통을 즐길 수 있는 커뮤니티 앱",
-    listThumbnail: "/imgs/project/8_투개더Together_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_투개더Together_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_투개더 (Together).webp",
+    popupThumbnail: "/imgs/project/popup/8_투개더 (Together).webp",
     typeofApp: "iOS",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `투개더는 반려동물을 키우는 사람들이 자신의 강아지를 자랑하고, 서로 정보를 나누며 반려견 산책 친구, 교배 파트너 등을 찾을 수 있는 플랫폼입니다. 귀여운 반려동물 콘텐츠를 함께 소비하고 공유할 수 있는 공간입니다`,
     keyFeatures: [
       "원하는 음식점과 시간을 선택하여 모임 개설 가능",
@@ -703,11 +707,11 @@ const projects: Project[] = [
     title: "하나둘셋",
     subTitle:
       "스트레칭을 하며 귀여운 고양이의 방을 정리해주는 재미있는 스트레칭 동기부여 앱",
-    listThumbnail: "/imgs/project/8_하나둘셋_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_하나둘셋_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_하나둘셋.webp",
+    popupThumbnail: "/imgs/project/popup/8_하나둘셋.webp",
     typeofApp: "Android",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `하나둘셋은 사용자가 스트레칭을 꾸준히 할 수 있도록 돕는 앱입니다. 스트레칭을 완료할 때마다 귀여운 고양이 캐릭터의 방이 조금씩 깨끗해져 성취감을 느끼고 스트레칭 습관을 형성할 수 있습니다.`,
     keyFeatures: [
       "맞춤형 여행 체크리스트",
@@ -732,11 +736,11 @@ const projects: Project[] = [
     title: "EXIT (엑시트)",
     subTitle:
       "방탈출 카페 정보를 한눈에 보고, 실제 방문자들의 후기와 인증을 공유하는 방탈출 리뷰 플랫폼",
-    listThumbnail: "/imgs/project/8_EXIT엑시트_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_EXIT엑시트_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_EXIT (엑시트).webp",
+    popupThumbnail: "/imgs/project/popup/8_EXIT (엑시트).webp",
     typeofApp: "web",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `EXIT는 방탈출 카페에 대한 정보와 테마, 실제 이용자의 리뷰와 인증 사진을 한데 모아 보여주는 플랫폼입니다. 카페별 위치, 가격, 인원수, 테마 난이도 등 필수 정보를 비교하고, 후기를 통해 나에게 딱 맞는 테마를 선택할 수 있도록 도와줍니다. 탈출 성공 시 인증을 자랑하고, 칭호나 포인트를 얻는 재미 요소도 함께 제공됩니다.`,
     keyFeatures: [
       "나만의 영화 장면(씬) 기록",
@@ -760,11 +764,11 @@ const projects: Project[] = [
     title: "라트립 (Latrip)",
     subTitle:
       "나만 알고 싶은 여행지와 공간을 큐레이션하고 공유하는 감성 공간 기록 플랫폼",
-    listThumbnail: "/imgs/project/8_라트립Latrip_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_라트립Latrip_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_라트립 (Latrip).webp",
+    popupThumbnail: "/imgs/project/popup/8_라트립 (Latrip).webp",
     typeofApp: "web",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `라트립은 여행지에서 마주친 아름다운 공간, 분위기 있는 장소를 기록하고, 자신만의 감성을 담아 큐레이션할 수 있는 공간 기록 서비스입니다. 사용자들은 사진과 텍스트를 통해 여행 경험을 공유하고, 다른 사람의 큐레이션을 참고하여 새로운 공간을 발견할 수 있습니다.`,
     keyFeatures: [
       "빠르고 간편한 투표 생성",
@@ -789,11 +793,11 @@ const projects: Project[] = [
     id: 43,
     title: "폴폴 (PollPoll)",
     subTitle: "고민을 쉽고 빠르게 투표로 해결하는 익명 투표 플랫폼",
-    listThumbnail: "/imgs/project/8_폴폴PollPoll_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_폴폴PollPoll_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_폴폴 (PollPoll).webp",
+    popupThumbnail: "/imgs/project/popup/8_폴폴 (PollPoll).webp",
     typeofApp: "Android",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `폴폴은 사용자들이 일상 속에서 겪는 다양한 고민을 빠르게 투표를 통해 해결할 수 있도록 돕는 서비스입니다. 참여자들은 A/B 형태 또는 다양한 선택지를 가진 투표에 익명으로 참여하며, 유사한 상황에 있는 사람들과 의견을 나누고 결정에 도움을 받을 수 있습니다.`,
     keyFeatures: [
       "구매 번호 간편 기록 및 관리",
@@ -819,11 +823,11 @@ const projects: Project[] = [
     title: "득근득근 (DKDK)",
     subTitle:
       "운동 기록을 쉽고 꾸준히, 재미있게 만들 수 있는 건강 루틴 기록 앱",
-    listThumbnail: "/imgs/project/8_득근득근DKDK_listThumbnail.png",
-    popupThumbnail: "/imgs/project/8_득근득근DKDK_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/8_득근득근 (DKDK).webp",
+    popupThumbnail: "/imgs/project/popup/8_득근득근 (DKDK).webp",
     typeofApp: "iOS",
     semester: 8,
-    isNew: true,
+    isNew: false,
     description: `득근득근은 운동을 기록하고 관리하는 것이 귀찮거나 지루하게 느껴졌던 사람들을 위해 만들어진 운동 루틴 기록 앱입니다. 버튼형 기록 UI와 귀여운 캐릭터, 배지 시스템 등을 통해 기록을 쉽고 즐겁게 할 수 있으며, 성취감을 시각화하여 꾸준한 운동 습관 형성을 돕습니다.`,
     keyFeatures: [
       "맞춤형 친구 추천",
@@ -842,11 +846,11 @@ const projects: Project[] = [
     id: 45,
     title: "오늘이야",
     subTitle: "스터디, 동아리, 소모임 출석을 쉽고 빠르게 관리하는 출석 체크 앱",
-    listThumbnail: "/imgs/project/7_오늘이야_listThumbnail.png",
-    popupThumbnail: "/imgs/project/7_오늘이야_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/7_오늘이야.webp",
+    popupThumbnail: "/imgs/project/popup/7_오늘이야.webp",
     typeofApp: "Android",
     semester: 7,
-    isNew: true,
+    isNew: false,
     description: `오늘이야는 스터디나 동아리, 소모임처럼 반복적인 모임의 출석을 간단히 체크하고 관리할 수 있도록 설계된 앱입니다. 모임별 출석 현황을 한눈에 확인할 수 있으며, 사용자의 관리 부담을 줄이고 기록을 자동화하여 효율적인 출석 관리 경험을 제공합니다.`,
     keyFeatures: [
       "소셜 알람 기능",
@@ -870,11 +874,11 @@ const projects: Project[] = [
     title: "또오름 (Ttooreum)",
     subTitle:
       "산행 인증과 기록, 챌린지를 통해 MZ세대의 등산 습관을 도와주는 하이킹 챌린지 앱",
-    listThumbnail: "/imgs/project/7_또오름Ttooreum_listThumbnail.png",
-    popupThumbnail: "/imgs/project/7_또오름Ttooreum_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/7_또오름 (Ttooreum).webp",
+    popupThumbnail: "/imgs/project/popup/7_또오름 (Ttooreum).webp",
     typeofApp: "Android",
     semester: 7,
-    isNew: true,
+    isNew: false,
     description: `또오름은 ‘명분 있는 활동’을 추구하는 MZ세대를 위해 개발된 하이킹 서비스입니다. 단순한 건강 목적이 아닌, ‘힙한 라이프스타일’을 위한 자기 표현 수단으로 등산을 즐기는 사용자들에게 산행 기록, 인증, 챌린지를 통한 재미와 동기부여를 제공합니다. GPS 기반 산행 인증, 개인 히스토리 관리, 챌린지 보상 시스템 등을 통해 습관화된 하이킹을 유도합니다.`,
     keyFeatures: [
       "일상 순간 기록",
@@ -897,11 +901,11 @@ const projects: Project[] = [
     id: 47,
     title: "291 (이구일)",
     subTitle: "자취생들의 건강한 식습관을 위한 일일 식단 기록 및 분석 앱",
-    listThumbnail: "/imgs/project/7_291이구일_listThumbnail.png",
-    popupThumbnail: "/imgs/project/7_291이구일_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/7_291 (이구일).webp",
+    popupThumbnail: "/imgs/project/popup/7_291 (이구일).webp",
     typeofApp: "iOS",
     semester: 7,
-    isNew: true,
+    isNew: false,
     description: `291은 자취생들이 매일 먹는 식사를 간편하게 기록하고, 건강한 식습관을 유지할 수 있도록 돕는 서비스입니다. 영수증 촬영으로 메뉴를 자동 인식하거나 직접 입력해 기록하고, 카테고리별로 섭취한 음식들을 분류해 균형 잡힌 식생활을 관리할 수 있습니다. 기록은 피드로 공유할 수 있으며, 나의 식단 패턴을 한눈에 확인할 수 있습니다.`,
     keyFeatures: [
       "맛집 방문 기록",
@@ -925,11 +929,11 @@ const projects: Project[] = [
     title: "MMNT (Moment)",
     subTitle:
       "지금 이 순간, 공간과 음악을 함께 기록하고 공유하는 감성 위치 기반 뮤직 다이어리",
-    listThumbnail: "/imgs/project/7_MMNTMoment_listThumbnail.png",
-    popupThumbnail: "/imgs/project/7_MMNTMoment_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/7_MMNT (Moment).webp",
+    popupThumbnail: "/imgs/project/popup/7_MMNT (Moment).webp",
     typeofApp: "web",
     semester: 7,
-    isNew: true,
+    isNew: false,
     description: `MMNT는 사용자가 특정 장소에서 느꼈던 감정과 음악을 함께 기록할 수 있는 서비스입니다. 위치 기반 핀을 중심으로 음악, 사진, 짧은 글을 하나의 ‘모먼트’로 저장하고, 반경 50m 이내에서만 열람 가능한 구조를 통해 개인적이면서도 익명적인 소통을 가능하게 합니다. 마치 식당 벽의 포스트잇처럼 나의 음악 흔적을 남기고, 다른 사람들의 모먼트를 탐험할 수 있습니다.`,
     keyFeatures: [
       "익명 감정 공유",
@@ -953,11 +957,11 @@ const projects: Project[] = [
     title: "듀스페이퍼 (Deus Paper)",
     subTitle:
       "아이디어 구상부터 논리적 정리까지, 생각을 구조화해주는 마인드페이퍼 웹 서비스",
-    listThumbnail: "/imgs/project/7_듀스페이퍼DeusPaper_listThumbnail.png",
-    popupThumbnail: "/imgs/project/7_듀스페이퍼DeusPaper_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/7_듀스페이퍼 (Deus Paper).webp",
+    popupThumbnail: "/imgs/project/popup/7_듀스페이퍼 (Deus Paper).webp",
     typeofApp: "web",
     semester: 7,
-    isNew: true,
+    isNew: false,
     description: `듀스페이퍼는 사용자가 머릿속 생각이나 아이디어를 구조적으로 정리하고 시각화할 수 있도록 도와주는 마인드페이퍼 기반의 도구입니다. 흐릿한 아이디어를 핵심 키워드로 분해하고, 생각의 흐름을 마인드맵과 같이 정리해 문제 해결과 기획 과정을 보다 명확하게 만들어줍니다.`,
     keyFeatures: [
       "일일 맞춤 명언 제공",
@@ -981,11 +985,11 @@ const projects: Project[] = [
     title: "푸랑 (Furang)",
     subTitle:
       "내 주변 푸드트럭과 축제 정보를 한눈에 확인할 수 있는 푸드트럭 위치 기반 탐색 서비스",
-    listThumbnail: "/imgs/project/7_푸랑Furang_listThumbnail.png",
-    popupThumbnail: "/imgs/project/7_푸랑Furang_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/7_푸랑 (Furang).webp",
+    popupThumbnail: "/imgs/project/popup/7_푸랑 (Furang).webp",
     typeofApp: "web",
     semester: 7,
-    isNew: true,
+    isNew: false,
     description: `푸랑은 전국 곳곳을 유랑하는 푸드트럭의 정보를 사용자에게 쉽고 빠르게 제공하는 서비스입니다. GPS 기반으로 내 주변에 있는 푸드트럭을 실시간으로 확인할 수 있으며, 각 푸드트럭의 영업 시간, 메뉴, 위치, 리뷰 등 다양한 정보를 제공합니다. 또한 현재 진행 중인 축제 정보를 통해 방문 예정인 푸드트럭까지 확인할 수 있어, 사용자와 푸드트럭 운영자 모두에게 실질적인 가치를 제공하는 플랫폼입니다.`,
     keyFeatures: [
       "회원 맞춤형 수업 계획",
@@ -1008,11 +1012,11 @@ const projects: Project[] = [
     id: 8,
     title: "Bring",
     subTitle: "사용자에게 혁신적인 iOS 경험을 제공하는 통합 서비스",
-    listThumbnail: "/imgs/project/6_Bring_listThumbnail.png",
-    popupThumbnail: "/imgs/project/6_Bring_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/6_Bring.webp",
+    popupThumbnail: "/imgs/project/popup/6_Bring.webp",
     typeofApp: "iOS",
     semester: 6,
-    isNew: true,
+    isNew: false,
     description: `본 서비스는 iOS 플랫폼을 기반으로 하여, 직관적인 인터페이스와 사용자 중심의 디자인을 통해 높은 접근성과 편리성을 제공합니다. 심플하면서도 강력한 기능을 갖춘 앱은 사용자가 손쉽게 다양한 서비스를 이용할 수 있도록 최적화되어 있습니다.`,
     keyFeatures: [
       "간편한 미라클모닝 인증 및 기록",
@@ -1035,11 +1039,11 @@ const projects: Project[] = [
     id: 9,
     title: "WI/NE (위네)",
     subTitle: "와인을 마시는 중간에 테이스팅 노트를 기록하는 감성 서비스",
-    listThumbnail: "/imgs/project/6_WINE위네_listThumbnail.png",
-    popupThumbnail: "/imgs/project/6_WINE위네_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/6_WI:NE (위네).webp",
+    popupThumbnail: "/imgs/project/popup/6_WI:NE (위네).webp",
     typeofApp: "Android",
     semester: 6,
-    isNew: true,
+    isNew: false,
     description: `WI/NE는 와인 한 잔의 여유 속에서 그 순간의 맛, 향, 감성을 간편하게 기록할 수 있는 테이스팅 노트 서비스입니다.
   사용자는 와인을 즐기며 자연스럽게 자신의 경험과 추억을 남길 수 있으며, 감각적인 디자인과 직관적인 인터페이스를 통해 와인에 대한 지식 격차를 줄이고 고급스러운 경험을 제공합니다.`,
     keyFeatures: [
@@ -1064,11 +1068,11 @@ const projects: Project[] = [
     title: "WESAVE (위세이브)",
     subTitle:
       "사회초년생과 직장인들이 자신의 소득과 소비를 실시간으로 관리하고, 절약 습관을 형성할 수 있도록 돕는 금융 관리 서비스",
-    listThumbnail: "/imgs/project/6_WESAVE위세이브_listThumbnail.png",
-    popupThumbnail: "/imgs/project/6_WESAVE위세이브_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/6_WESAVE (위세이브).webp",
+    popupThumbnail: "/imgs/project/popup/6_WESAVE (위세이브).webp",
     typeofApp: "web",
     semester: 6,
-    isNew: true,
+    isNew: false,
     description: `WESAVE는 사용자가 자신의 월급과 소비 내역을 입력하면 실시간으로 재정 상태를 시각화하여 보여줍니다. 또한, 근무시간 타이머와 리추얼(규칙적 습관 기록) 기능, 그리고 숏폼 콘텐츠와 AR 필터를 통해 사용자가 자신의 금융 성과를 재미있게 공유하고, 절약 습관을 자연스럽게 형성할 수 있도록 지원합니다. 이를 통해 소비 패턴을 개선하고, 더 나은 재정 관리 문화를 구축하는 것을 목표로 합니다.`,
     keyFeatures: [
       "반려견 프로필 공유",
@@ -1093,11 +1097,11 @@ const projects: Project[] = [
     title: "마들렌공장",
     subTitle:
       "공연 후기를 감성적으로 기록하고 공유하는, 나만의 공연 경험을 만드는 플랫폼",
-    listThumbnail: "/imgs/project/6_마들렌공장_listThumbnail.png",
-    popupThumbnail: "/imgs/project/6_마들렌공장_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/6_마들렌공장.webp",
+    popupThumbnail: "/imgs/project/popup/6_마들렌공장.webp",
     typeofApp: "Android",
     semester: 6,
-    isNew: true,
+    isNew: false,
     description: `마들렌공장은 단순히 공연을 관람하는 데 그치지 않고, 사용자가 공연에서 느낀 감동과 추억을 다양하게 기록하고 공유할 수 있도록 돕는 서비스입니다.
   마치 밀가루를 반죽해 오븐에 넣어 여러 모양의 마들렌을 만들어내듯, 각자의 공연 경험을 자신만의 방식으로 ‘구워’내어 기록합니다.
   티켓 인식 기능, 티켓북 공유, 공연 후기 작성 및 SNS 연동 등 다양한 기능을 통해 공연 감상의 모든 순간을 아카이빙하며, 사용자 간의 소통과 커뮤니티 형성을 지향합니다.`,
@@ -1125,11 +1129,11 @@ const projects: Project[] = [
     title: "DODO",
     subTitle:
       "사용자들이 쉽고 빠르게 소통하며 정보를 공유할 수 있는 실시간 소셜 커뮤니티 플랫폼",
-    listThumbnail: "/imgs/project/6_DODO_listThumbnail.png",
-    popupThumbnail: "/imgs/project/6_DODO_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/6_DODO.webp",
+    popupThumbnail: "/imgs/project/popup/6_DODO.webp",
     typeofApp: "web",
     semester: 6,
-    isNew: true,
+    isNew: false,
     description: `DODO는 사용자 중심의 직관적인 인터페이스를 통해 개인 및 그룹이 자유롭게 의견을 나누고, 이벤트 및 모임을 생성하며, 다양한 콘텐츠를 공유할 수 있도록 설계된 소셜 플랫폼입니다.
   실시간 채팅, 댓글, 라이브 스트리밍 등 다양한 소통 기능과 맞춤형 콘텐츠 추천 알고리즘을 제공하여 사용자들이 자신의 관심사에 맞는 정보를 손쉽게 얻고, 커뮤니티 내에서 활발하게 소통할 수 있는 환경을 마련합니다.`,
     keyFeatures: [
@@ -1157,11 +1161,11 @@ const projects: Project[] = [
     id: 13,
     title: "앱챠 (Appcha)",
     subTitle: "진짜 사용자 경험을 기반으로 한 앱 추천 및 정보 공유 커뮤니티”",
-    listThumbnail: "/imgs/project/6_앱챠Appcha_listThumbnail.png",
-    popupThumbnail: "/imgs/project/6_앱챠Appcha_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/6_앱챠 (Appcha).webp",
+    popupThumbnail: "/imgs/project/popup/6_앱챠 (Appcha).webp",
     typeofApp: "Android",
     semester: 6,
-    isNew: true,
+    isNew: false,
     description: `앱챠는 너무 많은 앱과 과도한 광고, 기능으로 인해 사용자들이 원하는 서비스를 찾기 어려운 문제를 해결하기 위해 만들어진 플랫폼입니다.
   이 서비스는 사용자들이 실제로 경험한 앱 사용 후기를 공유하고, 신뢰할 수 있는 앱 추천 정보를 제공함으로써, 불필요한 광고와 홍보를 배제한 진짜 앱 정보를 전달합니다.
   또한, 다양한 사용자들이 모여 경험과 노하우를 나누며 협업하는 커뮤니티 문화를 형성해, 앱 선택에 대한 고민을 줄이고 빠르고 익숙한 서비스 이용 환경을 제공합니다.`,
@@ -1187,11 +1191,11 @@ const projects: Project[] = [
     title: "HERMES SPACELOG",
     subTitle:
       "웹과 데스크탑 환경에서 일상과 경험을 예쁘게 기록하고 소통할 수 있는 통합 기록 블로그 서비스",
-    listThumbnail: "/imgs/project/6_HERMESSPACELOG_listThumbnail.png",
-    popupThumbnail: "/imgs/project/6_HERMESSPACELOG_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/6_HERMES SPACELOG.webp",
+    popupThumbnail: "/imgs/project/popup/6_HERMES SPACELOG.webp",
     typeofApp: "web",
     semester: 6,
-    isNew: true,
+    isNew: false,
     description: `HERMES SPACELOG는 사용자가 부담 없이 자신의 일상, 감정, 그리고 다양한 경험을 기록할 수 있도록 설계된 블로그 플랫폼입니다.
   웹 및 데스크탑 환경에 최적화된 인터페이스를 통해 텍스트, 사진, 동영상 등 다양한 콘텐츠를 한 곳에 통합하여 작성할 수 있으며, 공개 또는 비공개 설정으로 개인 기록과 소셜 공유를 동시에 만족시킵니다.
   또한, 라인별 댓글 기능과 고정된 작성 포맷을 제공하여, 사용자가 자신의 기록을 예쁘게 꾸미고 친구들과 세밀하게 소통할 수 있도록 지원합니다.`,
@@ -1219,11 +1223,11 @@ const projects: Project[] = [
     title: "가따버려",
     subTitle:
       "제품 개봉일을 입력하면 자동으로 폐기 날짜를 계산해 알려주는 서비스",
-    listThumbnail: "/imgs/project/4__listThumbnail.png",
-    popupThumbnail: "/imgs/project/4__popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/4_가따버려.webp",
+    popupThumbnail: "/imgs/project/popup/4_가따버려.webp",
     typeofApp: "Android",
     semester: 4,
-    isNew: true,
+    isNew: false,
     description: `목적: 제품의 사용 기한을 쉽게 관리하여, 식품과 위생용품 등을 적절한 시점에 폐기할 수 있도록 돕는 서비스입니다.
   핵심 가치: 위생 유지, 낭비 방지, 편리한 관리`,
     keyFeatures: [
@@ -1250,11 +1254,11 @@ const projects: Project[] = [
     title: "비어있다",
     subTitle:
       "사용자의 취향을 반영해 향과 스타일 기반으로 맥주를 추천하는 서비스",
-    listThumbnail: "/imgs/project/4_비어있다_listThumbnail.png",
-    popupThumbnail: "/imgs/project/4_비어있다_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/4_비어있다.webp",
+    popupThumbnail: "/imgs/project/popup/4_비어있다.webp",
     typeofApp: "Android",
     semester: 4,
-    isNew: true,
+    isNew: false,
     description: `목적: 사용자가 다양한 수제 맥주를 쉽게 탐색하고, 자신의 취향을 반영한 추천을 받을 수 있도록 지원
   핵심 가치: 개인 맞춤형 맥주 추천, 다크 모드 UI 적용, 사용자 리뷰 기반 정보 제공`,
     keyFeatures: [
@@ -1278,11 +1282,11 @@ const projects: Project[] = [
     id: 3,
     title: "LInkmo",
     subTitle: "아티클&링크 저장 및 카테고리 별 분류 서비스",
-    listThumbnail: "/imgs/project/4_LInkmo_listThumbnail.png",
-    popupThumbnail: "/imgs/project/4_LInkmo_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/4_LInkmo.webp",
+    popupThumbnail: "/imgs/project/popup/4_LInkmo.webp",
     typeofApp: "iOS",
     semester: 4,
-    isNew: true,
+    isNew: false,
     description: `목적: 사용자가 여러 플랫폼에서 저장한 아티클과 링크를 효과적으로 관리하고 공유할 수 있도록 지원
   핵심 가치: 쉬운 아티클 저장, 체계적인 카테고리 관리, 편리한 검색 기능 제공`,
     keyFeatures: [
@@ -1308,11 +1312,11 @@ const projects: Project[] = [
     id: 4,
     title: "그냥이거먹어",
     subTitle: "전국의 직장인을 위한 맞춤형 점심 메뉴 추천 서비스”",
-    listThumbnail: "/imgs/project/4__listThumbnail.png",
-    popupThumbnail: "/imgs/project/4__popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/4_그냥이거먹어.webp",
+    popupThumbnail: "/imgs/project/popup/4_그냥이거먹어.webp",
     typeofApp: "iOS",
     semester: 4,
-    isNew: true,
+    isNew: false,
     description: `기존의 지도, 별점, 후기 기반의 맛집 추천 서비스와 달리,
   오직 개인의 음식 취향만을 분석하여 직장 근처 맛집과 메뉴를 랜덤으로 제안하는
   직장인 맞춤형 점심 메뉴 추천 서비스입니다.
@@ -1341,11 +1345,11 @@ const projects: Project[] = [
     title: "포잉포잉(POING POING)",
     subTitle:
       "직접 찍은 사진으로 만드는 우리 아이만의 맞춤형 영어 단어장 서비스”",
-    listThumbnail: "/imgs/project/4_포잉포잉POINGPOING_listThumbnail.png",
-    popupThumbnail: "/imgs/project/4_포잉포잉POINGPOING_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/4_포잉포잉(POING POING).webp",
+    popupThumbnail: "/imgs/project/popup/4_포잉포잉(POING POING).webp",
     typeofApp: "iOS",
     semester: 4,
-    isNew: true,
+    isNew: false,
     description: `기존 영어 단어장처럼 일방적으로 정해진 단어만 학습하는 것이 아니라,
   아이들이 실제로 관심을 가지는 사물이나 인물을 직접 사진 찍어 나만의 영어 단어장을 만들어 학습할 수 있도록 합니다.
   
@@ -1375,11 +1379,11 @@ const projects: Project[] = [
     title: "두잇(Doit)",
     subTitle:
       "원하는 사람들과 원하는 장소에서 편안하고 자유롭게 식사할 수 있는 모임 플랫폼 서비스",
-    listThumbnail: "/imgs/project/4_두잇Doit_listThumbnail.png",
-    popupThumbnail: "/imgs/project/4_두잇Doit_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/4_두잇(Doit).webp",
+    popupThumbnail: "/imgs/project/popup/4_두잇(Doit).webp",
     typeofApp: "iOS",
     semester: 4,
-    isNew: true,
+    isNew: false,
     description: `두잇(DOIT)은 직장 내 원치 않는 식사 스트레스를 줄이고,
   개인이 선호하는 장소와 사람들과 함께 식사를 즐길 수 있도록 돕는 모임 기반 플랫폼입니다.
   
@@ -1408,11 +1412,11 @@ const projects: Project[] = [
     id: 7,
     title: "플라츠(Platz)",
     subTitle: "누구나 큐레이터가 될 수 있는 위치 기반의 장소 공유 플랫폼",
-    listThumbnail: "/imgs/project/4_플라츠Platz_listThumbnail.png",
-    popupThumbnail: "/imgs/project/4_플라츠Platz_popupThumbnail.png",
+    listThumbnail: "/imgs/project/list/4_플라츠(Platz).webp",
+    popupThumbnail: "/imgs/project/popup/4_플라츠(Platz).webp",
     typeofApp: "iOS",
     semester: 4,
-    isNew: true,
+    isNew: false,
     description: `플라츠(Platz)는 사용자가 직접 추천 장소를 공유하고 다른 사람들의 추천 장소를 발견할 수 있는 위치 기반의 장소 공유 서비스입니다.
   개인 취향과 관심사를 반영한 장소 큐레이션을 통해, 사용자는 더욱 다양한 경험을 손쉽게 발견하고 공유할 수 있습니다.`,
     keyFeatures: [
