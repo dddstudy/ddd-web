@@ -6,8 +6,10 @@ const projects: Project[] = [
     title: "엠쿵 (MBTI 커뮤니티)",
     subTitle:
       "“MBTI 유형별로 나와 타인의 생각과 행동을 공유하며 소통하는 커뮤니티 플랫폼",
-    listThumbnail: "/imgs/project/list/11_엠쿵 (MBTI 커뮤니티).webp",
-    popupThumbnail: "/imgs/project/popup/11_엠쿵 (MBTI 커뮤니티).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%EC%97%A0%EC%BF%B5%20(MBTI%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%EC%97%A0%EC%BF%B5%20(MBTI%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0).webp",
     typeofApp: "Android",
     semester: 11,
     isNew: true,
@@ -30,8 +32,10 @@ const projects: Project[] = [
     title: "포이즌 (Poison)",
     subTitle:
       "카페인 과다 섭취를 방지하기 위한 개인 맞춤형 카페인 관리 앱 서비스",
-    listThumbnail: "/imgs/project/list/11_포이즌 (Poison).webp",
-    popupThumbnail: "/imgs/project/popup/11_포이즌 (Poison).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%ED%8F%AC%EC%9D%B4%EC%A6%8C%20(Poison).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%ED%8F%AC%EC%9D%B4%EC%A6%8C%20(Poison).webp",
     typeofApp: "Android",
     semester: 11,
     isNew: true,
@@ -56,8 +60,10 @@ const projects: Project[] = [
     title: "신입키트 (S-Class)",
     subTitle:
       "사회초년생이 업무 환경에 빠르게 적응할 수 있도록 AI 기반의 맞춤형 체크리스트와 업무 지식을 제공하는 모바일 서비스",
-    listThumbnail: "/imgs/project/list/11_신입키트 (S-Class).webp",
-    popupThumbnail: "/imgs/project/popup/11_신입키트 (S-Class).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%EC%8B%A0%EC%9E%85%ED%82%A4%ED%8A%B8%20(S-Class).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%EC%8B%A0%EC%9E%85%ED%82%A4%ED%8A%B8%20(S-Class).webp",
     typeofApp: "iOS",
     semester: 11,
     isNew: true,
@@ -82,8 +88,10 @@ const projects: Project[] = [
     title: "Mozip (모집)",
     subTitle:
       "공모전, 해커톤, IT 동아리 등 IT 직군을 위한 모든 대외활동 정보를 한눈에 확인하고 지원할 수 있는 플랫폼",
-    listThumbnail: "/imgs/project/list/11_Mozip (모집).webp",
-    popupThumbnail: "/imgs/project/popup/11_Mozip (모집).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/11th/Mozip%20(%EB%AA%A8%EC%A7%91).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/Mozip%20(%EB%AA%A8%EC%A7%91).webp",
     typeofApp: "iOS",
     semester: 11,
     isNew: true,
@@ -111,8 +119,10 @@ const projects: Project[] = [
     title: "폴라보 (polabo)",
     subTitle:
       "소중한 추억을 폴라로이드 사진으로 함께 꾸미고 공유할 수 있는 온라인 보드 서비스",
-    listThumbnail: "/imgs/project/list/11_폴라보 (polabo).webp",
-    popupThumbnail: "/imgs/project/popup/11_폴라보 (polabo).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%ED%8F%B4%EB%9D%BC%EB%B3%B4%20(polabo).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%ED%8F%B4%EB%9D%BC%EB%B3%B4%20(polabo).webp",
     typeofApp: "web",
     semester: 11,
     isNew: true,
@@ -138,8 +148,10 @@ const projects: Project[] = [
     title: "자세공작소",
     subTitle:
       "AI 기반 실시간 자세 모니터링을 통해 바른 자세를 유지하고 습관을 형성하는 웹 서비스",
-    listThumbnail: "/imgs/project/list/11_자세공작소.webp",
-    popupThumbnail: "/imgs/project/popup/11_자세공작소.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%EC%9E%90%EC%84%B8%EA%B3%B5%EC%9E%91%EC%86%8C.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%EC%9E%90%EC%84%B8%EA%B3%B5%EC%9E%91%EC%86%8C.webp",
     typeofApp: "web",
     semester: 11,
     isNew: true,
@@ -166,8 +178,10 @@ const projects: Project[] = [
     title: "Pregen",
     subTitle:
       "AI와 함께하는 발표 연습 서비스입니다. 발표 연습 과정에서 피드백 부재 문제를 해결하고, 사용자가 효과적으로 발표를 준비할 수 있도록 AI 피드백을 제공합니다.",
-    listThumbnail: "/imgs/project/list/10_Pregen.webp",
-    popupThumbnail: "/imgs/project/popup/10_Pregen.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/10th/Pregen.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/Pregen.webp",
     typeofApp: "Android",
     semester: 10,
     isNew: false,
@@ -196,8 +210,10 @@ const projects: Project[] = [
     title: "Waggle",
     subTitle:
       "Waggle은 새로운 사람을 만나 자기소개를 하는 데 어려움을 느끼거나, 그룹 활동 후 주고받았던 소중한 메시지들이 사라지는 것을 아쉬워하는 사용자를 위한 서비스입니다. 사용자는 Waggle을 통해 자신을 소개하는 카드를 만들고 그룹 구성원들과 공유하여 새로운 그룹에서의 순조로운 시작을 도울 수 있습니다. 또한, 그룹 구성원끼리 카드를 주고받고, 그룹을 떠나더라도 받았던 메시지 카드를 아카이브하여 보관할 수 있습니다.",
-    listThumbnail: "/imgs/project/list/10_Waggle.webp",
-    popupThumbnail: "/imgs/project/popup/10_Waggle.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/10th/Waggle.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/Waggle.webp",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -221,8 +237,10 @@ const projects: Project[] = [
     title: "OPEACE",
     subTitle:
       "OPEACE는 직장에서 생기는 사소하고 가벼운 고민들을 쉽고 재미있게 나눌 수 있는 직장인 커뮤니티 서비스입니다",
-    listThumbnail: "/imgs/project/list/10_OPEACE.webp",
-    popupThumbnail: "/imgs/project/popup/10_OPEACE.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/10th/OPEACE.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/O PEACE.webp",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -246,9 +264,11 @@ const projects: Project[] = [
     id: 24,
     title: "Fridge Link (프리지 링크)",
     subTitle:
-      "냉장고 속 식자재를 쉽게 관리하고 지인과 나눔하는 냉장고 관리 서비스”",
-    listThumbnail: "/imgs/project/list/10_Fridge Link (프리지 링크).webp",
-    popupThumbnail: "/imgs/project/popup/10_Fridge Link (프리지 링크).webp",
+      "냉장고 속 식자재를 쉽게 관리하고 지인과 나눔하는 냉장고 관리 서비스",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/10th/Fridge%20Link%20(프리지%20링크).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/Fridge%20Link%20(프리지%20링크).webp",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -276,8 +296,10 @@ const projects: Project[] = [
     title: "MANNA",
     subTitle:
       "MANNA는 음식점에서 함께 식사할 사람을 찾고 모임을 만들어주는 매칭 서비스입니다.",
-    listThumbnail: "/imgs/project/list/10_MANNA.webp",
-    popupThumbnail: "/imgs/project/popup/10_MANNA.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/10th/MANNA.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/MANNA.webp",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -305,8 +327,10 @@ const projects: Project[] = [
     title: "CheVit (채빗)",
     subTitle:
       "해외여행 준비물을 쉽고 빠르게 관리할 수 있는 맞춤형 체크리스트 서비스",
-    listThumbnail: "/imgs/project/list/9_CheVit (채빗).webp",
-    popupThumbnail: "/imgs/project/popup/9_CheVit (채빗).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/CheVit%20(%E1%84%8E%E1%85%A2%E1%84%87%E1%85%B5%E1%86%BA).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/CheVit%20(%E1%84%8E%E1%85%A2%E1%84%87%E1%85%B5%E1%86%BA).webp",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -332,8 +356,10 @@ const projects: Project[] = [
     title: "필모 (Filmo)",
     subTitle:
       "본 영화의 인상 깊은 장면과 감상을 기록해 나만의 영화 필름을 만드는 앱 서비스",
-    listThumbnail: "/imgs/project/list/9_필모 (Filmo).webp",
-    popupThumbnail: "/imgs/project/popup/9_필모 (Filmo).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%91%E1%85%B5%E1%86%AF%E1%84%86%E1%85%A9%20(Filmo).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%91%E1%85%B5%E1%86%AF%E1%84%86%E1%85%A9%20(Filmo).webp",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -360,8 +386,10 @@ const projects: Project[] = [
     title: "바이올낫 (Buy or Not)",
     subTitle:
       "쇼핑 중 고민되는 상품을 쉽고 빠르게 투표하고 결정할 수 있도록 도와주는 서비스",
-    listThumbnail: "/imgs/project/list/9_바이올낫 (Buy or Not).webp",
-    popupThumbnail: "/imgs/project/popup/9_바이올낫 (Buy or Not).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%82%E1%85%A1%E1%86%BA%20(Buy%20or%20Not).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%82%E1%85%A1%E1%86%BA%20(Buy%20or%20Not).webp",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -372,7 +400,7 @@ const projects: Project[] = [
       "사용자 맞춤형 작성 포맷 및 템플릿 제공",
       "고정된 포맷과 커스터마이징 가능한 템플릿을 통해, 누구나 손쉽게 일관되고 예쁜 디자인의 글을 작성할 수 있습니다.",
       "실시간 소통 및 라인별 코멘트 기능",
-      "작성된 글의 특정 문장이나 부분에 대해 댓글을 달 수 있어, 친구들과 즉각적이고 세밀한 피드백과 토론이 가능합니다.",
+      "작성된 글의 특정 문장이나 부분에 댓글을 달 수 있어, 친구들과 즉각적이고 세밀한 피드백과 토론이 가능합니다.",
       "공개/비공개 글 관리 기능",
       "사용자는 글의 공개 범위를 자유롭게 설정하여 개인 기록은 비공개로, 소셜 공유는 공개로 관리할 수 있습니다.",
       "통합 대시보드 및 공간 관리 기능",
@@ -390,8 +418,10 @@ const projects: Project[] = [
     title: "로또폴리오 (Lottofolio)",
     subTitle:
       "로또 번호를 쉽게 관리하고 분석하여 당첨 확률을 높이는 로또 번호 관리 앱 서비스",
-    listThumbnail: "/imgs/project/list/9_로또폴리오 (Lottofolio).webp",
-    popupThumbnail: "/imgs/project/popup/9_로또폴리오 (Lottofolio).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%85%E1%85%A9%E1%84%84%E1%85%A9%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20(Lottofolio).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%85%E1%85%A9%E1%84%84%E1%85%A9%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20(Lottofolio).webp",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -420,8 +450,10 @@ const projects: Project[] = [
     title: "바이바이 (buybye)",
     subTitle:
       "비슷한 연봉의 친구들과 지출 내역을 공유하며 합리적인 소비 습관을 키우는 지출 관리 서비스",
-    listThumbnail: "/imgs/project/list/9_바이바이 (buybye).webp",
-    popupThumbnail: "/imgs/project/popup/9_바이바이 (buybye).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%20(buybye).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%20(buybye).webp",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -430,7 +462,7 @@ const projects: Project[] = [
       "개인 맞춤형 카페인 섭취 목표 추천",
       "사용자가 입력한 성별, 생년월일, 키, 몸무게 정보를 바탕으로 개개인에게 최적화된 카페인 섭취량을 추천하여 건강 관리를 돕습니다.",
       "직관적이고 간편한 카페인 기록 기능",
-      "사용자가 일상에서 마신 커피의 양을 쉽게 기록할 수 있도록 ‘샷’ 대신 더욱 친숙한 ‘잔’ 단위를 사용하여 편의성을 높였습니다.",
+      "사용자가 일상에서 마신 커피의 양을 쉽게 기록할 수 있도록 '샷' 대신 더욱 친숙한 '잔' 단위를 사용하여 편의성을 높였습니다.",
       "실시간 섭취량 확인 및 경고 알림",
       "하루 목표 섭취량을 초과하거나 가까워질 때 즉각적으로 알림을 제공하여 카페인 과다 섭취를 예방할 수 있도록 합니다.",
       "캐릭터 변화를 통한 재미있고 효과적인 경각심 제공",
@@ -449,9 +481,11 @@ const projects: Project[] = [
     id: 31,
     title: "깨코 (Kkaeko)",
     subTitle:
-      "하루를 계획적으로 시작하고 실천하도록 돕는 소셜 알람 및 루틴 관리 앱”",
-    listThumbnail: "/imgs/project/list/9_깨코 (Kkaeko).webp",
-    popupThumbnail: "/imgs/project/popup/9_깨코 (Kkaeko).webp",
+      "하루를 계획적으로 시작하고 실천하도록 돕는 소셜 알람 및 루틴 관리 앱",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%81%E1%85%A2%E1%84%8F%E1%85%A9%20(Kkaeko).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%81%E1%85%A2%E1%84%8F%E1%85%A9%20(Kkaeko).webp",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -479,8 +513,10 @@ const projects: Project[] = [
     id: 32,
     title: "파티클 (Partikle)",
     subTitle: "소소한 일상의 행복을 기록하고 나누는 감성 기록 커뮤니티 앱",
-    listThumbnail: "/imgs/project/list/9_파티클 (Partikle).webp",
-    popupThumbnail: "/imgs/project/popup/9_파티클 (Partikle).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%91%E1%85%A1%E1%84%90%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF%20(Partikle).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%91%E1%85%A1%E1%84%90%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF%20(Partikle).webp",
     typeofApp: "iOS",
     semester: 9,
     isNew: false,
@@ -509,8 +545,10 @@ const projects: Project[] = [
     title: "식도록",
     subTitle:
       "외식 경험을 손쉽게 기록하고 관리할 수 있는 나만의 맛집 기록 서비스",
-    listThumbnail: "/imgs/project/list/9_식도록.webp",
-    popupThumbnail: "/imgs/project/popup/9_식도록.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%89%E1%85%B5%E1%86%A8%E1%84%83%E1%85%A9%E1%84%85%E1%85%A9%E1%86%A8.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%89%E1%85%B5%E1%86%A8%E1%84%83%E1%85%A9%E1%84%85%E1%85%A9%E1%86%A8.webp",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -541,8 +579,10 @@ const projects: Project[] = [
     title: "u_r (유알)",
     subTitle:
       "개인의 감정을 기록하고 공유하며 서로 위로와 공감을 주고받는 감정 다이어리 앱",
-    listThumbnail: "/imgs/project/list/9_u_r (유알).webp",
-    popupThumbnail: "/imgs/project/popup/9_u_r (유알).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/u_r%20(%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%A1%E1%86%AF).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/u_r%20(%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%A1%E1%86%AF).webp",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -571,14 +611,16 @@ const projects: Project[] = [
     title: "명언제과점",
     subTitle:
       "매일 새로운 명언과 함께 하루를 의미있게 시작하고 기록하는 감성 명언 다이어리 서비스",
-    listThumbnail: "/imgs/project/list/9_명언제과점.webp",
-    popupThumbnail: "/imgs/project/popup/9_명언제과점.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%B7.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%B7.webp",
     typeofApp: "iOS",
     semester: 9,
     isNew: false,
     description: `명언제과점은 매일 사용자에게 새로운 명언을 제공하며, 이를 통해 하루의 영감을 얻고 간단한 기록과 함께 소소한 일상을 의미있게 만들어 주는 서비스입니다.`,
     keyFeatures: [
-      "개인 맞춤형 AI 피드백: 발표 내용, 속도, 발음 등을 AI가 분석하여 사용자에게 정확하고 실질적인 피드백을 제공합니다.",
+      "개인 맞춤형 AI 피드백: 발표 내용, 속도, 발음 등을 AI가 분석하여 사용자에게 정확하고 실질적인 피드백을 제공합니다.",
       "망각 주기 기반 암기 학습",
       "에빙하우스의 망각 곡선 이론을 바탕으로 개발된 학습법을 적용하여, 효과적인 암기 연습을 지원합니다. AI가 사용자의 암기 정도를 파악하여 최적의 복습 시점을 알려주고, 장기 기억을 돕습니다.",
       "실전 같은 발표 환경",
@@ -601,8 +643,10 @@ const projects: Project[] = [
     title: "핏노트 (Fitnote)",
     subTitle:
       "트레이너가 쉽고 효율적으로 회원과의 수업을 계획, 진행, 기록할 수 있도록 돕는 트레이너 전용 운동 관리 앱",
-    listThumbnail: "/imgs/project/list/8_핏노트 (Fitnote).webp",
-    popupThumbnail: "/imgs/project/popup/8_핏노트 (Fitnote).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%95%8F%EB%85%B8%ED%8A%B8%20(Fitnote).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%95%8F%EB%85%B8%ED%8A%B8%20(Fitnote).webp",
     typeofApp: "Android",
     semester: 8,
     isNew: false,
@@ -630,9 +674,11 @@ const projects: Project[] = [
     id: 37,
     title: "모너 (Morner)",
     subTitle:
-      "미라클 모닝을 쉽게 인증하고 기록하며 함께 소통하는 미라클모닝 인증 커뮤니티 앱”",
-    listThumbnail: "/imgs/project/list/8_모너 (Morner).webp",
-    popupThumbnail: "/imgs/project/popup/8_모너 (Morner).webp",
+      "미라클 모닝을 쉽게 인증하고 기록하며 함께 소통하는 미라클모닝 인증 커뮤니티 앱",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EB%AA%A8%EB%84%88%20(Morner).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EB%AA%A8%EB%84%88%20(Morner).webp",
     typeofApp: "iOS",
     semester: 8,
     isNew: false,
@@ -657,8 +703,10 @@ const projects: Project[] = [
     title: "오모지 (Omoji)",
     subTitle:
       "오늘 뭐 입지? 일상 속 패션 고민을 손쉽게 공유하고 피드백 받는 패션 소셜 앱",
-    listThumbnail: "/imgs/project/list/8_오모지 (Omoji).webp",
-    popupThumbnail: "/imgs/project/popup/8_오모지 (Omoji).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EC%98%A4%EB%AA%A8%EC%A7%80%20(Omoji).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EC%98%A4%EB%AA%A8%EC%A7%80%20(Omoji).webp",
     typeofApp: "web",
     semester: 8,
     isNew: false,
@@ -683,8 +731,10 @@ const projects: Project[] = [
     title: "투개더 (Together)",
     subTitle:
       "반려동물을 자랑하고 공유하며 반려견 정보 교류와 소통을 즐길 수 있는 커뮤니티 앱",
-    listThumbnail: "/imgs/project/list/8_투개더 (Together).webp",
-    popupThumbnail: "/imgs/project/popup/8_투개더 (Together).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%88%AC%EA%B0%9C%EB%8D%94%20(Together).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%88%AC%EA%B0%9C%EB%8D%94%20(Together).webp",
     typeofApp: "iOS",
     semester: 8,
     isNew: false,
@@ -707,8 +757,10 @@ const projects: Project[] = [
     title: "하나둘셋",
     subTitle:
       "스트레칭을 하며 귀여운 고양이의 방을 정리해주는 재미있는 스트레칭 동기부여 앱",
-    listThumbnail: "/imgs/project/list/8_하나둘셋.webp",
-    popupThumbnail: "/imgs/project/popup/8_하나둘셋.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%95%98%EB%82%98%EB%91%98%EC%85%8B.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%95%98%EB%82%98%EB%91%98%EC%85%8B.webp",
     typeofApp: "Android",
     semester: 8,
     isNew: false,
@@ -736,8 +788,10 @@ const projects: Project[] = [
     title: "EXIT (엑시트)",
     subTitle:
       "방탈출 카페 정보를 한눈에 보고, 실제 방문자들의 후기와 인증을 공유하는 방탈출 리뷰 플랫폼",
-    listThumbnail: "/imgs/project/list/8_EXIT (엑시트).webp",
-    popupThumbnail: "/imgs/project/popup/8_EXIT (엑시트).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/EXIT%20(엑시트).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/EXIT%20(엑시트).webp",
     typeofApp: "web",
     semester: 8,
     isNew: false,
@@ -764,8 +818,10 @@ const projects: Project[] = [
     title: "라트립 (Latrip)",
     subTitle:
       "나만 알고 싶은 여행지와 공간을 큐레이션하고 공유하는 감성 공간 기록 플랫폼",
-    listThumbnail: "/imgs/project/list/8_라트립 (Latrip).webp",
-    popupThumbnail: "/imgs/project/popup/8_라트립 (Latrip).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EB%9D%BC%ED%8A%B8%EB%A6%BD%20(Latrip).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EB%9D%BC%ED%8A%B8%EB%A6%BD%20(Latrip).webp",
     typeofApp: "web",
     semester: 8,
     isNew: false,
@@ -793,8 +849,10 @@ const projects: Project[] = [
     id: 43,
     title: "폴폴 (PollPoll)",
     subTitle: "고민을 쉽고 빠르게 투표로 해결하는 익명 투표 플랫폼",
-    listThumbnail: "/imgs/project/list/8_폴폴 (PollPoll).webp",
-    popupThumbnail: "/imgs/project/popup/8_폴폴 (PollPoll).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%8F%B4%ED%8F%B4%20(PollPoll).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%8F%B4%ED%8F%B4%20(PollPoll).webp",
     typeofApp: "Android",
     semester: 8,
     isNew: false,
@@ -823,8 +881,10 @@ const projects: Project[] = [
     title: "득근득근 (DKDK)",
     subTitle:
       "운동 기록을 쉽고 꾸준히, 재미있게 만들 수 있는 건강 루틴 기록 앱",
-    listThumbnail: "/imgs/project/list/8_득근득근 (DKDK).webp",
-    popupThumbnail: "/imgs/project/popup/8_득근득근 (DKDK).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EB%93%9D%EA%B7%BC%EB%93%9D%EA%B7%BC%20(DKDK).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EB%93%9D%EA%B7%BC%EB%93%9D%EA%B7%BC%20(DKDK).webp",
     typeofApp: "iOS",
     semester: 8,
     isNew: false,
@@ -846,8 +906,10 @@ const projects: Project[] = [
     id: 45,
     title: "오늘이야",
     subTitle: "스터디, 동아리, 소모임 출석을 쉽고 빠르게 관리하는 출석 체크 앱",
-    listThumbnail: "/imgs/project/list/7_오늘이야.webp",
-    popupThumbnail: "/imgs/project/popup/7_오늘이야.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%EC%98%A4%EB%8A%98%EC%9D%B4%EC%95%BC.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%EC%98%A4%EB%8A%98%EC%9D%B4%EC%95%BC.webp",
     typeofApp: "Android",
     semester: 7,
     isNew: false,
@@ -874,12 +936,14 @@ const projects: Project[] = [
     title: "또오름 (Ttooreum)",
     subTitle:
       "산행 인증과 기록, 챌린지를 통해 MZ세대의 등산 습관을 도와주는 하이킹 챌린지 앱",
-    listThumbnail: "/imgs/project/list/7_또오름 (Ttooreum).webp",
-    popupThumbnail: "/imgs/project/popup/7_또오름 (Ttooreum).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%EB%98%90%EC%98%A4%EB%A6%84%20(Ttooreum).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%EB%98%90%EC%98%A4%EB%A6%84%20(Ttooreum).webp",
     typeofApp: "Android",
     semester: 7,
     isNew: false,
-    description: `또오름은 ‘명분 있는 활동’을 추구하는 MZ세대를 위해 개발된 하이킹 서비스입니다. 단순한 건강 목적이 아닌, ‘힙한 라이프스타일’을 위한 자기 표현 수단으로 등산을 즐기는 사용자들에게 산행 기록, 인증, 챌린지를 통한 재미와 동기부여를 제공합니다. GPS 기반 산행 인증, 개인 히스토리 관리, 챌린지 보상 시스템 등을 통해 습관화된 하이킹을 유도합니다.`,
+    description: `또오름은 '명분 있는 활동'을 추구하는 MZ세대를 위해 개발된 하이킹 서비스입니다. 단순한 건강 목적이 아닌, '힙한 라이프스타일'을 위한 자기 표현 수단으로 등산을 즐기는 사용자들에게 산행 기록, 인증, 챌린지를 통한 재미와 동기부여를 제공합니다. GPS 기반 산행 인증, 개인 히스토리 관리, 챌린지 보상 시스템 등을 통해 습관화된 하이킹을 유도합니다.`,
     keyFeatures: [
       "일상 순간 기록",
       "텍스트와 사진을 통해 매일의 행복한 순간을 쉽고 빠르게 기록합니다.",
@@ -901,8 +965,10 @@ const projects: Project[] = [
     id: 47,
     title: "291 (이구일)",
     subTitle: "자취생들의 건강한 식습관을 위한 일일 식단 기록 및 분석 앱",
-    listThumbnail: "/imgs/project/list/7_291 (이구일).webp",
-    popupThumbnail: "/imgs/project/popup/7_291 (이구일).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/7th/291%20(이구일).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/291%20(이구일).webp",
     typeofApp: "iOS",
     semester: 7,
     isNew: false,
@@ -929,12 +995,14 @@ const projects: Project[] = [
     title: "MMNT (Moment)",
     subTitle:
       "지금 이 순간, 공간과 음악을 함께 기록하고 공유하는 감성 위치 기반 뮤직 다이어리",
-    listThumbnail: "/imgs/project/list/7_MMNT (Moment).webp",
-    popupThumbnail: "/imgs/project/popup/7_MMNT (Moment).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/7th/MMNT%20(Moment).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/MMNT%20(Moment).webp",
     typeofApp: "web",
     semester: 7,
     isNew: false,
-    description: `MMNT는 사용자가 특정 장소에서 느꼈던 감정과 음악을 함께 기록할 수 있는 서비스입니다. 위치 기반 핀을 중심으로 음악, 사진, 짧은 글을 하나의 ‘모먼트’로 저장하고, 반경 50m 이내에서만 열람 가능한 구조를 통해 개인적이면서도 익명적인 소통을 가능하게 합니다. 마치 식당 벽의 포스트잇처럼 나의 음악 흔적을 남기고, 다른 사람들의 모먼트를 탐험할 수 있습니다.`,
+    description: `MMNT는 사용자가 특정 장소에서 느꼈던 감정과 음악을 함께 기록할 수 있는 서비스입니다. 위치 기반 핀을 중심으로 음악, 사진, 짧은 글을 하나의 '모먼트'로 저장하고, 반경 50m 이내에서만 열람 가능한 구조를 통해 개인적이면서도 익명적인 소통을 가능하게 합니다. 마치 식당 벽의 포스트잇처럼 나의 음악 흔적을 남기고, 다른 사람들의 모먼트를 탐험할 수 있습니다.`,
     keyFeatures: [
       "익명 감정 공유",
       "개인의 감정과 이야기를 익명으로 편하게 공유하며 진솔한 소통이 가능합니다.",
@@ -957,8 +1025,10 @@ const projects: Project[] = [
     title: "듀스페이퍼 (Deus Paper)",
     subTitle:
       "아이디어 구상부터 논리적 정리까지, 생각을 구조화해주는 마인드페이퍼 웹 서비스",
-    listThumbnail: "/imgs/project/list/7_듀스페이퍼 (Deus Paper).webp",
-    popupThumbnail: "/imgs/project/popup/7_듀스페이퍼 (Deus Paper).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%EB%93%80%EC%8A%A4%ED%8E%98%EC%9D%B4%ED%8D%BC%20(Deus%20Paper).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%EB%93%80%EC%8A%A4%ED%8E%98%EC%9D%B4%ED%8D%BC%20(Deus%20Paper).webp",
     typeofApp: "web",
     semester: 7,
     isNew: false,
@@ -985,8 +1055,10 @@ const projects: Project[] = [
     title: "푸랑 (Furang)",
     subTitle:
       "내 주변 푸드트럭과 축제 정보를 한눈에 확인할 수 있는 푸드트럭 위치 기반 탐색 서비스",
-    listThumbnail: "/imgs/project/list/7_푸랑 (Furang).webp",
-    popupThumbnail: "/imgs/project/popup/7_푸랑 (Furang).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%ED%91%B8%EB%9E%91%20(Furang).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%ED%91%B8%EB%9E%91%20(Furang).webp",
     typeofApp: "web",
     semester: 7,
     isNew: false,
@@ -1012,8 +1084,10 @@ const projects: Project[] = [
     id: 8,
     title: "Bring",
     subTitle: "사용자에게 혁신적인 iOS 경험을 제공하는 통합 서비스",
-    listThumbnail: "/imgs/project/list/6_Bring.webp",
-    popupThumbnail: "/imgs/project/popup/6_Bring.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/6th/Bring.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/Bring.webp",
     typeofApp: "iOS",
     semester: 6,
     isNew: false,
@@ -1039,8 +1113,10 @@ const projects: Project[] = [
     id: 9,
     title: "WI/NE (위네)",
     subTitle: "와인을 마시는 중간에 테이스팅 노트를 기록하는 감성 서비스",
-    listThumbnail: "/imgs/project/list/6_WI:NE (위네).webp",
-    popupThumbnail: "/imgs/project/popup/6_WI:NE (위네).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/6th/WI:NE%20(위네).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/WI:NE%20(위네).webp",
     typeofApp: "Android",
     semester: 6,
     isNew: false,
@@ -1068,8 +1144,10 @@ const projects: Project[] = [
     title: "WESAVE (위세이브)",
     subTitle:
       "사회초년생과 직장인들이 자신의 소득과 소비를 실시간으로 관리하고, 절약 습관을 형성할 수 있도록 돕는 금융 관리 서비스",
-    listThumbnail: "/imgs/project/list/6_WESAVE (위세이브).webp",
-    popupThumbnail: "/imgs/project/popup/6_WESAVE (위세이브).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/6th/WESAVE%20(위세이브).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/WESAVE%20(위세이브).webp",
     typeofApp: "web",
     semester: 6,
     isNew: false,
@@ -1097,13 +1175,15 @@ const projects: Project[] = [
     title: "마들렌공장",
     subTitle:
       "공연 후기를 감성적으로 기록하고 공유하는, 나만의 공연 경험을 만드는 플랫폼",
-    listThumbnail: "/imgs/project/list/6_마들렌공장.webp",
-    popupThumbnail: "/imgs/project/popup/6_마들렌공장.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/6th/%EB%A7%88%EB%93%A4%EB%A0%8C%EA%B3%B5%EC%9E%A5.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/%EB%A7%88%EB%93%A4%EB%A0%8C%EA%B3%B5%EC%9E%A5.webp",
     typeofApp: "Android",
     semester: 6,
     isNew: false,
     description: `마들렌공장은 단순히 공연을 관람하는 데 그치지 않고, 사용자가 공연에서 느낀 감동과 추억을 다양하게 기록하고 공유할 수 있도록 돕는 서비스입니다.
-  마치 밀가루를 반죽해 오븐에 넣어 여러 모양의 마들렌을 만들어내듯, 각자의 공연 경험을 자신만의 방식으로 ‘구워’내어 기록합니다.
+  마치 밀가루를 반죽해 오븐에 넣어 여러 모양의 마들렌을 만들어내듯, 각자의 공연 경험을 자신만의 방식으로 '구워'내어 기록합니다.
   티켓 인식 기능, 티켓북 공유, 공연 후기 작성 및 SNS 연동 등 다양한 기능을 통해 공연 감상의 모든 순간을 아카이빙하며, 사용자 간의 소통과 커뮤니티 형성을 지향합니다.`,
     keyFeatures: [
       "재미있는 스트레칭 동기부여",
@@ -1129,8 +1209,10 @@ const projects: Project[] = [
     title: "DODO",
     subTitle:
       "사용자들이 쉽고 빠르게 소통하며 정보를 공유할 수 있는 실시간 소셜 커뮤니티 플랫폼",
-    listThumbnail: "/imgs/project/list/6_DODO.webp",
-    popupThumbnail: "/imgs/project/popup/6_DODO.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/6th/DODO.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/DODO.webp",
     typeofApp: "web",
     semester: 6,
     isNew: false,
@@ -1160,9 +1242,11 @@ const projects: Project[] = [
   {
     id: 13,
     title: "앱챠 (Appcha)",
-    subTitle: "진짜 사용자 경험을 기반으로 한 앱 추천 및 정보 공유 커뮤니티”",
-    listThumbnail: "/imgs/project/list/6_앱챠 (Appcha).webp",
-    popupThumbnail: "/imgs/project/popup/6_앱챠 (Appcha).webp",
+    subTitle: "진짜 사용자 경험을 기반으로 한 앱 추천 및 정보 공유 커뮤니티",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/6th/%EC%95%B1%EC%B1%A0%20(Appcha).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/%EC%95%B1%EC%B1%A0%20(Appcha).webp",
     typeofApp: "Android",
     semester: 6,
     isNew: false,
@@ -1191,8 +1275,10 @@ const projects: Project[] = [
     title: "HERMES SPACELOG",
     subTitle:
       "웹과 데스크탑 환경에서 일상과 경험을 예쁘게 기록하고 소통할 수 있는 통합 기록 블로그 서비스",
-    listThumbnail: "/imgs/project/list/6_HERMES SPACELOG.webp",
-    popupThumbnail: "/imgs/project/popup/6_HERMES SPACELOG.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/6th/HERMES%20SPACELOG.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/HERMES%20SPACELOG.webp",
     typeofApp: "web",
     semester: 6,
     isNew: false,
@@ -1223,8 +1309,10 @@ const projects: Project[] = [
     title: "가따버려",
     subTitle:
       "제품 개봉일을 입력하면 자동으로 폐기 날짜를 계산해 알려주는 서비스",
-    listThumbnail: "/imgs/project/list/4_가따버려.webp",
-    popupThumbnail: "/imgs/project/popup/4_가따버려.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EA%B0%80%EB%94%B0%EB%B2%84%EB%A0%A4.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EA%B0%80%EB%94%B0%EB%B2%84%EB%A0%A4.webp",
     typeofApp: "Android",
     semester: 4,
     isNew: false,
@@ -1254,8 +1342,10 @@ const projects: Project[] = [
     title: "비어있다",
     subTitle:
       "사용자의 취향을 반영해 향과 스타일 기반으로 맥주를 추천하는 서비스",
-    listThumbnail: "/imgs/project/list/4_비어있다.webp",
-    popupThumbnail: "/imgs/project/popup/4_비어있다.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EB%B9%84%EC%96%B4%EC%9E%88%EB%8B%A4.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EB%B9%84%EC%96%B4%EC%9E%88%EB%8B%A4.webp",
     typeofApp: "Android",
     semester: 4,
     isNew: false,
@@ -1280,10 +1370,12 @@ const projects: Project[] = [
 
   {
     id: 3,
-    title: "LInkmo",
+    title: "Linkmo",
     subTitle: "아티클&링크 저장 및 카테고리 별 분류 서비스",
-    listThumbnail: "/imgs/project/list/4_LInkmo.webp",
-    popupThumbnail: "/imgs/project/popup/4_LInkmo.webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/4th/Linkmo.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/Linkmo.webp",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1311,9 +1403,11 @@ const projects: Project[] = [
   {
     id: 4,
     title: "그냥이거먹어",
-    subTitle: "전국의 직장인을 위한 맞춤형 점심 메뉴 추천 서비스”",
-    listThumbnail: "/imgs/project/list/4_그냥이거먹어.webp",
-    popupThumbnail: "/imgs/project/popup/4_그냥이거먹어.webp",
+    subTitle: "전국의 직장인을 위한 맞춤형 점심 메뉴 추천 서비스",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EA%B7%B8%EB%83%A5%EC%9D%B4%EA%B1%B0%EB%A8%B9%EC%96%B4.webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EA%B7%B8%EB%83%A5%EC%9D%B4%EA%B1%B0%EB%A8%B9%EC%96%B4.webp",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1327,7 +1421,7 @@ const projects: Project[] = [
       "영수증 기반 식사 기록",
       "식사 후 영수증을 촬영하면 메뉴를 자동으로 인식해 식단을 빠르게 기록할 수 있습니다.",
       "식사 카테고리 분류 기능",
-      "가정식’, ‘배달’, ‘즉석식품’, ‘외식’ 등으로 카테고리를 설정해 나의 식사 성향을 분석할 수 있습니다.",
+      "가정식', '배달', '즉석식품', '외식' 등으로 카테고리를 설정해 나의 식사 성향을 분석할 수 있습니다.",
       "나의 식단 피드 공유",
       "하루의 식사를 카드 형태로 정리하여 나만의 피드로 공유하고, 다른 사람들의 식단도 열람할 수 있습니다.",
       "주간 식사 리포트 제공",
@@ -1344,9 +1438,11 @@ const projects: Project[] = [
     id: 5,
     title: "포잉포잉(POING POING)",
     subTitle:
-      "직접 찍은 사진으로 만드는 우리 아이만의 맞춤형 영어 단어장 서비스”",
-    listThumbnail: "/imgs/project/list/4_포잉포잉(POING POING).webp",
-    popupThumbnail: "/imgs/project/popup/4_포잉포잉(POING POING).webp",
+      "직접 찍은 사진으로 만드는 우리 아이만의 맞춤형 영어 단어장 서비스",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%ED%8F%AC%EC%9E%89%ED%8F%AC%EC%9E%89(POING%20POING).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%ED%8F%AC%EC%9E%89%ED%8F%AC%EC%9E%89(POING%20POING).webp",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1357,7 +1453,7 @@ const projects: Project[] = [
   간단한 게임을 통해 자연스럽고 재미있게 복습할 수 있도록 도와줍니다.`,
     keyFeatures: [
       "위치 기반 모먼트 기록",
-      "현재 위치에 핀을 꽂고, 음악과 사진, 글을 조합하여 나만의 ‘모먼트’를 남길 수 있습니다.",
+      "현재 위치에 핀을 꽂고, 음악과 사진, 글을 조합하여 나만의 '모먼트'를 남길 수 있습니다.",
       "익명 공유 및 열람 제한",
       "모든 모먼트는 반경 50m 이내에서만 열람 가능하며, 익명으로 기록되어 편안한 공유가 가능합니다.",
       "유튜브 음악 링크 연동",
@@ -1379,8 +1475,10 @@ const projects: Project[] = [
     title: "두잇(Doit)",
     subTitle:
       "원하는 사람들과 원하는 장소에서 편안하고 자유롭게 식사할 수 있는 모임 플랫폼 서비스",
-    listThumbnail: "/imgs/project/list/4_두잇(Doit).webp",
-    popupThumbnail: "/imgs/project/popup/4_두잇(Doit).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EB%91%90%EC%9E%87(Doit).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EB%91%90%EC%9E%87(Doit).webp",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1412,8 +1510,10 @@ const projects: Project[] = [
     id: 7,
     title: "플라츠(Platz)",
     subTitle: "누구나 큐레이터가 될 수 있는 위치 기반의 장소 공유 플랫폼",
-    listThumbnail: "/imgs/project/list/4_플라츠(Platz).webp",
-    popupThumbnail: "/imgs/project/popup/4_플라츠(Platz).webp",
+    listThumbnail:
+      "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%ED%94%8C%EB%9D%BC%EC%B8%A0(Platz).webp",
+    popupThumbnail:
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%ED%94%8C%EB%9D%BC%EC%B8%A0(Platz).webp",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
