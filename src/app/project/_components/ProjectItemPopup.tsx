@@ -11,8 +11,7 @@ import type { Project } from "@/app/project/_types/project";
 import { Fullscreen } from "@/components/svgs";
 
 interface ProjectItemPopupProps {
-  project: Project;
-  isOpen: boolean;
+  project?: Project;
   onClose: () => void;
 }
 
@@ -24,7 +23,7 @@ const getCircledLetter = (index: number): string => {
 
 export default function ProjectItemPopup({
   project,
-  isOpen,
+
   onClose,
 }: ProjectItemPopupProps) {
   const isTablet = useMediaQuery(screenMediaQuery.tablet);
@@ -39,7 +38,7 @@ export default function ProjectItemPopup({
   );
 
   useEffect(() => {
-    if (isOpen) {
+    if (project !== undefined) {
       document.addEventListener("keydown", handleEscape);
       document.body.style.overflow = "hidden";
     }
@@ -47,9 +46,9 @@ export default function ProjectItemPopup({
       document.removeEventListener("keydown", handleEscape);
       document.body.style.overflow = "unset";
     };
-  }, [isOpen, handleEscape]);
+  }, [handleEscape, project]);
 
-  if (!isOpen) return null;
+  if (!project) return null;
 
   return (
     <Portal>
@@ -90,8 +89,8 @@ export default function ProjectItemPopup({
                 <Image
                   src={project.popupThumbnail}
                   alt={project.title}
-                  width={792}
-                  height={446}
+                  width={1024}
+                  height={576}
                   className="rounded-[12px] w-full"
                 />
                 <div className="absolute top-[12px] right-[12px] desktop:p-12 netbook:p-10 tablet:p-10 mobile:p-8 rounded-[50%] bg-[rgb(12,14,15,0.48)] cursor-pointer">

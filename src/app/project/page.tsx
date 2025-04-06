@@ -2,7 +2,7 @@
 import { useState } from "react";
 import ProjectList from "@/app/project/_components/ProjectList";
 import TabList from "@/app/project/_components/TabList";
-import projects from "@/app/project/data/project";
+import projects from "@/app/project/_data/project";
 
 export default function Project() {
   const [selectedAppType, setSelectedAppType] = useState<
