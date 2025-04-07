@@ -157,7 +157,7 @@ const projects: Project[] = [
     id: 20,
     title: "자세공작소",
     subTitle:
-      "AI 기반 실시간 자세 모니터링을 통해 바른 자세를 유지하고 습관을 형성하는 웹 서비스",
+      "머신러닝 기반의 실시간 모니터링으로 바른 자세를 유지하고 습관 형성을 돕는 웹 서비스",
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%EC%9E%90%EC%84%B8%EA%B3%B5%EC%9E%91%EC%86%8C.webp",
     popupThumbnail:
