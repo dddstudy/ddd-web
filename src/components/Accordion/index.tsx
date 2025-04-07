@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { cn } from "@/utils/cn";
 import { AddIcon, SubtractIcon } from "@/components/svgs";
 
@@ -21,18 +21,6 @@ export function Accordion({
   isActive,
   onClick,
 }: AccordionProps) {
-  const [contentHeight, setContentHeight] = useState(0);
-  const contentRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const contentEl = contentRef.current;
-    if (isActive && contentEl) {
-      setContentHeight(contentEl.scrollHeight);
-    } else {
-      setContentHeight(0);
-    }
-  }, [isActive]);
-
   return (
     <div
       className={cn(
@@ -60,13 +48,19 @@ export function Accordion({
           </button>
         </div>
       </div>
+
       <div
-        ref={contentRef}
-        style={{ height: `${contentHeight}px` }}
-        className="overflow-hidden transition-[height] duration-300 ease-in-out"
+        className={cn(
+          "grid transition-all duration-300 ease-in-out",
+          isActive
+            ? "grid-rows-[1fr] opacity-100 mt-16"
+            : "grid-rows-[0fr] opacity-0 mt-0"
+        )}
       >
-        <div className="text-gray-70 mt-16 text-body-3-regular tablet:mt-20 tablet:text-body-2-regular desktop:mt-24 desktop:text-body-1-regular">
-          {description}
+        <div className="overflow-hidden">
+          <div className="text-gray-70 text-body-3-regular tablet:mt-4 tablet:text-body-2-regular desktop:mt-8 desktop:text-body-1-regular">
+            {description}
+          </div>
         </div>
       </div>
     </div>
