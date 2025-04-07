@@ -13,6 +13,7 @@ export interface Project {
   subTitle: string;
   listThumbnail: string | StaticImport;
   popupThumbnail: string | StaticImport;
+  popupPdf:string
   typeofApp: AppType;
   // 기수
   semester: number;

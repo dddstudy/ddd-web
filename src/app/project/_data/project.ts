@@ -9,7 +9,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%EC%97%A0%EC%BF%B5%20(MBTI%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%EC%97%A0%EC%BF%B5%20(MBTI%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%E1%84%8B%E1%85%A6%E1%86%B7%E1%84%8F%E1%85%AE%E1%86%BC%20(MBTI%20%E1%84%8F%E1%85%A5%E1%84%86%E1%85%B2%E1%84%82%E1%85%B5%E1%84%90%E1%85%B5).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/11th/%E1%84%8B%E1%85%A6%E1%86%B7%E1%84%8F%E1%85%AE%E1%86%BC%20(MBTI%20%E1%84%8F%E1%85%A5%E1%84%86%E1%85%B2%E1%84%82%E1%85%B5%E1%84%90%E1%85%B5).pdf",
     typeofApp: "Android",
     semester: 11,
     isNew: true,
@@ -35,7 +37,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%ED%8F%AC%EC%9D%B4%EC%A6%8C%20(Poison).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%ED%8F%AC%EC%9D%B4%EC%A6%8C%20(Poison).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%E1%84%91%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%AB%20(Poison).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/11th/%E1%84%91%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%AB%20(Poison).pdf",
     typeofApp: "Android",
     semester: 11,
     isNew: true,
@@ -63,7 +67,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%EC%8B%A0%EC%9E%85%ED%82%A4%ED%8A%B8%20(S-Class).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%EC%8B%A0%EC%9E%85%ED%82%A4%ED%8A%B8%20(S-Class).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%E1%84%89%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8F%E1%85%B5%E1%84%90%E1%85%B3%20(S-Class).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/11th/%E1%84%89%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8F%E1%85%B5%E1%84%90%E1%85%B3%20(S-Class).pdf",
     typeofApp: "iOS",
     semester: 11,
     isNew: true,
@@ -91,7 +97,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/11th/Mozip%20(%EB%AA%A8%EC%A7%91).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/Mozip%20(%EB%AA%A8%EC%A7%91).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/Mozip%20(%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/11th/Mozip%20(%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8).pdf",
     typeofApp: "iOS",
     semester: 11,
     isNew: true,
@@ -122,7 +130,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%ED%8F%B4%EB%9D%BC%EB%B3%B4%20(polabo).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%ED%8F%B4%EB%9D%BC%EB%B3%B4%20(polabo).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%87%E1%85%A9%20(polabo).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/11th/%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%87%E1%85%A9%20(polabo).pdf",
     typeofApp: "web",
     semester: 11,
     isNew: true,
@@ -151,7 +161,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/11th/%EC%9E%90%EC%84%B8%EA%B3%B5%EC%9E%91%EC%86%8C.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%EC%9E%90%EC%84%B8%EA%B3%B5%EC%9E%91%EC%86%8C.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/11th/%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/11th/%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A6%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9.pdf",
     typeofApp: "web",
     semester: 11,
     isNew: true,
@@ -182,6 +194,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/10th/Pregen.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/Pregen.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/10th/Pregen.pdf",
     typeofApp: "Android",
     semester: 10,
     isNew: false,
@@ -214,6 +228,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/10th/Waggle.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/Waggle.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/10th/Waggle.pdf",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -240,7 +256,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/10th/OPEACE.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/O PEACE.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/OPEACE.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/10th/OPEACE.pdf",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -268,7 +286,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/10th/Fridge%20Link%20(프리지%20링크).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/Fridge%20Link%20(프리지%20링크).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/Fridge%20Link%20(%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%85%E1%85%B5%E1%86%BC%E1%84%8F%E1%85%B3).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/10th/Fridge%20Link%20(%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B5%E1%86%BC%E1%84%8F%E1%85%B3).pdf",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -300,6 +320,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/10th/MANNA.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/10th/MANNA.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/10th/MANNA.pdf",
     typeofApp: "web",
     semester: 10,
     isNew: false,
@@ -331,6 +353,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/CheVit%20(%E1%84%8E%E1%85%A2%E1%84%87%E1%85%B5%E1%86%BA).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/CheVit%20(%E1%84%8E%E1%85%A2%E1%84%87%E1%85%B5%E1%86%BA).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/CheVit%20(%E1%84%8E%E1%85%A2%E1%84%87%E1%85%B5%E1%86%BA).pdf",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -360,6 +384,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%91%E1%85%B5%E1%86%AF%E1%84%86%E1%85%A9%20(Filmo).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%91%E1%85%B5%E1%86%AF%E1%84%86%E1%85%A9%20(Filmo).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%91%E1%85%B5%E1%86%AF%E1%84%86%E1%85%A9%20(Filmo).pdf",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -390,6 +416,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%82%E1%85%A1%E1%86%BA%20(Buy%20or%20Not).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%82%E1%85%A1%E1%86%BA%20(Buy%20or%20Not).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%82%E1%85%A1%E1%86%BA%20(Buy%20or%20Not).pdf",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -422,6 +450,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%85%E1%85%A9%E1%84%84%E1%85%A9%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20(Lottofolio).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%85%E1%85%A9%E1%84%84%E1%85%A9%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20(Lottofolio).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%85%E1%85%A9%E1%84%84%E1%85%A9%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20(Lottofolio).pdf",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -454,6 +484,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%20(buybye).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%20(buybye).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%20(buybye).pdf",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -486,6 +518,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%81%E1%85%A2%E1%84%8F%E1%85%A9%20(Kkaeko).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%81%E1%85%A2%E1%84%8F%E1%85%A9%20(Kkaeko).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%81%E1%85%A2%E1%84%8F%E1%85%A9%20(Kkaeko).pdf",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -517,6 +551,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%91%E1%85%A1%E1%84%90%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF%20(Partikle).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%91%E1%85%A1%E1%84%90%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF%20(Partikle).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%91%E1%85%A1%E1%84%90%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF%20(Partikle).pdf",
     typeofApp: "iOS",
     semester: 9,
     isNew: false,
@@ -549,6 +585,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%89%E1%85%B5%E1%86%A8%E1%84%83%E1%85%A9%E1%84%85%E1%85%A9%E1%86%A8.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%89%E1%85%B5%E1%86%A8%E1%84%83%E1%85%A9%E1%84%85%E1%85%A9%E1%86%A8.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%89%E1%85%B5%E1%86%A8%E1%84%83%E1%85%A9%E1%84%85%E1%85%A9%E1%86%A8.pdf",
     typeofApp: "Android",
     semester: 9,
     isNew: false,
@@ -583,6 +621,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/u_r%20(%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%A1%E1%86%AF).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/u_r%20(%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%A1%E1%86%AF).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/u_r%20(%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%A1%E1%86%AF).pdf",
     typeofApp: "web",
     semester: 9,
     isNew: false,
@@ -615,6 +655,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/9th/%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%B7.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/9th/%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%B7.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/9th/%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%B7.pdf",
     typeofApp: "iOS",
     semester: 9,
     isNew: false,
@@ -646,7 +688,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%95%8F%EB%85%B8%ED%8A%B8%20(Fitnote).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%95%8F%EB%85%B8%ED%8A%B8%20(Fitnote).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%91%E1%85%B5%E1%86%BA%E1%84%82%E1%85%A9%E1%84%90%E1%85%B3%20(Fitnote).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%91%E1%85%B5%E1%86%BA%E1%84%82%E1%85%A9%E1%84%90%E1%85%B3%20(Fitnote).pdf",
     typeofApp: "Android",
     semester: 8,
     isNew: false,
@@ -678,7 +722,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EB%AA%A8%EB%84%88%20(Morner).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EB%AA%A8%EB%84%88%20(Morner).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%86%E1%85%A9%E1%84%82%E1%85%A5%20(Morner).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%86%E1%85%A9%E1%84%82%E1%85%A5%20(Morner).pdf",
     typeofApp: "iOS",
     semester: 8,
     isNew: false,
@@ -706,7 +752,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EC%98%A4%EB%AA%A8%EC%A7%80%20(Omoji).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EC%98%A4%EB%AA%A8%EC%A7%80%20(Omoji).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%20(Omoji).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%20(Omoji).pdf",
     typeofApp: "web",
     semester: 8,
     isNew: false,
@@ -734,7 +782,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%88%AC%EA%B0%9C%EB%8D%94%20(Together).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%88%AC%EA%B0%9C%EB%8D%94%20(Together).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%90%E1%85%AE%E1%84%80%E1%85%A2%E1%84%83%E1%85%A5%20(Together).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%90%E1%85%AE%E1%84%80%E1%85%A2%E1%84%83%E1%85%A5%20(Together).pdf",
     typeofApp: "iOS",
     semester: 8,
     isNew: false,
@@ -760,7 +810,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%95%98%EB%82%98%EB%91%98%EC%85%8B.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%95%98%EB%82%98%EB%91%98%EC%85%8B.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%83%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A6%E1%86%BA.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%83%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A6%E1%86%BA.pdf",
     typeofApp: "Android",
     semester: 8,
     isNew: false,
@@ -791,7 +843,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/EXIT%20(엑시트).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/EXIT%20(엑시트).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/EXIT%20(%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B5%E1%84%90%E1%85%B3).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/EXIT%20(%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B5%E1%84%90%E1%85%B3).pdf",
     typeofApp: "web",
     semester: 8,
     isNew: false,
@@ -821,7 +875,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EB%9D%BC%ED%8A%B8%EB%A6%BD%20(Latrip).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EB%9D%BC%ED%8A%B8%EB%A6%BD%20(Latrip).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%85%E1%85%A1%E1%84%90%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%20(Latrip).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%85%E1%85%A1%E1%84%90%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%20(Latrip).pdf",
     typeofApp: "web",
     semester: 8,
     isNew: false,
@@ -852,7 +908,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%ED%8F%B4%ED%8F%B4%20(PollPoll).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%ED%8F%B4%ED%8F%B4%20(PollPoll).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%91%E1%85%A9%E1%86%AF%E1%84%91%E1%85%A9%E1%86%AF%20(PollPoll).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%91%E1%85%A9%E1%86%AF%E1%84%91%E1%85%A9%E1%86%AF%20(PollPoll).pdf",
     typeofApp: "Android",
     semester: 8,
     isNew: false,
@@ -884,7 +942,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/8th/%EB%93%9D%EA%B7%BC%EB%93%9D%EA%B7%BC%20(DKDK).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%EB%93%9D%EA%B7%BC%EB%93%9D%EA%B7%BC%20(DKDK).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/8th/%E1%84%83%E1%85%B3%E1%86%A8%E1%84%80%E1%85%B3%E1%86%AB%E1%84%83%E1%85%B3%E1%86%A8%E1%84%80%E1%85%B3%E1%86%AB%20(DKDK).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/8th/%E1%84%83%E1%85%B3%E1%86%A8%E1%84%80%E1%85%B3%E1%86%AB%E1%84%83%E1%85%B3%E1%86%A8%E1%84%80%E1%85%B3%E1%86%AB%20(DKDK).pdf",
     typeofApp: "iOS",
     semester: 8,
     isNew: false,
@@ -909,7 +969,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%EC%98%A4%EB%8A%98%EC%9D%B4%EC%95%BC.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%EC%98%A4%EB%8A%98%EC%9D%B4%EC%95%BC.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A3.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/7th/%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A3.pdf",
     typeofApp: "Android",
     semester: 7,
     isNew: false,
@@ -939,7 +1001,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%EB%98%90%EC%98%A4%EB%A6%84%20(Ttooreum).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%EB%98%90%EC%98%A4%EB%A6%84%20(Ttooreum).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%E1%84%84%E1%85%A9%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%B7%20(Ttooreum).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/7th/%E1%84%84%E1%85%A9%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%B7%20(Ttooreum).pdf",
     typeofApp: "Android",
     semester: 7,
     isNew: false,
@@ -968,7 +1032,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/7th/291%20(이구일).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/291%20(이구일).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/291%20(%E1%84%8B%E1%85%B5%E1%84%80%E1%85%AE%E1%84%8B%E1%85%B5%E1%86%AF).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/7th/291%20(%E1%84%8B%E1%85%B5%E1%84%80%E1%85%AE%E1%84%8B%E1%85%B5%E1%86%AF).pdf",
     typeofApp: "iOS",
     semester: 7,
     isNew: false,
@@ -999,6 +1065,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/7th/MMNT%20(Moment).webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/MMNT%20(Moment).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/7th/MMNT%20(Moment).pdf",
     typeofApp: "web",
     semester: 7,
     isNew: false,
@@ -1028,7 +1096,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%EB%93%80%EC%8A%A4%ED%8E%98%EC%9D%B4%ED%8D%BC%20(Deus%20Paper).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%EB%93%80%EC%8A%A4%ED%8E%98%EC%9D%B4%ED%8D%BC%20(Deus%20Paper).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%E1%84%83%E1%85%B2%E1%84%89%E1%85%B3%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%91%E1%85%A5%20(Deus%20Paper).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/7th/%E1%84%83%E1%85%B2%E1%84%89%E1%85%B3%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%91%E1%85%A5%20(Deus%20Paper).pdf",
     typeofApp: "web",
     semester: 7,
     isNew: false,
@@ -1058,7 +1128,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/7th/%ED%91%B8%EB%9E%91%20(Furang).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%ED%91%B8%EB%9E%91%20(Furang).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/7th/%E1%84%91%E1%85%AE%E1%84%85%E1%85%A1%E1%86%BC%20(Furang).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/7th/%E1%84%91%E1%85%AE%E1%84%85%E1%85%A1%E1%86%BC%20(Furang).pdf",
     typeofApp: "web",
     semester: 7,
     isNew: false,
@@ -1088,6 +1160,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/6th/Bring.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/Bring.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/6th/Bring.pdf",
     typeofApp: "iOS",
     semester: 6,
     isNew: false,
@@ -1116,7 +1190,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/6th/WI:NE%20(위네).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/WI:NE%20(위네).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/WI%3ANE%20(%E1%84%8B%E1%85%B1%E1%84%82%E1%85%A6).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/6th/WI%3ANE%20(%E1%84%8B%E1%85%B1%E1%84%82%E1%85%A6).pdf",
     typeofApp: "Android",
     semester: 6,
     isNew: false,
@@ -1147,7 +1223,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/6th/WESAVE%20(위세이브).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/WESAVE%20(위세이브).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/WESAVE%20(%E1%84%8B%E1%85%B1%E1%84%89%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/6th/WESAVE%20(%E1%84%8B%E1%85%B1%E1%84%89%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3).pdf",
     typeofApp: "web",
     semester: 6,
     isNew: false,
@@ -1178,7 +1256,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/6th/%EB%A7%88%EB%93%A4%EB%A0%8C%EA%B3%B5%EC%9E%A5.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/%EB%A7%88%EB%93%A4%EB%A0%8C%EA%B3%B5%EC%9E%A5.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/%E1%84%86%E1%85%A1%E1%84%83%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A6%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%BC.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/6th/%E1%84%86%E1%85%A1%E1%84%83%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A6%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%BC.pdf",
     typeofApp: "Android",
     semester: 6,
     isNew: false,
@@ -1213,6 +1293,7 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/6th/DODO.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/DODO.webp",
+    popupPdf: "https://storage.googleapis.com/ddd-project/project/6th/DODO.pdf",
     typeofApp: "web",
     semester: 6,
     isNew: false,
@@ -1246,7 +1327,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/6th/%EC%95%B1%EC%B1%A0%20(Appcha).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/%EC%95%B1%EC%B1%A0%20(Appcha).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/%E1%84%8B%E1%85%A2%E1%86%B8%E1%84%8E%E1%85%A3%20(Appcha).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/6th/%E1%84%8B%E1%85%A2%E1%86%B8%E1%84%8E%E1%85%A3%20(Appcha).pdf",
     typeofApp: "Android",
     semester: 6,
     isNew: false,
@@ -1279,6 +1362,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/6th/HERMES%20SPACELOG.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/6th/HERMES%20SPACELOG.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/6th/HERMES%20SPACELOG.pdf",
     typeofApp: "web",
     semester: 6,
     isNew: false,
@@ -1312,7 +1397,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EA%B0%80%EB%94%B0%EB%B2%84%EB%A0%A4.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EA%B0%80%EB%94%B0%EB%B2%84%EB%A0%A4.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%E1%84%80%E1%85%A1%E1%84%84%E1%85%A1%E1%84%87%E1%85%A5%E1%84%85%E1%85%A7.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/4th/%E1%84%80%E1%85%A1%E1%84%84%E1%85%A1%E1%84%87%E1%85%A5%E1%84%85%E1%85%A7.pdf",
     typeofApp: "Android",
     semester: 4,
     isNew: false,
@@ -1345,7 +1432,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EB%B9%84%EC%96%B4%EC%9E%88%EB%8B%A4.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EB%B9%84%EC%96%B4%EC%9E%88%EB%8B%A4.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%E1%84%87%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%B5%E1%86%BB%E1%84%83%E1%85%A1.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/4th/%E1%84%87%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%B5%E1%86%BB%E1%84%83%E1%85%A1.pdf",
     typeofApp: "Android",
     semester: 4,
     isNew: false,
@@ -1376,6 +1465,8 @@ const projects: Project[] = [
       "https://storage.googleapis.com/ddd-project/listThumbnail/4th/Linkmo.webp",
     popupThumbnail:
       "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/Linkmo.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/4th/Linkmo.pdf",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1407,7 +1498,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EA%B7%B8%EB%83%A5%EC%9D%B4%EA%B1%B0%EB%A8%B9%EC%96%B4.webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EA%B7%B8%EB%83%A5%EC%9D%B4%EA%B1%B0%EB%A8%B9%EC%96%B4.webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%E1%84%80%E1%85%B3%E1%84%82%E1%85%A3%E1%86%BC%E1%84%8B%E1%85%B5%E1%84%80%E1%85%A5%E1%84%86%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%A5.webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/4th/%E1%84%80%E1%85%B3%E1%84%82%E1%85%A3%E1%86%BC%E1%84%8B%E1%85%B5%E1%84%80%E1%85%A5%E1%84%86%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%A5.pdf",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1442,7 +1535,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%ED%8F%AC%EC%9E%89%ED%8F%AC%EC%9E%89(POING%20POING).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%ED%8F%AC%EC%9E%89%ED%8F%AC%EC%9E%89(POING%20POING).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%E1%84%91%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%BC%E1%84%91%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%BC(POING%20POING).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/4th/%E1%84%91%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%BC%E1%84%91%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%BC(POING%20POING).pdf",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1478,7 +1573,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%EB%91%90%EC%9E%87(Doit).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%EB%91%90%EC%9E%87(Doit).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%E1%84%83%E1%85%AE%E1%84%8B%E1%85%B5%E1%86%BA(Doit).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/4th/%E1%84%83%E1%85%AE%E1%84%8B%E1%85%B5%E1%86%BA(Doit).pdf",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,
@@ -1513,7 +1610,9 @@ const projects: Project[] = [
     listThumbnail:
       "https://storage.googleapis.com/ddd-project/listThumbnail/4th/%ED%94%8C%EB%9D%BC%EC%B8%A0(Platz).webp",
     popupThumbnail:
-      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%ED%94%8C%EB%9D%BC%EC%B8%A0(Platz).webp",
+      "https://storage.googleapis.com/ddd-project/popupThumbnail/4th/%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8E%E1%85%B3(Platz).webp",
+    popupPdf:
+      "https://storage.googleapis.com/ddd-project/project/4th/%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8E%E1%85%B3(Platz).pdf",
     typeofApp: "iOS",
     semester: 4,
     isNew: false,

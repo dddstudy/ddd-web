@@ -23,7 +23,6 @@ const getCircledLetter = (index: number): string => {
 
 export default function ProjectItemPopup({
   project,
-
   onClose,
 }: ProjectItemPopupProps) {
   const isTablet = useMediaQuery(screenMediaQuery.tablet);
@@ -49,6 +48,10 @@ export default function ProjectItemPopup({
   }, [handleEscape, project]);
 
   if (!project) return null;
+
+  const handleClickFullScreenButton = () => {
+    window.open(project.popupPdf, "_blank");
+  };
 
   return (
     <Portal>
@@ -93,9 +96,12 @@ export default function ProjectItemPopup({
                   height={576}
                   className="rounded-[12px] w-full"
                 />
-                <div className="absolute top-[12px] right-[12px] desktop:p-12 netbook:p-10 tablet:p-10 mobile:p-8 rounded-[50%] bg-[rgb(12,14,15,0.48)] cursor-pointer">
+                <button
+                  className="absolute top-[12px] right-[12px] desktop:p-12 netbook:p-10 tablet:p-10 mobile:p-8 rounded-[50%] bg-[rgb(12,14,15,0.48)] cursor-pointer"
+                  onClick={handleClickFullScreenButton}
+                >
                   <Fullscreen className="desktop:w-24 desktop:h-24 netbook:w-20 netbook:h-20 tablet:w-20 tablet:h-20 mobile:w-16 mobile:h-16" />
-                </div>
+                </button>
               </div>
               <div className="desktop:pt-40 netbook:pt-32 tablet:pt-32 mobile:pt-32">
                 <div className="flex flex-col desktop:gap-16 netbook:gap-12 tablet:gap-12 mobile:gap-12">

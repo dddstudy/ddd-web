@@ -20,6 +20,7 @@ const mockProject: Project = {
   subTitle: faker.company.catchPhrase(),
   listThumbnail: faker.image.url({ width: 2048, height: 2048 }),
   popupThumbnail: faker.image.url({ width: 1024, height: 576 }),
+  popupPdf: faker.image.url({ width: 1024, height: 576 }),
   typeofApp: "web",
   semester: faker.number.int({ min: 1, max: 10 }),
   isNew: faker.datatype.boolean(),
