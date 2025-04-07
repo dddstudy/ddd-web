@@ -1,8 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { useState } from "react";
 import { faker } from "@faker-js/faker/locale/ko";
 import ProjectItemPopup from "./ProjectItemPopup";
-import TextButton from "@/components/TextButton";
 import { Project } from "@/app/project/_types/project";
 
 const meta = {
@@ -20,8 +18,9 @@ const mockProject: Project = {
   id: faker.number.int(),
   title: faker.company.name(),
   subTitle: faker.company.catchPhrase(),
-  listThumbnail: faker.image.url({ width: 800, height: 450 }),
+  listThumbnail: faker.image.url({ width: 2048, height: 2048 }),
   popupThumbnail: faker.image.url({ width: 1024, height: 576 }),
+  popupPdf: faker.image.url({ width: 1024, height: 576 }),
   typeofApp: "web",
   semester: faker.number.int({ min: 1, max: 10 }),
   isNew: faker.datatype.boolean(),
@@ -62,20 +61,11 @@ const mockProject: Project = {
 const ProjectItemPopupWithControls = ({
   project,
 }: {
-  project: typeof mockProject;
+  project?: typeof mockProject;
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <div className="p-24">
-      <TextButton onClick={() => setIsOpen(true)}>
-        프로젝트 상세 보기
-      </TextButton>
-      <ProjectItemPopup
-        project={project}
-        isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
-      />
+      <ProjectItemPopup project={project} onClose={() => {}} />
     </div>
   );
 };
