@@ -5,7 +5,7 @@ import { cn } from "@/utils/cn";
 import { AddIcon, SubtractIcon } from "@/components/svgs";
 
 interface AccordionProps {
-  label: string;
+  label?: string;
   title: string;
   description: React.ReactNode;
   className?: string;
@@ -28,26 +28,25 @@ export function Accordion({
         "p-24 desktop:px-64 desktop:py-40 tablet:px-40 tablet:py-32",
         className
       )}
+      
     >
-      <div className="flex justify-between">
-        <div className="flex flex-col">
-          <p className="text-body-4-medium mb-4 tablet:text-body-3-medium tablet:mb-8">
-            {label}
-          </p>
+      <button className="flex justify-between w-full text-start" onClick={onClick}>
+        <div className="flex flex-col justify-center">
+          {label && (
+            <p className="text-body-4-medium mb-4 tablet:text-body-3-medium tablet:mb-8">
+              {label}
+            </p>
+          )}
           <p className="text-body-3-bold tablet:text-title-3-bold desktop:text-title-2-bold">
             {title}
           </p>
         </div>
         <div className="pt-12 pl-20 tablet:pt-14">
-          <button
-            className="h-24 w-24 tablet:h-40 tablet:w-40"
-            type="button"
-            onClick={onClick}
-          >
+          <div className="h-24 w-24 tablet:h-40 tablet:w-40">
             {isActive ? <SubtractIcon /> : <AddIcon />}
-          </button>
+          </div>
         </div>
-      </div>
+      </button>
 
       <div
         className={cn(
@@ -72,22 +71,22 @@ interface AccordionGroupProps {
 }
 
 export function AccordionGroup({ list }: AccordionGroupProps) {
-  const [activeItemIndex, setActiveItemIndex] = useState<number | null>(null);
+  const [activeItemKey, setActiveItemKey] = useState<string | null>(null);
 
-  const handleItemClick = (key: number) => {
-    setActiveItemIndex((prev) => (prev === key ? null : key));
+  const handleItemClick = (key: string) => {
+    setActiveItemKey((prev) => (prev === key ? null : key));
   };
 
   return (
     <div className="flex flex-col gap-16">
-      {list.map((item, index) => (
+      {list.map((item) => (
         <Accordion
           key={item.title}
           label={item.label}
           title={item.title}
           description={item.description}
-          isActive={activeItemIndex === index}
-          onClick={() => handleItemClick(index)}
+          isActive={activeItemKey === item.title}
+          onClick={() => handleItemClick(item.title)}
         />
       ))}
     </div>
