@@ -5,7 +5,7 @@ import { cn } from "@/utils/cn";
 import { AddIcon, SubtractIcon } from "@/components/svgs";
 
 interface AccordionProps {
-  label: string;
+  label?: string;
   title: string;
   description: React.ReactNode;
   className?: string;
@@ -31,10 +31,12 @@ export function Accordion({
       onClick={onClick}
     >
       <div className="flex justify-between">
-        <div className="flex flex-col">
-          <p className="text-body-4-medium mb-4 tablet:text-body-3-medium tablet:mb-8">
-            {label}
-          </p>
+        <div className="flex flex-col justify-center">
+          {label && (
+            <p className="text-body-4-medium mb-4 tablet:text-body-3-medium tablet:mb-8">
+              {label}
+            </p>
+          )}
           <p className="text-body-3-bold tablet:text-title-3-bold desktop:text-title-2-bold">
             {title}
           </p>
