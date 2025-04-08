@@ -1,4 +1,4 @@
-import CrewComments from "@/app/_components/ProjectSection/CrewComments";
+import CrewComments from "@/app/_components/Home/ProjectSection/CrewComments";
 import ProjectScroll from "./ProjectScroll";
 
 export default function ProjectSection() {
