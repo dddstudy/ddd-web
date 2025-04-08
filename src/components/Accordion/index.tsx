@@ -72,22 +72,22 @@ interface AccordionGroupProps {
 }
 
 export function AccordionGroup({ list }: AccordionGroupProps) {
-  const [activeItemIndex, setActiveItemIndex] = useState<number | null>(null);
+  const [activeItemKey, setActiveItemKey] = useState<string | null>(null);
 
-  const handleItemClick = (key: number) => {
-    setActiveItemIndex((prev) => (prev === key ? null : key));
+  const handleItemClick = (key: string) => {
+    setActiveItemKey((prev) => (prev === key ? null : key));
   };
 
   return (
     <div className="flex flex-col gap-16">
-      {list.map((item, index) => (
+      {list.map((item) => (
         <Accordion
           key={item.title}
           label={item.label}
           title={item.title}
           description={item.description}
-          isActive={activeItemIndex === index}
-          onClick={() => handleItemClick(index)}
+          isActive={activeItemKey === item.title}
+          onClick={() => handleItemClick(item.title)}
         />
       ))}
     </div>
