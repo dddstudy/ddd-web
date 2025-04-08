@@ -6,21 +6,50 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "svgr": "npx @svgr/cli --typescript --ignore-existing --out-dir ./src/components/svgs ./src/assets/icons"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "jotai": "^2.10.3",
+    "ky": "^1.7.4",
+    "next": "^14.2.11",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.11"
+    "swiper": "^11.2.2",
+    "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@chromatic-com/storybook": "^1.9.0",
+    "@faker-js/faker": "^9.6.0",
+    "@storybook/addon-essentials": "^8.3.4",
+    "@storybook/addon-interactions": "^8.3.4",
+    "@storybook/addon-links": "^8.3.4",
+    "@storybook/addon-onboarding": "^8.3.4",
+    "@storybook/blocks": "^8.3.4",
+    "@storybook/nextjs": "^8.3.4",
+    "@storybook/react": "^8.3.4",
+    "@storybook/test": "^8.3.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "chromatic": "^11.11.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.11"
+    "eslint-config-next": "14.2.11",
+    "eslint-plugin-storybook": "^0.9.0",
+    "msw": "^2.7.0",
+    "msw-storybook-addon": "^2.0.4",
+    "postcss": "^8",
+    "storybook": "^8.3.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }

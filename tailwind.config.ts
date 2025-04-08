@@ -1,4 +1,8 @@
 import type { Config } from "tailwindcss";
+import fontSize from "./src/app/styles/typography";
+import spacing from "./src/app/styles/spacing";
+import colors from "./src/app/styles/color";
+import { screens } from "./src/app/styles/screens";
 
 const config: Config = {
   content: [
@@ -9,9 +13,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        ...colors,
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize,
+      spacing,
+      boxShadow: {
+        strong:
+          "0px 6px 12px 0px rgba(0, 0, 0, 0.12), 0px 4px 8px 0px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.08)",
+      },
+      screens,
     },
   },
   plugins: [],
