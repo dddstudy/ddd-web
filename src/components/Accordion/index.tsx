@@ -24,10 +24,11 @@ export function Accordion({
   return (
     <div
       className={cn(
-        "w-full rounded-[20px] bg-white",
+        "w-full rounded-[20px] bg-white cursor-pointer",
         "p-24 desktop:px-64 desktop:py-40 tablet:px-40 tablet:py-32",
         className
       )}
+      onClick={onClick}
     >
       <div className="flex justify-between">
         <div className="flex flex-col">
@@ -39,11 +40,7 @@ export function Accordion({
           </p>
         </div>
         <div className="pt-12 pl-20 tablet:pt-14">
-          <button
-            className="h-24 w-24 tablet:h-40 tablet:w-40"
-            type="button"
-            onClick={onClick}
-          >
+          <button className="h-24 w-24 tablet:h-40 tablet:w-40" type="button">
             {isActive ? <SubtractIcon /> : <AddIcon />}
           </button>
         </div>
