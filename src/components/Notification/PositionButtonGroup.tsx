@@ -18,7 +18,7 @@ export default function PositionButtonGroup() {
 
   return (
     <div className="flex flex-wrap gap-16">
-      <RequiredInputLabel>DDD를 알게 되신 경로가 궁금해요!</RequiredInputLabel>
+      <RequiredInputLabel>관심 있는 포지션을 선택해 주세요.</RequiredInputLabel>
       <div className="flex flex-wrap gap-16">
         {POSITION_LIST.map((position) => (
           <TextButton
