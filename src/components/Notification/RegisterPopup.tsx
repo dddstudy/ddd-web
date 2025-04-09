@@ -72,7 +72,7 @@ export function RegisterForm() {
   };
 
   return (
-    <div className="w-full h-full netbook:px-48 desktop:px-64 px-28 netbook:pb-52 pb-32 overflow-auto">
+    <div className="w-full h-full netbook:px-48 desktop:px-64 px-28 netbook:pb-52 pb-32 overflow-auto flex flex-col">
       <div className="flex flex-col gap-12">
         <h2 className="text-[28px] netbook:text-[38px] desktop:text-[48px] text-[#1E1E1E] font-[700] line-height-[36px] netbook:line-height-[50px] desktop:line-height-[60px]">
           12기 지원하기
@@ -83,9 +83,9 @@ export function RegisterForm() {
           개발자와 디자이너분들의 많은 신청 바랍니다!
         </h3>
       </div>
-      <div className="desktop:pt-52 netbook:pt-48 pt-40 flex flex-col desktop:gap-[44px] netbook:gap-40 gap-32">
+      <div className="desktop:pt-52 netbook:pt-48 pt-40 flex flex-col desktop:gap-[44px] netbook:gap-40 gap-32 grow shrink-0 basis-0">
         <form
-          className="flex flex-col desktop:justify-between netbook:justify-between tablet:gap-32 mobile:gap-32"
+          className="flex flex-col desktop:justify-between netbook:justify-between tablet:gap-32 mobile:gap-32 h-full"
           onSubmit={handleSubmit}
         >
           <div className="flex flex-col desktop:gap-44 netbook:gap-40 tablet:gap-32 mobile:gap-32">
