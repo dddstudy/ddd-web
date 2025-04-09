@@ -67,7 +67,7 @@ export function Accordion({
 }
 
 interface AccordionGroupProps {
-  list: Array<{ label: string; title: string; description: React.ReactNode }>;
+  list: Array<{ label?: string; title: string; description: React.ReactNode }>;
 }
 
 export function AccordionGroup({ list }: AccordionGroupProps) {
