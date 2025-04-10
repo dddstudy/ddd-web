@@ -66,7 +66,7 @@ export default function ProjectItemPopup({
         <div className="flex justify-center relative z-10 w-full h-full p-[24px] tablet:px-[32px] tablet:py-[36px] netbook:px-[40px] netbook:py-[48px] desktop:px-[48px] desktop:py-[52px]">
           <div className="w-full max-w-[1200px] bg-white rounded-[28px] shadow-xl overflow-auto">
             {/* Close Button */}
-            <div className="sticky top-0 flex justify-end p-12 bg-white">
+            <div className="sticky top-0 flex justify-end p-12 bg-white z-10">
               <div className="p-20">
                 <SolidIconButton
                   onClick={onClose}

@@ -6,6 +6,7 @@ import Footer from "@/components/Layout/Footer";
 import { Provider } from "jotai";
 import NotificationRegisterPopup from "@/components/Notification/Popup";
 import MockProviders from "@/mocks/provider";
+import RegisterPopup from "@/components/Notification/RegisterPopup";
 
 export const metadata: Metadata = {
   title: "DDD - Dynamic Developer Designer IT 연합동아리",
@@ -43,6 +44,7 @@ export default function RootLayout({
             <main>{children}</main>
             <Footer />
             <NotificationRegisterPopup />
+            <RegisterPopup />
           </Provider>
         </MockProviders>
         <Metrics />

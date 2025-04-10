@@ -7,15 +7,15 @@ import { useSetAtom } from "jotai";
 import TextButton from "@/components/TextButton";
 import { DddIcon } from "@/components/svgs";
 import navigationList from "@/fixtures/navigationList.json";
-import { registerStepAtom } from "@/store/notification/atom";
+import { isRegisterPopupOpenAtom } from "@/store/register/atom";
 
 export default function DesktopNavigation() {
   const pathname = usePathname();
 
-  const setRegisterStep = useSetAtom(registerStepAtom);
+  const setIsRegisterPopupOpen = useSetAtom(isRegisterPopupOpenAtom);
 
   const handleClickOpen = () => {
-    setRegisterStep("form");
+    setIsRegisterPopupOpen(true);
   };
 
   return (
@@ -44,7 +44,7 @@ export default function DesktopNavigation() {
             type="button"
             onClick={handleClickOpen}
           >
-            모집 알림 신청
+            12기 지원하기
           </TextButton>
         </nav>
       </div>
