@@ -1,4 +1,4 @@
-import SectionContainer from "@/app/_components/SectionContainer";
+import SectionContainer from "@/app/_components/Home/SectionContainer";
 import { ArrayElement } from "@/utils/types";
 
 const jobList = [

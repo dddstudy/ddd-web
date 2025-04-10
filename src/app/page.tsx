@@ -1,17 +1,11 @@
-import CurrentlySection from "@/app/_components/CurrentlySection";
-import AboutUsSection from "@/app/_components/AboutUsSection";
-import WhatWeDoSection from "@/app/_components/WhatWeDoSection";
-import ProjectSection from "@/app/_components/ProjectSection";
-import CrewMembersSection from "@/app/_components/CrewMembersSection";
+"use client";
+import { useState } from "react";
+import HomeContainer from "@/app/_components/Home";
+import RecruitContainer from "./_components/Recruit";
 
 export default function Home() {
+  const [homePageMode] = useState<"home" | "recruit">("recruit");
   return (
-    <>
-      <CurrentlySection />
-      <AboutUsSection />
-      <WhatWeDoSection />
-      <ProjectSection />
-      <CrewMembersSection />
-    </>
+    <>{homePageMode === "home" ? <HomeContainer /> : <RecruitContainer />}</>
   );
 }
